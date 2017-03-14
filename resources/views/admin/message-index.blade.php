@@ -43,7 +43,7 @@
                             @endif
                         </td>
 
-                        <td>@if($message->user_id == null) Ziyaretçi @else {!! $message->user_id !!}  @endif </td>
+                        <td>@if($message->user_id == 0) Ziyaretçi @else {!! $message->user_id !!}  @endif </td>
 
                         <td>{{$message->title}}</td>
                         <td>{{str_limit($message->content, $limit = 60, $end = '...') }}</td>

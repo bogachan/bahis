@@ -137,10 +137,10 @@ ul, li, h1, h2, h3, h4 {
   overflow: hidden; }
   #slider a {
     color: #fff; }
-  #slider .right {
+  #slider .rights {
     float: right;
     width: 26%; }
-  #slider .left {
+  #slider .lefts {
     float: left;
     width: 74%;
     padding-top: 78px; }
@@ -910,9 +910,6 @@ label {
   .war-link:hover {
     background: #3365e2;
     color: #fff; }
-
-.olf {
-  color: #000; }
 
 #footer {
   background: #ffffff;

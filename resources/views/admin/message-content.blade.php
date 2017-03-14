@@ -18,9 +18,9 @@
                     <div class="box-header with-border">
                         <div class="user-block">
                             <img class="img-circle" src="https://image.flaticon.com/icons/png/128/149/149074.png" alt="User Image">
-                            <span class="username"><a href="#">{{ $message->find($message->id)->users->name }}</a>
+                            <span class="username"><a href="#">@if($message->user_id == 0) Ziyaretçi @else {!! $message->user_id !!}  @endif</a>
                                 @if($message->topic == 1)
-                                    <small class="label bg-yellow pull-right" style="padding-top: 5px;">Ödeme Bildirimi</small>
+                                    <small class="label bg-yellow pull-right" style="padding-top: 5px;">Ödeme Problemi</small>
                                 @elseif($message->topic == 2)
                                     <small class="label bg-yellow pull-red" style="padding-top: 5px;">Genel</small>
                                 @elseif($message->topic == 3)
