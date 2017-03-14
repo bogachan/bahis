@@ -1,0 +1,46 @@
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+
+@mixin br($value){
+  -moz-border-radius: $value;
+  -webkit-border-radius: $value;
+  border-radius: $value;
+}
+
+
+@mixin bg($baseColor){
+  background-color: $baseColor;
+  &:hover{
+    background-color: darken($baseColor, 10%);
+    text-decoration: none;
+  }
+}
+
+@mixin ac($aColor){
+  color: $aColor;
+  &:hover{
+    color: darken($aColor, 10%);
+    text-decoration: none;
+  }
+}
+
+.cf {
+  *zoom: 1;
+  &:after,
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin cumbus(){
+  background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%);
+  box-shadow: 0 6px 8px rgba(164, 164, 164, 0.21);
+}
