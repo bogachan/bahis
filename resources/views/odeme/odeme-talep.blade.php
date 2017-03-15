@@ -37,7 +37,11 @@
                     Ödeme Yapacağınız Bankayı Seçiniz. Ödeme Konusunda Yardıma İhtiyacınız varsa
                     <a  class="war-link" data-toggle="modal" data-target="#odemeYardimModal">tıklayın</a>
                 </div>
+                <div class="alert alert-info" style="float: left;width: 100%;margin-top: -14px;">
 
+                    {!! config('settings.site_odeme_yardim_2') !!}
+
+                </div>
                 <div class="companies row" style="float:none;width:auto;margin-bottom: 13px;">
                     @foreach($banks as $bank)
                         <div class="col-xs-12 col-sm-6">
@@ -124,7 +128,7 @@
 
                 <div class="alert alert-info" style="float: left;width: 100%;margin-top: -14px;">
 
-                    {!! config('settings.site_odeme_yardim_') !!}
+                    {!! config('settings.site_odeme_yardim_2') !!}
 
                 </div>
 
