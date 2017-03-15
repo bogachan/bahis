@@ -113,11 +113,10 @@
   h3{
     font-size: 32px;
     font-weight: 300;
-    margin-bottom: 49px;
+    margin-bottom: 34px;
   }
   p{
     max-width: 634px;
-    height: 92px;
     color: #fff;
     font-size: 16px;
     font-weight: 200;
@@ -137,4 +136,13 @@
   &:hover{
     background-color: #77a862;
   }
+}
+
+
+.carousel-control.left {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.15) 0,rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-control.right {
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0.31) 100%);
 }

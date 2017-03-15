@@ -150,10 +150,9 @@ ul, li, h1, h2, h3, h4 {
   #slider h3 {
     font-size: 32px;
     font-weight: 300;
-    margin-bottom: 49px; }
+    margin-bottom: 34px; }
   #slider p {
     max-width: 634px;
-    height: 92px;
     color: #fff;
     font-size: 16px;
     font-weight: 200;
@@ -170,6 +169,12 @@ ul, li, h1, h2, h3, h4 {
   font-weight: 400; }
   .slider-button:hover {
     background-color: #77a862; }
+
+.carousel-control.left {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15) 0, transparent 100%); }
+
+.carousel-control.right {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.31) 100%); }
 
 #content {
   margin: 50px 0 30px 0;
@@ -909,6 +914,12 @@ label {
   .war-link:hover {
     background: #3365e2;
     color: #fff; }
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 26%; }
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 20%; }
 
 #footer {
   background: #ffffff;
