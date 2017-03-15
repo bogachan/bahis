@@ -60,7 +60,7 @@ ul, li, h1, h2, h3, h4 {
   padding-right: 30px; }
 
 #header {
-  box-shadow: 0 6px 16px #694bee;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
   background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%);
   padding: 40px 0;
   z-index: 10;
