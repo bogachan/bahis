@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="{!! asset('assets/css/bootstrap.min.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/main.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/font-awesome.min.css') !!}">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="{!! asset('assets/css/toastr.min.css') !!}">
 
     <!--Start of Zopim Live Chat Script-->
     <script type="text/javascript">
@@ -36,7 +35,10 @@
     </script>
 
 </head>
-<body data-status="{{Session::get('durum')}}">
+<body data-status="{{Session::get('durum')}} @if ($errors->has('password') or $errors->has('email')) 3 @endif">
+
+
+
 
 <div id="header">
     <div class="container">
@@ -89,13 +91,21 @@
                 <li><a href="{{ url('/') }}/iletisim/">İletişim</a></li>
             </ul>
 
+            @if (Auth::guest())
+
+                <form role="form" method="POST" action="{{ url('/login') }}" class="login-header">
+                    {{ csrf_field() }}
+                    <input autocomplete="off" id="email" type="email" name="email" value="{{ old('email') }}">
+                    <input autocomplete="off" id="password" type="password" name="password" >
+                    <div>
+                        <a href="{{ url('/register') }}">KAYIT OL</a>
+                        <button type="submit">Giriş Yap</button>
+                    </div>
+                </form>
+            @else
 
             <ul class="login-menu">
-                <!-- Authentication Links -->
-                @if (Auth::guest())
-                    <li><a class="line" href="{{ url('/register') }}">KAYIT OL</a></li>
-                    <li><a class="line" href="{{ url('/login') }}">GİRİŞ YAP</a></li>
-                @else
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                             {{ Auth::user()->name }} <span class="caret"></span>
@@ -208,9 +218,9 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            if ($.cookie('pop') == null) {
+            if ($.cookie('pop-{!! $modal->id !!}') == null) {
                 $('#Duyuru-{!! $modal->id !!}').modal('show');
-                $.cookie('pop', '7');
+                $.cookie('pop-{!! $modal->id !!}', '7');
             }
         });
     </script>

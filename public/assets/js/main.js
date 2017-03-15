@@ -37,7 +37,7 @@
                 break;
 
             case 3 :
-                toastr.warning('Zaten daha önce yazarlık talebinde bulunmuşsunuz.');
+                toastr.warning('Üye bilgileriniz HATALI');
                 break;
 
 

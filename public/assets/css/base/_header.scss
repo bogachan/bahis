@@ -146,3 +146,63 @@
 .carousel-control.right {
   background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0.31) 100%);
 }
+
+.login-header{
+  float: right;
+  position: relative;
+  top: -25px;
+  #email{
+    float: left;
+    width: 95px;
+    margin-right: 10px;
+    height: 34px;
+    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.17) !important;
+    border: none;
+    padding: 10px;
+    color: #fff !important;
+  }
+  #password{
+    float: left;
+    width: 95px;
+    height: 34px;
+    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.17) !important;
+    border: none;
+    padding: 10px;
+    color: #fff !important;
+  }
+  a{
+    border: none;
+    height: 34px;
+    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
+    border-radius: 2px;
+    background-color: #3ac27b;
+    width: 95px;
+    color: #fff;
+    float: left;
+    margin-top:8px;
+    text-align: center;
+    line-height: 34px;
+    &:hover{
+      background-color: rgb(49, 51, 82);
+    }
+  }
+  button{
+    border: none;
+    height: 34px;
+    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
+    border-radius: 2px;
+    background-color: #3ac27b;
+    width: 95px;
+    color: #fff;
+    float: right;
+    margin-top: 8px;
+    &:hover{
+      background-color: rgb(49, 51, 82);
+    }
+  }
+}
+

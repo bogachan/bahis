@@ -117,9 +117,9 @@
             <div role="tabpanel" class="tab-pane" id="cepbank">
 
 
-                <div class="alert alert-info" style=" float: left; width: 100%; margin-top: -33px;">
+                <div class="alert alert-info" style="float: left; width: 100%; margin-top: -33px;">
                     Ödeme Yapacağınız Bankayı Seçiniz. Ödeme Konusunda Yardıma İhtiyacınız varsa
-                    <a  class="war-link" data-toggle="modal" data-target="#odemeYardimModal">tıklayın</a>
+                    <a class="war-link" data-toggle="modal" data-target="#odemeYardimModal">tıklayın</a>
                 </div>
 
                 <h4 class="head-sub" style="margin-bottom: 17px;">Ödeme Bildirimi Yapın</h4>
