@@ -35,8 +35,8 @@
       }
     }
     .login-menu{
-      float: right;
-      margin-left: 40px;
+      float: left;
+      margin-right: 64px;
       li{
         float: left;
         margin-right: 26px;
@@ -152,6 +152,7 @@
   float: right;
   position: relative;
   top: -25px;
+  display: inline-block;
   #email{
     float: left;
     width: 95px;

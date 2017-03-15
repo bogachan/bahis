@@ -4,17 +4,35 @@
 @media (max-width: 1200px){
 
 }
+@media (min-width: 1250px){
+  .container {
+    width: 1250px;
+  }
+}
+
 
 @media (max-width: 990px){
+
+  .logo img{
+    top: -8px !important;
+  }
+
+  .login-header {
+    display: none;
+  }
   .dropdown.mobile{
     display: inline-block;
       button{
         color: #fff;
         font-size: 21px;
         border: none;
-        background: none;
         position: relative;
         top: -4px;
+        background: #cece66;
+        width: 50px;
+        height: 44px;
+        border-radius: 2px;
+        box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5);
       }
   }
   .news-box,.companie-box {
@@ -147,7 +165,8 @@
     margin-bottom: 20px;
   }
   #header {
-    padding: 24px 0 14px 0;
+    padding: 30px 0 16px 0;
+    height: auto;
   }
   .left-menu{
     float: left;

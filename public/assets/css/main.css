@@ -89,8 +89,8 @@ ul, li, h1, h2, h3, h4 {
         #header .menu .top-menu a:hover {
           opacity: .7; }
     #header .menu .login-menu {
-      float: right;
-      margin-left: 40px; }
+      float: left;
+      margin-right: 64px; }
       #header .menu .login-menu li {
         float: left;
         margin-right: 26px; }
@@ -180,7 +180,8 @@ ul, li, h1, h2, h3, h4 {
 .login-header {
   float: right;
   position: relative;
-  top: -25px; }
+  top: -25px;
+  display: inline-block; }
   .login-header #email {
     float: left;
     width: 95px;
@@ -1034,16 +1035,29 @@ label {
 .dropdown.mobile {
   display: none; }
 
+@media (min-width: 1250px) {
+  .container {
+    width: 1250px; } }
 @media (max-width: 990px) {
+  .logo img {
+    top: -8px !important; }
+
+  .login-header {
+    display: none; }
+
   .dropdown.mobile {
     display: inline-block; }
     .dropdown.mobile button {
       color: #fff;
       font-size: 21px;
       border: none;
-      background: none;
       position: relative;
-      top: -4px; }
+      top: -4px;
+      background: #cece66;
+      width: 50px;
+      height: 44px;
+      border-radius: 2px;
+      box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5); }
 
   .news-box, .companie-box {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
@@ -1168,7 +1182,8 @@ label {
     margin-bottom: 20px; }
 
   #header {
-    padding: 24px 0 14px 0; }
+    padding: 30px 0 16px 0;
+    height: auto; }
 
   .left-menu {
     float: left;
