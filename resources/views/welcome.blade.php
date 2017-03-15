@@ -1,19 +1,46 @@
 @extends('layouts.home')
 
 @section('slider')
-    <div id="slider">
-        <div class="container">
-            <div class="lefts">
-                <h2>Sadece Kazancınıza Odaklanın</h2>
-                <h3 style="margin-bottom: 38px;">Diğer Her Şeyi Biz Halledelim.</h3>
-                <p style="height:116px">Bahisyerim.Com ile tüm bahis siteleri bir tık uzağınızda.. Nasıl mı ? Avrupa ve Türkiye de faaliyet gösteren bahis ofisleriyle gerçekleştirdiğimiz anlaşmalar gereği anlaşmalı olduğumuz bahis sitelerinin tüm işlemleri tek bir çatı altında yürütülecektir. Peki yeni nesil bahis anlayışıyla Türkiye de öncü olacak dev projemizin bahis severlere ne gibi katkıları var ?</p>
-                <a href="{{ url('/sayfa/hakkimizda"') }} class="slider-button">Avantajları İncele</a>
+
+    <?php $sliders = DB::table('sliders')->get(); ?>
+
+        <div id="slider" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                @foreach($sliders as $key => $slider)
+                    <li data-target="#carousel-example-generic" data-slide-to="{!! $slider->id !!}" @if($key = 0) class="active" @endif ></li>
+                @endforeach
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                @foreach($sliders as $key => $slider)
+                <div class="item @if($key = 0) active  @endif" style="background-image: url(/uploads/slider/{!! $slider->bg !!});">
+                    <div class="container">
+                        <div class="lefts">
+                            <h2>{!! $slider->title !!}</h2>
+                            <h3>{!! $slider->sub_title !!}</h3>
+                            <p>{!! $slider->content !!}</p>
+                            <a href="{!! $slider->link !!}" class="slider-button">Avantajları İncele</a>
+                        </div>
+                        <div class="rights">
+                            <img src="/uploads/slider/{!! $slider->img !!}" alt="">
+                        </div>
+                    </div>
+                </div>
+                @endforeach
             </div>
-            <div class="rights">
-                <img src="{{ url('/assets/img/cr7.png') }}" alt="">
-            </div>
+
+            <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+                <i class="fa fa-chevron-left glyphicon-chevron-left"></i>
+            </a>
+            <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+                <i class="fa fa-chevron-right glyphicon-chevron-right"></i>
+            </a>
         </div>
-    </div>
+
+
+
+
 @endsection
 
 @section('content')
