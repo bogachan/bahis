@@ -2,12 +2,260 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/autoload_files.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/autoload_static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/composer/installed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/UPGRADING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/ClientInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Cookie/SetCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/ClientException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/ConnectException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/GuzzleException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/SeekException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Exception/TransferException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Handler/CurlFactoryInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Handler/EasyHandle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/HandlerStack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/MessageFormatter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Middleware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/Pool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/RequestOptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/RetryMiddleware.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/TransferStats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/UriTemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/guzzle/src/functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/AggregateException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/CancellationException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/Coroutine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/EachPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/FulfilledPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/Promise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/PromiseInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/PromisorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/RejectedPromise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/RejectionException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/TaskQueue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/TaskQueueInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/promises/src/functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/AppendStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/BufferStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/CachingStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/DroppingStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/FnStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/InflateStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/LazyOpenStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/LimitStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/MessageTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/MultipartStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/NoSeekStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/PumpStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/Response.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/ServerRequest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/StreamWrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/UploadedFile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/Uri.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/UriNormalizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/UriResolver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/guzzlehttp/psr7/src/functions_include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/src/MessageInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/src/RequestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/src/ResponseInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/src/ServerRequestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/src/StreamInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/src/UploadedFileInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/psr/http-message/src/UriInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Cookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/CookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/History.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Response.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Tests/ClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Tests/CookieJarTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Tests/CookieTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Tests/HistoryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Tests/RequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/Tests/ResponseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/browser-kit/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/CssSelectorConverter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Exception/ExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Exception/ExpressionErrorException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Exception/InternalErrorException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Exception/ParseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Exception/SyntaxErrorException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/AbstractNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/AttributeNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/ClassNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/CombinedSelectorNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/ElementNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/FunctionNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/HashNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/NegationNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/NodeInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/PseudoNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/SelectorNode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Node/Specificity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Handler/CommentHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Handler/HandlerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Handler/HashHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Handler/IdentifierHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Handler/NumberHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Handler/StringHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Handler/WhitespaceHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/ParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Reader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Shortcut/ClassParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Shortcut/ElementParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Shortcut/HashParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/TokenStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Tokenizer/Tokenizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerEscaping.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerPatterns.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/CssSelectorConverterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/AbstractNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/AttributeNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/ClassNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/CombinedSelectorNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/ElementNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/FunctionNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/HashNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/NegationNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/PseudoNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/SelectorNodeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Node/SpecificityTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Handler/AbstractHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Handler/CommentHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Handler/HashHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Handler/IdentifierHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Handler/NumberHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Handler/StringHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Handler/WhitespaceHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/ParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/ReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Shortcut/ClassParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Shortcut/ElementParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Shortcut/EmptyStringParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/Shortcut/HashParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/Parser/TokenStreamTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/XPath/Fixtures/ids.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/XPath/Fixtures/lang.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/XPath/Fixtures/shakespear.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/Tests/XPath/TranslatorTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Extension/AbstractExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Extension/AttributeMatchingExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Extension/CombinationExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Extension/ExtensionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/Translator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/TranslatorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/XPath/XPathExpr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/css-selector/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/AbstractUriElement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Crawler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Field/FileFormField.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Field/FormField.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Field/InputFormField.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Field/TextareaFormField.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/FormFieldRegistry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Link.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/Field/TextareaFormFieldTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/Fixtures/no-extension" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/Fixtures/windows-1250.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/FormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/ImageTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/Tests/LinkTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/dom-crawler/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/polyfill-mbstring/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/polyfill-mbstring/Mbstring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/polyfill-mbstring/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/polyfill-mbstring/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/macbot/vendor/symfony/polyfill-mbstring/composer.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/kullanici/kodlar.blade.php" afterPath="$PROJECT_DIR$/resources/views/kullanici/kodlar.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" afterPath="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
     </list>
@@ -31,55 +279,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Modal.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modal.php">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="765">
+              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#7280#0#Blade" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="odeme-talep.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Admin.php">
+      <file leaf-file-name="cekim-talep.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/odeme/cekim-talep.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal-create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/modal-create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal-show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/modal-show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#7280#0#Blade" expanded="false" />
-                <element signature="e#0#7280#0#Blade" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -87,45 +327,11 @@
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="207" column="29" lean-forward="true" selection-start-line="207" selection-start-column="29" selection-end-line="207" selection-end-column="29" />
+            <state relative-caret-position="921">
+              <caret line="128" column="14" lean-forward="true" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#10973#10980#0#HTML" expanded="true" />
+                <element signature="n#ul#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal-index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/modal-index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="292" column="50" lean-forward="false" selection-start-line="292" selection-start-column="50" selection-end-line="292" selection-end-column="50" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -151,7 +357,6 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/base/_layout.scss" />
         <option value="$PROJECT_DIR$/public/assets/css/base/_header.scss" />
-        <option value="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/kullanici/kodlar.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
@@ -161,7 +366,10 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/app/Modal.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/modal-show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
       </list>
     </option>
   </component>
@@ -270,7 +478,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -293,7 +500,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,6 +523,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odeme" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,6 +565,14 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kullanici" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -361,13 +584,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bahis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bahis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +622,10 @@
       <recent name="$PROJECT_DIR$/vendor" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.AuthController.php">
+    <configuration default="false" name="AuthController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -441,6 +682,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.AuthController.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.AuthController.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -456,12 +705,13 @@
       <option name="presentableId" value="Default" />
       <updated>1489515293320</updated>
       <workItem from="1489515296460" duration="1807000" />
-      <workItem from="1489519426386" duration="16111000" />
+      <workItem from="1489519426386" duration="17047000" />
+      <workItem from="1489604629929" duration="1034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17918000" />
+    <option name="totallyTimeSpent" value="19888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,47 +726,26 @@
     <frame x="0" y="23" width="1600" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19255456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.4948652" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.50513476" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62341326" sideWeight="0.49743262" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25288832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62341326" sideWeight="0.49743262" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.4948652" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.50513476" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62341326" sideWeight="0.49743262" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25288832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -546,15 +775,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/base/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="105" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59321">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6835">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,18 +859,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/BotController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/BotController.php" />
     <entry file="file://$PROJECT_DIR$/ss.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -661,26 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/macbot/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <marker date="1489556013000" expanded="true" signature="1415:3267" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="1460:1671" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="1716:1936" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="1981:2170" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="2215:2348" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="2393:2528" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="2573:2706" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="2751:2869" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="2914:3047" ph="..." />
-            <marker date="1489556013000" expanded="true" signature="3092:3225" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="38" column="72" lean-forward="false" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="929" column="0" lean-forward="false" selection-start-line="929" selection-start-column="0" selection-end-line="929" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,15 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="88" column="68" lean-forward="false" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,11 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding>
-            <marker date="1489571785000" expanded="true" signature="6868:7416" ph="..." />
-            <marker date="1489571785000" expanded="true" signature="6886:7414" ph="..." />
-            <marker date="1489571785000" expanded="true" signature="6903:7413" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,9 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#151#185#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,9 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#60#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="292" column="50" lean-forward="false" selection-start-line="292" selection-start-column="50" selection-end-line="292" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,48 +1041,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="553">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/macbot/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="765">
           <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
             <element signature="e#0#7280#0#Blade" expanded="false" />
-            <element signature="e#0#7280#0#Blade" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="128" column="14" lean-forward="true" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+          <folding>
+            <element signature="n#ul#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="207" column="29" lean-forward="true" selection-start-line="207" selection-start-column="29" selection-end-line="207" selection-end-column="29" />
+        <state relative-caret-position="607">
+          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#10973#10980#0#HTML" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/odeme/cekim-talep.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

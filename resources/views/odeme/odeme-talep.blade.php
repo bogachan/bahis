@@ -3,7 +3,7 @@
 @section('content')
     <?php $sites =  \App\Site::all(); ?>
 
-    <h1>Ödeme Yapın</h1>
+    <h1>Para Yatırma</h1>
 
 
     @if (count($errors) > 0)

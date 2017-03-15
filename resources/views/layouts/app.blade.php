@@ -58,17 +58,17 @@
                         @if(Auth::user()->yetkisi_var_mi("admin"))
                             <li><a href="{{ url('/admin/') }}"><i class="fa fa-modx"></i> Admin Panele Git</a></li>
                             <li><a href="{{ url('/admin/ayarlar/') }}"><i class="fa fa-wrench"></i> Site Ayarları</a></li>
-                            <li><a href="{{ url('/admin/odeme') }}"><i class="fa fa-mail-forward"></i> Ödeme Talepleri</a></li>
-                            <li><a href="{{ url('/admin/cekim') }}"><i class="fa fa-mail-reply"></i> Çekim Talepleri</a></li>
+                            <li><a href="{{ url('/admin/odeme') }}"><i class="fa fa-mail-forward"></i> Para Yatırma Talepleri</a></li>
+                            <li><a href="{{ url('/admin/cekim') }}"><i class="fa fa-mail-reply"></i> Para Çekme Talepleri</a></li>
                             <li class="divider"></li>
                         @endif
                         @if(Auth::user()->yetkisi_var_mi("affiliate"))
                             <li><a href="{{ url('/affiliate') }}"><i class="fa fa-btn fa-wrench"></i> Affiliate</a></li>
                             <li class="divider"></li>
                         @endif
-                        <li><a href="/odeme"><i class="fa fa-btn fa-forward"></i> Ödeme Yapın</a></li>
-                        <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Çekim Yapın</a></li>
-                        <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Transfer Yapın</a></li>
+                        <li><a href="/odeme"><i class="fa fa-btn fa-forward"></i> Para Yatırma</a></li>
+                        <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Para Çekme</a></li>
+                        <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
                         <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
                         <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
                         <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
@@ -105,17 +105,17 @@
                             @if(Auth::user()->yetkisi_var_mi("admin"))
                                 <li><a href="{{ url('/admin/') }}"><i class="fa fa-modx"></i> Admin Panele Git</a></li>
                                 <li><a href="{{ url('/admin/ayarlar/') }}"><i class="fa fa-wrench"></i> Site Ayarları</a></li>
-                                <li><a href="{{ url('/admin/odeme') }}"><i class="fa fa-mail-forward"></i> Ödeme Talepleri</a></li>
-                                <li><a href="{{ url('/admin/cekim') }}"><i class="fa fa-mail-reply"></i> Çekim Talepleri</a></li>
+                                <li><a href="{{ url('/admin/odeme') }}"><i class="fa fa-mail-forward"></i> Para Yatırma Talepleri</a></li>
+                                <li><a href="{{ url('/admin/cekim') }}"><i class="fa fa-mail-reply"></i> Para Çekme Talepleri</a></li>
                                 <li class="divider"></li>
                             @endif
                             @if(Auth::user()->yetkisi_var_mi("affiliate"))
                                 <li><a href="{{ url('/affiliate') }}"><i class="fa fa-btn fa-wrench"></i> Affiliate</a></li>
                                 <li class="divider"></li>
                             @endif
-                                <li><a href="/odeme"><i class="fa fa-btn fa-forward"></i> Ödeme Yapın</a></li>
-                                <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Çekim Yapın</a></li>
-                                <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Transfer Yapın</a></li>
+                                <li><a href="/odeme"><i class="fa fa-btn fa-forward"></i> Para Yatırma</a></li>
+                                <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Para Çekme</a></li>
+                                <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
                                 <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
                                 <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
                                 <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
