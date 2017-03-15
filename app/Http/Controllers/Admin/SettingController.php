@@ -51,6 +51,8 @@ class SettingController extends Controller
         Setting::find(26)->update(["value" => $request->enyuksek_link]);
         Setting::find(27)->update(["value" => $request->enyuksek_logo]);
         Setting::find(28)->update(["value" => $request->site_iletisim_text]);
+        Setting::find(29)->update(["value" => $request->site_odeme_yardim_2]);
+
         Session::flash('durum',1);
 
         return back();
