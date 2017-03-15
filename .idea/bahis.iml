@@ -9,7 +9,10 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/fabpot/goutte" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/intervention/image" />
@@ -47,6 +50,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/debug" />
@@ -88,7 +92,10 @@
           <root url="file://$MODULE_DIR$/vendor/dnoegel/php-xdg-base-dir" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/vendor/fabpot/goutte" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
           <root url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
           <root url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
           <root url="file://$MODULE_DIR$/vendor/intervention/image" />
@@ -126,6 +133,7 @@
           <root url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
           <root url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
           <root url="file://$MODULE_DIR$/vendor/symfony/console" />
           <root url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
           <root url="file://$MODULE_DIR$/vendor/symfony/debug" />
@@ -153,7 +161,10 @@
           <root url="file://$MODULE_DIR$/vendor/dnoegel/php-xdg-base-dir" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/vendor/fabpot/goutte" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/vendor/guzzlehttp/promises" />
           <root url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
           <root url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
           <root url="file://$MODULE_DIR$/vendor/intervention/image" />
@@ -191,6 +202,7 @@
           <root url="file://$MODULE_DIR$/vendor/sebastian/recursion-context" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
           <root url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
           <root url="file://$MODULE_DIR$/vendor/symfony/console" />
           <root url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
           <root url="file://$MODULE_DIR$/vendor/symfony/debug" />

@@ -69,10 +69,9 @@ Route::group(['middleware' => ['admin_mi','auth']],function (){
         Route::get('/admin/transfer/islem/{id}', 'TransferController@islem');
         Route::get('/admin/transfer/duzenle/{id}', 'TransferController@duzenle');
         Route::put('/admin/transfer/update', 'TransferController@update');
-    });
+     });
 
 });
-
 
 Route::group(['middleware' => ['auth']],function (){
 

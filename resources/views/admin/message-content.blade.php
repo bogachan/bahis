@@ -7,7 +7,6 @@
     </h1>
 @endsection
 
-
 @section('content')
 
     <div class="content">
@@ -31,15 +30,12 @@
                         </div>
                     </div>
 
-
                     <h4 style="border-bottom: 1px solid #f4f4f4;padding-bottom: 7px;margin-bottom: 5px;padding-left: 12px;font-size: 15px;font-weight: 600;color: #556065;">{{$message->title}}</h4>
                     <div class="box-body box-header with-border">
                          <p>
                         {{$message->content}}
                         </p>
-
                     </div>
-
                 </div>
                 <!-- /.box -->
 
