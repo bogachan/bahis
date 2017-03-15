@@ -152,9 +152,9 @@
                 @else
                     <h4>İŞLEMLER</h4>
                     <ul  class="menu-list">
-                        <li><a href="/odeme">Ödeme Yapın</a></li>
-                        <li><a href="/cekim">Çekim Yapın</a></li>
-                        <li><a href="/transfer">Transfer Yapın</a></li>
+                        <li><a href="/odeme">Para Yatırma</a></li>
+                        <li><a href="/cekim">Para Çekme</a></li>
+                        <li><a href="/transfer">Para Transferi</a></li>
                         <li><a href="/transfer/islemler">Tüm Talepleriniz</a></li>
                         <li><a href="/kodlar/">Kodlarınız</a></li>
                     </ul>
