@@ -90,12 +90,22 @@
             </ul>
 
 
+            @if (Auth::guest())
+
+                <form role="form" method="POST" action="{{ url('/login') }}" class="login-header">
+                    {{ csrf_field() }}
+                    <input placeholder="Email.." id="email" type="email" name="email" value="{{ old('email') }}">
+                    <input placeholder="Şifre.." id="password" type="password" name="password" >
+                    <div>
+                        <a href="{{ url('/register') }}">KAYIT OL</a>
+                        <button type="submit">Giriş Yap</button>
+                    </div>
+                </form>
+            @else
+
+
             <ul class="login-menu">
-                <!-- Authentication Links -->
-                @if (Auth::guest())
-                    <li><a class="line" href="{{ url('/register') }}">KAYIT OL</a></li>
-                    <li><a class="line" href="{{ url('/login') }}">GİRİŞ YAP</a></li>
-                @else
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                             {{ Auth::user()->name }} <span class="caret"></span>

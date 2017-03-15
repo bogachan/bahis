@@ -95,8 +95,8 @@
 
                 <form role="form" method="POST" action="{{ url('/login') }}" class="login-header">
                     {{ csrf_field() }}
-                    <input autocomplete="off" id="email" type="email" name="email" value="{{ old('email') }}">
-                    <input autocomplete="off" id="password" type="password" name="password" >
+                    <input placeholder="Email.." id="email" type="email" name="email" value="{{ old('email') }}">
+                    <input placeholder="Şifre.." id="password" type="password" name="password" >
                     <div>
                         <a href="{{ url('/register') }}">KAYIT OL</a>
                         <button type="submit">Giriş Yap</button>
