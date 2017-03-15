@@ -707,6 +707,11 @@ ul, li, h1, h2, h3, h4 {
   .button-primary:focus {
     box-shadow: inset 0 1px 28px #493d8d; }
 
+.puts select {
+  background-image: url(../img/down.png);
+  background-position: 91% 52%;
+  background-size: 16px;
+  background-repeat: no-repeat; }
 .puts input[type='text'], .puts select, .puts input[type='email'], .puts input[type='password'] {
   width: 100%;
   height: 54px;
@@ -731,11 +736,6 @@ ul, li, h1, h2, h3, h4 {
     box-shadow: inset 0 1px 10px rgba(73, 61, 141, 0.26);
     border: 2px solid #dfdfdf;
     background-color: #fafafa; }
-  .puts input[type='text'] select, .puts select select, .puts input[type='email'] select, .puts input[type='password'] select {
-    background-image: url(../img/down.png);
-    background-position: 91% 52%;
-    background-size: 16px;
-    background-repeat: no-repeat; }
 .puts textarea {
   width: 100%;
   min-height: 165px;
