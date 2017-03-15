@@ -8,13 +8,13 @@
 
             <ol class="carousel-indicators">
                 @foreach($sliders as $key => $slider)
-                    <li data-target="#carousel-example-generic" data-slide-to="{!! $slider->id !!}" @if($key = 0) class="active" @endif ></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="{!! $slider->id !!}" @if($key == 0) class="active" @endif ></li>
                 @endforeach
             </ol>
 
             <div class="carousel-inner" role="listbox">
                 @foreach($sliders as $key => $slider)
-                <div class="item @if($key = 0) active  @endif" style="background-image: url(/uploads/slider/{!! $slider->bg !!});">
+                <div class="item @if($key == 0) active  @endif" style="background-image: url(/uploads/slider/{!! $slider->bg !!});">
                     <div class="container">
                         <div class="lefts">
                             <h2>{!! $slider->title !!}</h2>
