@@ -38,7 +38,6 @@
 </head>
 <body data-status="{{Session::get('durum')}}">
 
-
 <div id="header">
     <div class="container">
         <div class="logo">
@@ -202,6 +201,41 @@
 <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('assets/js/toastr.min.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+
+
+@foreach(DB::table('modals')->get() as $modal)
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            if ($.cookie('pop') == null) {
+                $('#Duyuru-{!! $modal->id !!}').modal('show');
+                $.cookie('pop', '7');
+            }
+        });
+    </script>
+
+
+    <div class="modal fade" id="Duyuru-{!! $modal->id !!}" tabindex="-1" role="dialog" aria-labelledby="Duyuru-{!! $modal->id !!}" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="Duyuru-{!! $modal->id !!}dc">{!! $modal->name !!}</h4>
+                </div>
+                <div class="modal-body">
+                    {!! $modal->content !!}
+                </div>
+                <div class="modal-footer remove-top">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @endforeach
+
 
 </body>
 </html>

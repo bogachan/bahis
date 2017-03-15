@@ -39,6 +39,7 @@ Route::group(['middleware' => ['admin_mi','auth']],function (){
         Route::post("/admin/haber/durum-degis","ArticleController@durumDegis");
 
         Route::resource('/admin/banka','BankController');
+        Route::resource('/admin/duyuru','ModalController');
 
         Route::resource('/admin/site','SiteController');
 

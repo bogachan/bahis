@@ -74,13 +74,23 @@
 
                         <input type="text" name="name" placeholder="Ödeme Yapan Ad Soyad">
 
-                        <div class="">
-                            <select id="tpye" name="site_id">
-                                <option value="00">Site Seçiniz...</option>
-                                @foreach($sites as $site)
-                                    <option value="{!! $site->id !!}">{!! $site->name !!}</option>
-                                @endforeach
-                            </select>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <select id="tpye" name="site_id">
+                                    <option value="00">Site Seçiniz...</option>
+                                    @foreach($sites as $site)
+                                        <option value="{!! $site->id !!}">{!! $site->name !!}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <select name="bonus" id="">
+                                    <option value="istemiyor">Bonus?</option>
+                                    <option value="istemiyor">İstemiyorum</option>
+                                    <option value="istiyor">İstiyorum</option>
+                                </select>
+                            </div>
                         </div>
 
                         <input type="hidden" name="user_id" value="{!! $user->id !!} ">

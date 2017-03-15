@@ -25,6 +25,7 @@
                     <th>Banka</th>
                     <th>Ödeme Yapan</th>
                     <th>Miktar</th>
+                    <th>Bonus</th>
                     <th>Zaman</th>
                     <th>Durum</th>
                     <th>Düzenle</th>
@@ -41,6 +42,7 @@
                         </td>
                         <td>{{$pay->name}}</td>
                         <td>{{$pay->amount}} TL</td>
+                        <td>{{$pay->bonus}} TL</td>
                         <td>{{$pay->created_at->diffForHumans()}}</td>
                         <td>@if($pay->confirmation == 0) <small class="label bg-green">Kontrol Edilmedi</small>  @elseif($pay->confirmation == 1) <small class="label bg-aqua">Onaylandı</small> @else <small class="label bg-red">İptal Edildi</small>  @endif</td>
                         <td>
