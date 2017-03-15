@@ -122,6 +122,12 @@
                     <a class="war-link" data-toggle="modal" data-target="#odemeYardimModal">tıklayın</a>
                 </div>
 
+                <div class="alert alert-info" style="float: left;width: 100%;margin-top: -14px;">
+
+                    {!! config('settings.site_odeme_yardim_') !!}
+
+                </div>
+
                 <h4 class="head-sub" style="margin-bottom: 17px;">Ödeme Bildirimi Yapın</h4>
 
                 {!! Form::open(['url' => '/odeme/create','method' => 'post','class' => 'puts']) !!}

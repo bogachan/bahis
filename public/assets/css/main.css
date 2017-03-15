@@ -466,7 +466,8 @@ ul, li, h1, h2, h3, h4 {
   margin: 7px 0 0 0;
   color: rgba(48, 59, 222, 0.6);
   font-size: 14px;
-  font-weight: 700; }
+  font-weight: 700;
+  max-width: 50px; }
 .weekly-bets .date {
   font-size: 14px;
   font-weight: 700;

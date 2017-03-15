@@ -83,6 +83,14 @@
                         <textarea name="site_odeme_yardim" class="summernote" >{!! config('settings.site_odeme_yardim') !!}</textarea>
                     </div>
                 </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="">Ödeme Yap Yardım Alanı 2</label>
+                        <textarea name="site_odeme_yardim_2" class="summernote" >{!! config('settings.site_odeme_yardim_2') !!}</textarea>
+                    </div>
+                </div>
+
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="">Çekim Yap Yardım Alanı</label>
