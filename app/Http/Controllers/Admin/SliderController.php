@@ -36,15 +36,14 @@ class SliderController extends Controller
 
         if($resim = $request->file("bg"))
         {
-            Image::make($resim->getRealPath())->save(public_path("uploads/slider/".$input['bg']));
             $input['bg'] = "bg-".$time."-".$bg->getClientOriginalName();
+            Image::make($resim->getRealPath())->save(public_path("uploads/slider/".$input['bg']));
         }
 
         if($resim2 = $request->file("img"))
         {
-
-            Image::make($resim2->getRealPath())->save(public_path("uploads/slider/".$input['img']));
             $input['img'] = $time."-".$img->getClientOriginalName();
+            Image::make($resim2->getRealPath())->save(public_path("uploads/slider/".$input['img']));
 
         }
 
