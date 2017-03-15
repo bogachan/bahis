@@ -27,24 +27,30 @@ class SliderController extends Controller
 
     public function store(Request $request)
     {
+        $time = time();
         $input = $request->all();
+        $bg = $request->file("bg");
+        $img = $request->file("img");
+
+
         if($resim = $request->file("bg"))
         {
-            $time = time();
-            $resim_isim = $time.".".$resim->getClientOriginalExtension();
-            Image::make($resim->getRealPath())->save(public_path("uploads/slider/".'bg-'.$resim_isim));
-            $input["bg"] = 'bg-'.$resim_isim;
+            $input['bg'] = "bg-".$time."-".$bg->getClientOriginalName();
+            Image::make($resim->getRealPath())->save(public_path("uploads/slider/".$input['bg']));
+            Slider::create($input);
         }
 
         if($resim2 = $request->file("img"))
         {
-            $time = time();
-            $resim_isim = $time.".".$resim2->getClientOriginalExtension();
-            Image::make($resim2->getRealPath())->save(public_path("uploads/slider/".$resim_isim));
-            $input["img"] = $resim_isim;
+            $input['img'] = $time."-".$img->getClientOriginalName();
+
+            Image::make($resim2->getRealPath())->save(public_path("uploads/slider/".$input['img']));
+
+            Slider::create($input);
         }
 
-        Slider::create($input);
+
+
         Session::flash('durum',1);
         return redirect('/admin/slider');
     }
