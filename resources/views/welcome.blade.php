@@ -58,8 +58,6 @@
 
     </div>
     <div class="today-match">
-
-
                     <div class="col-md-8">
                         <div class="left">
                             <h2>GÜNÜN MAÇI ORAN KARŞILAŞTIRMASI <span class="teams">{!! config('settings.enyuksek_takimlar') !!}</span></h2>
@@ -132,7 +130,7 @@
 
     </div>
     <div class="more">
-                    <div class="col-md-9">
+                    <div class="col-md-9" style="overflow: hidden;">
                         <div class="weekly-bets">
                             <h2><i class="">#</i> HAFTANIN POPÜLER BAHİSLERİ</h2>
                             <div class="table-responsive">
