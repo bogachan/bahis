@@ -97,8 +97,7 @@
                         </div>
 
                         <input type="hidden" name="user_id" value="{!! $user->id !!} ">
-                            <input type="hidden" name="odeme_tur" value="cep">
-
+                        <input type="hidden" name="odeme_tur" value="banka">
                         <button type="submit" class="button-primary fr" style="margin-top: 2px;height: 48px;line-height: 48px;">Gönder</button>
 
                     </div>
