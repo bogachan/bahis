@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" afterPath="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="odeme-talep.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="odeme-talep.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="478">
@@ -69,13 +70,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pay-edit.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pay-edit.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="42" column="110" lean-forward="false" selection-start-line="42" selection-start-column="110" selection-end-line="42" selection-end-column="110" />
+            <state relative-caret-position="136">
+              <caret line="104" column="116" lean-forward="false" selection-start-line="104" selection-start-column="116" selection-end-line="104" selection-end-column="116" />
               <folding>
-                <element signature="e#5588#9250#0#HTML" expanded="false" />
+                <element signature="e#6084#9746#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -159,9 +160,9 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/useredit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/user.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php" />
       </list>
     </option>
   </component>
@@ -733,7 +734,7 @@
       <workItem from="1489604629929" duration="7555000" />
       <workItem from="1489636320028" duration="7919000" />
       <workItem from="1489649738982" duration="332000" />
-      <workItem from="1489699787968" duration="3320000" />
+      <workItem from="1489699787968" duration="3614000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -746,7 +747,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37980000" />
+    <option name="totallyTimeSpent" value="38274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1157,16 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="42" column="110" lean-forward="false" selection-start-line="42" selection-start-column="110" selection-end-line="42" selection-end-column="110" />
-          <folding>
-            <element signature="e#5588#9250#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/user-show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-187">
@@ -1213,6 +1204,16 @@
         <state relative-caret-position="478">
           <caret line="118" column="63" lean-forward="true" selection-start-line="118" selection-start-column="63" selection-end-line="118" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="104" column="116" lean-forward="false" selection-start-line="104" selection-start-column="116" selection-end-line="104" selection-end-column="116" />
+          <folding>
+            <element signature="e#6084#9746#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

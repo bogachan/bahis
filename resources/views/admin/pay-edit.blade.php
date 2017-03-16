@@ -69,29 +69,41 @@
                 </div>
 
                 <div class="col-md-4">
-                    <label for="exampleInputEmail1">Gönderen Tc</label>
-                    <input id="gonderen-tc" placeholder="Gönderen Tc" type="text" name="gonderen_tc"  value="{{$pay->gonderen_tc}}">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Gönderen Tc</label>
+                            <input id="gonderen-tc" placeholder="Gönderen Tc" type="text" name="gonderen_tc"  value="{{$pay->gonderen_tc}}">
+                        </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="exampleInputEmail1">Alıcı No</label>
-                    <input id="gonderen-tc" placeholder="Alıcı No" type="text" name="alici_no"  value="{{$pay->alici_no}}">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Alıcı No</label>
+                        <input id="gonderen-tc" placeholder="Alıcı No" type="text" name="alici_no"  value="{{$pay->alici_no}}">
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="exampleInputEmail1">Alıcı Tc</label>
-                    <input id="gonderen-tc" placeholder="Alıcı Tc" type="text" name="alici_tc"  value="{{$pay->alici_tc}}">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Alıcı Tc</label>
+                        <input id="gonderen-tc" placeholder="Alıcı Tc" type="text" name="alici_tc"  value="{{$pay->alici_tc}}">
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="exampleInputEmail1">Gönderen No</label>
-                    <input id="gonderen-tc" placeholder="Gönderen No" type="text" name="gonderen_no"  value="{{$pay->gonderen_no}}">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Gönderen No</label>
+                        <input id="gonderen-tc" placeholder="Gönderen No" type="text" name="gonderen_no"  value="{{$pay->gonderen_no}}">
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="exampleInputEmail1">Bonus</label>
-                    <input id="gonderen-tc" type="text" name="bonus"  value="{{$pay->bonus}}">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Bonus</label>
+                        <input id="gonderen-tc" type="text" name="bonus"  value="{{$pay->bonus}}">
+                    </div>
                 </div>
 
                 <div class="col-md-4">
-                    <label for="exampleInputEmail1">Referans Şifre</label>
-                    <input id="gonderen-tc" type="text" name="referans_sifre"  value="{{$pay->referans_sifre}}">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Referans Şifre</label>
+                        <input id="gonderen-tc" type="text" name="referans_sifre"  value="{{$pay->referans_sifre}}">
+                    </div>
                 </div>
 
                 <div class="col-md-6">
