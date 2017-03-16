@@ -16,7 +16,7 @@
                         <tr>
                             <th>Tipi</th>
                             <th>İd</th>
-                            <th>Üye Adı</th>
+                            <th>Ad Soyad / Username </th>
                             <th>E-Mail</th>
                             <th>Üyelik Tarihi</th>
                             <th>Düzenle</th>
@@ -33,7 +33,7 @@
                                     @endforeach
                                 </td>
                                 <td>{{$user->id}}</td>
-                                <td><a href="/admin/uyeler/{{$user->id}}">{{$user->name}}</a></td>
+                                <td><a href="/admin/uyeler/{{$user->id}}">{{$user->name}}</a> / {!! $user->username !!}</td>
                                 <td>{{$user->email}}</td>
                                 <td>{{$user->created_at->diffForHumans()}}</td>
                                 <td>

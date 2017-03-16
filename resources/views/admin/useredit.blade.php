@@ -18,6 +18,7 @@
                 ["value" => 4, "text" => "Standart", "is_checked" => $user->yetkisi_var_mi("user")],
             ]) !!}
             {!! Form::bsText("name","İsim") !!}
+            {!! Form::bsText("username","Username") !!}
             {!! Form::bsText("email","E-mail") !!}
             {!! Form::bsPassword("password","Şifre") !!}
 
