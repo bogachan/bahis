@@ -378,17 +378,17 @@ ul, li, h1, h2, h3, h4 {
       .today-match .left li span {
         height: 30px;
         border-radius: 2px;
-        background-color: #efefef;
-        text-align: center;
+        background-color: #f1f1f1;
         line-height: 30px;
         margin-top: 10px;
-        color: #000;
+        color: #312828;
         font-size: 13px;
         font-weight: 700;
         float: left;
         display: inline-block;
         margin-right: 10px;
-        padding: 0 9px; }
+        width: 42px;
+        text-align: center; }
   .today-match .right {
     padding: 18px 18px 18px 24px;
     background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%);
@@ -1068,7 +1068,7 @@ label {
   .logo img {
     top: -8px !important; }
 
-  .login-header {
+  .login-header, .today-match {
     display: none; }
 
   .dropdown.mobile {
