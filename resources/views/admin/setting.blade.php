@@ -145,29 +145,85 @@
 
                 <div class="col-md-3">
                     <div class="form-group">
-                        <label for="">Site Bir Oran</label>
+                        <label for="">Site Bir Oran 1</label>
                         <input type="text" name="enyuksek_oran_bir" class="form-control" value="{!! config('settings.enyuksek_oran_bir') !!}">
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="form-group">
-                        <label for="">Site İki Oran</label>
+                        <label for="">Site Bir Oran 0</label>
+                        <input type="text" name="enyuksek_oran_bir_sifir" class="form-control" value="{!! config('settings.enyuksek_oran_bir_sifir') !!}">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="">Site Bir Oran 2</label>
+                        <input type="text" name="enyuksek_oran_bir_iki" class="form-control" value="{!! config('settings.enyuksek_oran_bir_iki') !!}">
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="">Site İki Oran 1</label>
                         <input type="text" name="enyuksek_oran_iki" class="form-control" value="{!! config('settings.enyuksek_oran_iki') !!}">
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="form-group">
-                        <label for="">Site Üç Oran</label>
+                        <label for="">Site İki Oran 0</label>
+                        <input type="text" name="enyuksek_oran_iki_sifir" class="form-control" value="{!! config('settings.enyuksek_oran_iki_sifir') !!}">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="">Site İki Oran 2</label>
+                        <input type="text" name="enyuksek_oran_iki_iki" class="form-control" value="{!! config('settings.enyuksek_oran_iki_iki') !!}">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="">Site Üç Oran 1</label>
                         <input type="text" name="enyuksek_oran_uc" class="form-control" value="{!! config('settings.enyuksek_oran_uc') !!}">
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="form-group">
-                        <label for="">Site Dört Oran</label>
+                        <label for="">Site Üç Oran 0</label>
+                        <input type="text" name="enyuksek_oran_uc_sifir" class="form-control" value="{!! config('settings.enyuksek_oran_uc_sifir') !!}">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="">Site Üç Oran 2</label>
+                        <input type="text" name="enyuksek_oran_uc_iki" class="form-control" value="{!! config('settings.enyuksek_oran_uc_iki') !!}">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="">Site Dört Oran 1</label>
                         <input type="text" name="enyuksek_oran_dort" class="form-control" value="{!! config('settings.enyuksek_oran_dort') !!}">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="">Site Dört Oran 0</label>
+                        <input type="text" name="enyuksek_oran_dort_sifir" class="form-control" value="{!! config('settings.enyuksek_oran_dort_sifir') !!}">
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label for="">Site Dört Oran 2</label>
+                        <input type="text" name="enyuksek_oran_dort_iki" class="form-control" value="{!! config('settings.enyuksek_oran_dort_iki') !!}">
                     </div>
                 </div>
 

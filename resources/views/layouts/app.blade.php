@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="{!! asset('assets/css/font-awesome.min.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/toastr.min.css') !!}">
 
-    <!--Start of Zopim Live Chat Script-->
     <script type="text/javascript">
         window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
             d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
@@ -21,7 +20,6 @@
             $.src="//v2.zopim.com/?4eGCv4lpPY2H6niXwbgqaw14RlJZrP71";z.t=+new Date;$.
                 type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     </script>
-    <!--End of Zopim Live Chat Script-->
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -37,74 +35,23 @@
 </head>
 <body data-status="{{Session::get('durum')}}">
 
-
 <div id="header">
-    <div class="container">
-        <div class="logo">
-            <a href="{{ url('/') }}"><img style="position:relative;top:-7px" src="{{ url('/') }}/assets/img/logo.png" alt=""></a>
-        </div>
-        <div class="menu">
+    <div class="top">
+        <div class="container">
 
-            <div class="dropdown mobile">
-                <button class="dropdown-toggle" type="button" id="mobil-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="mobil-menu">
-                    @if (Auth::guest())
-                        <li><a class="line" href="{{ url('/register') }}">KAYIT OL</a></li>
-                        <li><a class="line" href="{{ url('/login') }}">GİRİŞ YAP</a></li>
-                    @else
-                        @if(Auth::user()->yetkisi_var_mi("admin"))
-                            <li><a href="{{ url('/admin/') }}"><i class="fa fa-modx"></i> Admin Panele Git</a></li>
-                            <li><a href="{{ url('/admin/ayarlar/') }}"><i class="fa fa-wrench"></i> Site Ayarları</a></li>
-                            <li><a href="{{ url('/admin/odeme') }}"><i class="fa fa-mail-forward"></i> Para Yatırma Talepleri</a></li>
-                            <li><a href="{{ url('/admin/cekim') }}"><i class="fa fa-mail-reply"></i> Para Çekme Talepleri</a></li>
-                            <li class="divider"></li>
-                        @endif
-                        @if(Auth::user()->yetkisi_var_mi("affiliate"))
-                            <li><a href="{{ url('/affiliate') }}"><i class="fa fa-btn fa-wrench"></i> Affiliate</a></li>
-                            <li class="divider"></li>
-                        @endif
-                        <li><a href="/odeme"><i class="fa fa-btn fa-forward"></i> Para Yatırma</a></li>
-                        <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Para Çekme</a></li>
-                        <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
-                        <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
-                        <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
-                        <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
-                    @endif
-                    <li role="separator" class="divider"></li>
-                    <li><a href="{{ url('/') }}">Anasayfa</a></li>
-                    <li><a href="{{ url('/sayfa/hakkimizda') }}">Hakkımızda</a></li>
-                    <li><a href="{{ url('/sayfa/sik-sorulan-sorular') }}">Sık Sorulan Sorular</a></li>
-                    <li><a href="{{ url('/sayfa/kurallar') }}">Kurallar</a></li>
-                    <li><a href="{{ url('/iletisim/') }}">İletişim</a></li>
-                </ul>
-            </div>
-
-            <ul class="top-menu">
-                <li><a href="{{ url('/') }}">Anasayfa</a></li>
-                <li><a href="{{ url('/') }}/sayfa/hakkimizda">Hakkımızda</a></li>
-                <li><a href="{{ url('/') }}/sayfa/sik-sorulan-sorular">Sık Sorulan Sorular</a></li>
-                <li><a href="{{ url('/') }}/sayfa/kurallar">Kurallar</a></li>
-                <li><a href="{{ url('/') }}/iletisim/">İletişim</a></li>
-            </ul>
-
+            <a href="/odeme" class="odeme"><i class="fa fa-credit-card"></i> Ödeme Yöntemleri</a>
 
             @if (Auth::guest())
-
-                <form role="form" method="POST" action="{{ url('/login') }}" class="login-header">
+                <form role="form" method="POST" action="{{ url('/login') }}" class="login-header" autocompete="off">
                     {{ csrf_field() }}
-                    <input placeholder="Email.." id="email" type="email" name="email" value="{{ old('email') }}">
+                    <a href="{{ url('/password/reset') }}">Şifremi Unuttum</a>
+                    <a href="{{ url('/register') }}">KAYIT OL</a>
+                    <input placeholder="Email.." id="email" type="email" name="email">
                     <input placeholder="Şifre.." id="password" type="password" name="password" >
-                    <div>
-                        <a href="{{ url('/register') }}">KAYIT OL</a>
-                        <button type="submit">Giriş Yap</button>
-                    </div>
+                    <button type="submit">GİRİŞ YAP</button>
                 </form>
             @else
-
-
-            <ul class="login-menu">
+                <ul class="login-menu">
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -122,19 +69,71 @@
                                 <li><a href="{{ url('/affiliate') }}"><i class="fa fa-btn fa-wrench"></i> Affiliate</a></li>
                                 <li class="divider"></li>
                             @endif
-                                <li><a href="/odeme"><i class="fa fa-btn fa-forward"></i> Para Yatırma</a></li>
-                                <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Para Çekme</a></li>
-                                <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
-                                <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
-                                <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
-                                <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
+                            <li><a href="/odeme"><i class="fa fa-btn fa-forward"></i> Para Yatırma</a></li>
+                            <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Para Çekme</a></li>
+                            <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
+                            <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
+                            <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
+                            <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
                         </ul>
                     </li>
-                @endif
-            </ul>
 
+                </ul>
+            @endif
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <div class="logo">
+                <a href="{{ url('/') }}"><img style="position:relative;top:-13px" src="{{ url('/') }}/assets/img/logo.png" alt=""></a>
+            </div>
+            <div class="menu">
 
+                <div class="dropdown mobile">
+                    <button class="dropdown-toggle" type="button" id="mobil-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="mobil-menu">
+                        @if (Auth::guest())
+                            <li><a class="line" href="{{ url('/register') }}">KAYIT OL</a></li>
+                            <li><a class="line" href="{{ url('/login') }}">GİRİŞ YAP</a></li>
+                        @else
+                            @if(Auth::user()->yetkisi_var_mi("admin"))
+                                <li><a href="{{ url('/admin/') }}"><i class="fa fa-modx"></i> Admin Panele Git</a></li>
+                                <li><a href="{{ url('/admin/ayarlar/') }}"><i class="fa fa-wrench"></i> Site Ayarları</a></li>
+                                <li><a href="{{ url('/admin/odeme') }}"><i class="fa fa-mail-forward"></i> Para Yatırma Talepleri</a></li>
+                                <li><a href="{{ url('/admin/cekim') }}"><i class="fa fa-mail-reply"></i> Para Çekme Talepleri</a></li>
+                                <li class="divider"></li>
+                            @endif
+                            @if(Auth::user()->yetkisi_var_mi("affiliate"))
+                                <li><a href="{{ url('/affiliate') }}"><i class="fa fa-btn fa-wrench"></i> Affiliate</a></li>
+                                <li class="divider"></li>
+                            @endif
+                            <li><a href="/odeme"><i class="fa fa-btn fa-forward"></i> Para Yatırma</a></li>
+                            <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Para Çekme</a></li>
+                            <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
+                            <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
+                            <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
+                            <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
+                        @endif
+                        <li role="separator" class="divider"></li>
+                        <li><a href="{{ url('/') }}">Anasayfa</a></li>
+                        <li><a href="{{ url('/sayfa/hakkimizda') }}">Hakkımızda</a></li>
+                        <li><a href="{{ url('/sayfa/sik-sorulan-sorular') }}">Sık Sorulan Sorular</a></li>
+                        <li><a href="{{ url('/sayfa/kurallar') }}">Kurallar</a></li>
+                        <li><a href="{{ url('/iletisim/') }}">İletişim</a></li>
+                    </ul>
+                </div>
 
+                <ul class="top-menu">
+                    <li><a href="{{ url('/') }}">Anasayfa</a></li>
+                    <li><a href="{{ url('/') }}/sayfa/hakkimizda">Hakkımızda</a></li>
+                    <li><a href="{{ url('/') }}/sayfa/sik-sorulan-sorular">Sık Sorulan Sorular</a></li>
+                    <li><a href="{{ url('/') }}/sayfa/kurallar">Kurallar</a></li>
+                    <li><a href="{{ url('/') }}/iletisim/">İletişim</a></li>
+                </ul>
+
+            </div>
         </div>
     </div>
 </div>
@@ -221,10 +220,10 @@
                 <div class="col-md-3">
                     <h4>ŞİRKETİMİZ</h4>
                     <ul>
-                         <li><a href="#">Hakkımızda </a> </li>
-                        <li><a href="#">Blog </a> </li>
-                        <li><a href="#">İşler </a> </li>
-                        <li><a href="#">Basın </a> </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Hakkımızda</a> </li>
+                        <li><a href="#">İşler</a></li>
+                        <li><a href="#">Basın</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">

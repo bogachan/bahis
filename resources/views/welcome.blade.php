@@ -62,38 +62,45 @@
 
                     <div class="col-md-8">
                         <div class="left">
-                            <h2>GÜNÜN MAÇI ORAN KARŞILAŞTIRMASI</h2>
-                            <div class="row">
-                                <div class="col-sm-5 pos">
-                                    <span class="time">{!! config('settings.enyuksek_saat') !!}</span>
-                                    <span class="teams">{!! config('settings.enyuksek_takimlar') !!}</span>
-                                    <div>
-                                        <span class="date">{!! config('settings.enyuksek_tarih') !!}</span>
-                                        <span class="ligs">{!! config('settings.enyuksek_lig') !!}</span>
-                                    </div>
-                                </div>
-                                <div class="col-sm-7">
+                            <h2>GÜNÜN MAÇI ORAN KARŞILAŞTIRMASI <span class="teams">{!! config('settings.enyuksek_takimlar') !!}</span></h2>
+
+                                <div class="d">
                                     <ul>
                                         <li>
-                                            {!! config('settings.enyuksek_site_bir') !!}
-                                            <span>{!! config('settings.enyuksek_oran_bir') !!}</span>
+                                            <h4>{!! config('settings.enyuksek_site_bir') !!}</h4>
+                                            <i>
+                                                <span>{!! config('settings.enyuksek_oran_bir') !!}</span>
+                                                <span>{!! config('settings.enyuksek_oran_bir_sifir') !!}</span>
+                                                <span>{!! config('settings.enyuksek_oran_bir_iki') !!}</span>
+                                            </i>
                                         </li>
                                         <li>
-                                            {!! config('settings.enyuksek_site_iki') !!}
-                                            <span>{!! config('settings.enyuksek_oran_iki') !!}</span>
+                                            <h4>{!! config('settings.enyuksek_site_iki') !!}</h4>
+                                            <i>
+                                                <span>{!! config('settings.enyuksek_oran_iki') !!}</span>
+                                                <span>{!! config('settings.enyuksek_oran_iki_sifir') !!}</span>
+                                                <span>{!! config('settings.enyuksek_oran_iki_iki') !!}</span>
+                                            </i>
                                         </li>
                                         <li>
-                                            {!! config('settings.enyuksek_site_uc') !!}
-                                            <span>{!! config('settings.enyuksek_oran_uc') !!}</span>
+                                            <h4>{!! config('settings.enyuksek_site_uc') !!}</h4>
+                                            <i>
+                                                <span>{!! config('settings.enyuksek_oran_uc') !!}</span>
+                                                <span>{!! config('settings.enyuksek_oran_uc_sifir') !!}</span>
+                                                <span>{!! config('settings.enyuksek_oran_uc_iki') !!}</span>
+                                            </i>
                                         </li>
                                         <li>
-                                            {!! config('settings.enyuksek_site_dort') !!}
-                                            <span>{!! config('settings.enyuksek_oran_dort') !!}</span>
+                                            <h4>{!! config('settings.enyuksek_site_dort') !!}</h4>
+                                            <i>
+                                                <span>{!! config('settings.enyuksek_oran_dort') !!}</span>
+                                                <span>{!! config('settings.enyuksek_oran_dort_sifir') !!}</span>
+                                                <span>{!! config('settings.enyuksek_oran_dort_iki') !!}</span>
+                                            </i>
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                        </div>
+                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="right">

@@ -59,76 +59,78 @@ ul, li, h1, h2, h3, h4 {
 .ro {
   padding-right: 30px; }
 
-#header {
+#header .bottom {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
   background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%);
-  padding: 40px 0;
+  padding: 35px 0;
   z-index: 10;
   position: relative;
-  height: 108px; }
-  #header .logo {
+  height: 94px; }
+  #header .bottom .logo {
     float: left; }
-    #header .logo a {
+    #header .bottom .logo a {
       display: block; }
-  #header .menu {
-    float: right;
-    max-height: 68px; }
-    #header .menu .top-menu {
-      float: left;
-      margin-right: 64px; }
-      #header .menu .top-menu li {
+  #header .bottom .menu {
+    float: right; }
+    #header .bottom .menu .top-menu {
+      float: left; }
+      #header .bottom .menu .top-menu li {
         float: left;
         margin-right: 31px; }
-        #header .menu .top-menu li:last-child {
+        #header .bottom .menu .top-menu li:last-child {
           margin-right: 0; }
-      #header .menu .top-menu a {
+      #header .bottom .menu .top-menu a {
         color: #fff;
         font-size: 17px;
         font-weight: 400;
         letter-spacing: 1px; }
-        #header .menu .top-menu a:hover {
+        #header .bottom .menu .top-menu a:hover {
           opacity: .7; }
-    #header .menu .login-menu {
-      float: left;
-      margin-right: 64px; }
-      #header .menu .login-menu li {
-        float: left;
-        margin-right: 26px; }
-        #header .menu .login-menu li:last-child {
-          margin-right: 0; }
-      #header .menu .login-menu .line {
-        color: #fff;
-        font-size: 17px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        border-bottom: 2px solid #eaeaea;
-        padding-bottom: 7px; }
-        #header .menu .login-menu .line:hover {
-          opacity: .7; }
-      #header .menu .login-menu .dropdown {
-        padding: 13px 18px;
-        font-size: 16px;
-        font-weight: 400;
-        color: #fff;
-        position: relative;
-        top: -14px;
-        height: 48px;
-        box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
-        border-radius: 2px;
-        background-color: #3ac27b; }
-        #header .menu .login-menu .dropdown a {
-          color: #fff; }
-        #header .menu .login-menu .dropdown .dropdown-menu {
-          min-width: 178px;
-          margin: 5px 0 0; }
-          #header .menu .login-menu .dropdown .dropdown-menu li {
-            float: none;
-            width: 100%; }
-          #header .menu .login-menu .dropdown .dropdown-menu a {
-            color: #05053f;
-            font-weight: 500; }
-            #header .menu .login-menu .dropdown .dropdown-menu a i {
-              margin-right: 8px; }
+
+#header .top {
+  box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5);
+  background-color: #413f6a;
+  padding: 8px 0; }
+
+.login-menu {
+  float: right; }
+  .login-menu li {
+    float: left;
+    margin-right: 26px; }
+    .login-menu li:last-child {
+      margin-right: 0; }
+  .login-menu .line {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 7px; }
+    .login-menu .line:hover {
+      opacity: .7; }
+  .login-menu .dropdown {
+    padding: 7px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    height: 36px;
+    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
+    border-radius: 2px;
+    background-color: #3ac27b; }
+    .login-menu .dropdown a {
+      color: #fff; }
+    .login-menu .dropdown .dropdown-menu {
+      min-width: 178px;
+      margin: 5px 0 0; }
+      .login-menu .dropdown .dropdown-menu li {
+        float: none;
+        width: 100%; }
+      .login-menu .dropdown .dropdown-menu a {
+        color: #05053f;
+        font-weight: 500; }
+        .login-menu .dropdown .dropdown-menu a i {
+          margin-right: 8px; }
 
 #slider {
   width: 100%;
@@ -179,23 +181,12 @@ ul, li, h1, h2, h3, h4 {
 
 .login-header {
   float: right;
-  position: relative;
-  top: -25px;
   display: inline-block; }
   .login-header #email {
+    margin-right: 10px; }
+  .login-header input {
     float: left;
-    width: 95px;
-    margin-right: 10px;
-    height: 34px;
-    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
-    border-radius: 2px;
-    background-color: rgba(255, 255, 255, 0.17) !important;
-    border: none;
-    padding: 10px;
-    color: #fff !important; }
-  .login-header #password {
-    float: left;
-    width: 95px;
+    width: 120px;
     height: 34px;
     box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
     border-radius: 2px;
@@ -209,26 +200,26 @@ ul, li, h1, h2, h3, h4 {
     box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
     border-radius: 2px;
     background-color: #3ac27b;
-    width: 95px;
     color: #fff;
     float: left;
-    margin-top: 8px;
     text-align: center;
-    line-height: 34px; }
+    line-height: 34px;
+    margin-right: 10px;
+    padding: 0 12px; }
     .login-header a:hover {
-      background-color: #313352; }
+      background-color: #30ab6b; }
   .login-header button {
     border: none;
     height: 34px;
     box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
     border-radius: 2px;
-    background-color: #3ac27b;
+    background-color: #cbd128;
     width: 95px;
     color: #fff;
     float: right;
-    margin-top: 8px; }
+    margin-left: 10px; }
     .login-header button:hover {
-      background-color: #313352; }
+      background-color: #b8bd26; }
   .login-header ::-webkit-input-placeholder {
     color: #fff; }
   .login-header ::-moz-placeholder {
@@ -237,6 +228,19 @@ ul, li, h1, h2, h3, h4 {
     color: #fff; }
   .login-header :-moz-placeholder {
     color: #fff; }
+
+.odeme {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 3px;
+  float: left; }
+  .odeme i {
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px; }
+  .odeme:hover {
+    color: #f8f8f8; }
 
 #content {
   margin: 50px 0 30px 0;
@@ -344,34 +348,47 @@ ul, li, h1, h2, h3, h4 {
       font-size: 16px;
       font-weight: 500;
       text-transform: uppercase;
-      margin-bottom: 2px;
-      display: inline-block; }
-    .today-match .left ul {
+      margin-top: 7px;
+      display: inline-block;
       float: right; }
+    .today-match .left ul {
+      display: table;
+      width: 100%; }
+    .today-match .left h4 {
+      margin-bottom: 4px; }
     .today-match .left li {
-      float: left;
       text-align: center;
       margin-right: 15px;
       border-right: #f3f3f3 1px solid;
       color: #241f33;
       font-size: 16px;
       font-weight: 500;
-      padding: 11px 15px 14px 0; }
+      display: table-cell;
+      width: 10%;
+      padding: 10px 0;
+      height: 86px; }
+      .today-match .left li i {
+        width: 148px;
+        display: table;
+        margin: auto;
+        font-style: normal; }
       .today-match .left li:last-child {
         margin-right: 0;
         border-right: 0; }
       .today-match .left li span {
-        width: 68px;
         height: 30px;
         border-radius: 2px;
-        background-color: #dce6ff;
+        background-color: #efefef;
         text-align: center;
-        display: block;
         line-height: 30px;
         margin-top: 10px;
         color: #000;
         font-size: 13px;
-        font-weight: 700; }
+        font-weight: 700;
+        float: left;
+        display: inline-block;
+        margin-right: 10px;
+        padding: 0 9px; }
   .today-match .right {
     padding: 18px 18px 18px 24px;
     background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%);
@@ -417,6 +434,9 @@ ul, li, h1, h2, h3, h4 {
         margin-left: 20px; }
         .today-match .right .bottom .button-bet:hover {
           background-color: #77a862; }
+
+.today-match .left li span:last-child {
+  margin-right: 0; }
 
 .news-box {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
@@ -1058,12 +1078,12 @@ label {
       font-size: 21px;
       border: none;
       position: relative;
-      top: -4px;
-      background: #cece66;
-      width: 50px;
-      height: 44px;
-      border-radius: 2px;
-      box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5); }
+      top: -9px;
+      background: #a6da40;
+      width: 45px;
+      height: 45px;
+      box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5);
+      border-radius: 50px; }
 
   .news-box, .companie-box {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
@@ -1188,7 +1208,6 @@ label {
     margin-bottom: 20px; }
 
   #header {
-    padding: 30px 0 16px 0;
     height: auto; }
 
   .left-menu {

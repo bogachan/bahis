@@ -1,10 +1,10 @@
-#header{
+#header .bottom{
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
   background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%);
-  padding: 40px 0;
+  padding: 35px 0;
   z-index: 10;
   position: relative;
-  height: 108px;
+  height: 94px;
   .logo{
     float: left;
     a{
@@ -13,10 +13,8 @@
   }
   .menu{
     float: right;
-    max-height: 68px;
     .top-menu{
       float: left;
-      margin-right: 64px;
       li{
         float: left;
         margin-right: 31px;
@@ -34,61 +32,66 @@
         }
       }
     }
-    .login-menu{
-      float: left;
-      margin-right: 64px;
+
+  }
+}
+
+#header .top{
+  box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5);
+  background-color: #413f6a;
+  padding: 8px 0;
+}
+
+.login-menu{
+  float: right;
+  li{
+    float: left;
+    margin-right: 26px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  .line{
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 7px;
+    &:hover{
+      opacity:.7;
+    }
+  }
+  .dropdown{
+    padding: 7px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    position: relative;
+    height: 36px;
+    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
+    border-radius: 2px;
+    background-color: #3ac27b;
+    a{
+      color:#fff;
+    }
+    .dropdown-menu{
+      min-width: 178px;
+      margin: 5px 0 0;
       li{
-        float: left;
-        margin-right: 26px;
-        &:last-child{
-          margin-right: 0;
-        }
+        float: none;
+        width: 100%;
       }
-      .line{
-        color: #fff;
-        font-size: 17px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        border-bottom: 2px solid #eaeaea;
-        padding-bottom: 7px;
-        &:hover{
-          opacity:.7;
-        }
-      }
-      .dropdown{
-        padding: 13px 18px;
-        font-size: 16px;
-        font-weight: 400;
-        color: #fff;
-        position: relative;
-        top: -14px;
-        height: 48px;
-        box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
-        border-radius: 2px;
-        background-color: #3ac27b;
-        a{
-          color:#fff;
-        }
-        .dropdown-menu{
-          min-width: 178px;
-          margin: 5px 0 0;
-          li{
-            float: none;
-            width: 100%;
-          }
-          a{
-            color: #05053f;
-            font-weight: 500;
-            i{
-              margin-right: 8px;
-            }
-          }
+      a{
+        color: #05053f;
+        font-weight: 500;
+        i{
+          margin-right: 8px;
         }
       }
     }
   }
 }
-
 #slider{
   width: 100%;
   height: 497px;
@@ -150,24 +153,13 @@
 
 .login-header{
   float: right;
-  position: relative;
-  top: -25px;
   display: inline-block;
   #email{
-    float: left;
-    width: 95px;
     margin-right: 10px;
-    height: 34px;
-    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
-    border-radius: 2px;
-    background-color: rgba(255, 255, 255, 0.17) !important;
-    border: none;
-    padding: 10px;
-    color: #fff !important;
   }
-  #password{
+  input{
     float: left;
-    width: 95px;
+    width: 120px;
     height: 34px;
     box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
     border-radius: 2px;
@@ -182,14 +174,14 @@
     box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
     border-radius: 2px;
     background-color: #3ac27b;
-    width: 95px;
     color: #fff;
     float: left;
-    margin-top:8px;
     text-align: center;
     line-height: 34px;
+    margin-right: 10px;
+    padding: 0 12px;
     &:hover{
-      background-color: rgb(49, 51, 82);
+      background-color:#30ab6b;
     }
   }
   button{
@@ -197,13 +189,13 @@
     height: 34px;
     box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
     border-radius: 2px;
-    background-color: #3ac27b;
+    background-color: rgb(203, 209, 40);
     width: 95px;
     color: #fff;
     float: right;
-    margin-top: 8px;
+    margin-left: 10px;
     &:hover{
-      background-color: rgb(49, 51, 82);
+      background-color: #b8bd26;
     }
   }
 
@@ -220,5 +212,21 @@
     color: #fff;
   }
 
+}
+
+.odeme{
+  font-size: 16px;
+  color: #fff;
+  margin-top: 3px;
+  float: left;
+  i{
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+  }
+  &:hover{
+    color: #f8f8f8;
+  }
 }
 
