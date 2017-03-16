@@ -71,38 +71,38 @@
                 <div class="col-md-4">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Gönderen Tc</label>
-                            <input id="gonderen-tc" placeholder="Gönderen Tc" type="text" name="gonderen_tc"  value="{{$pay->gonderen_tc}}">
+                            <input id="gonderen-tc" class="form-control" placeholder="Gönderen Tc" type="text" name="gonderen_tc"  value="{{$pay->gonderen_tc}}">
                         </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Alıcı No</label>
-                        <input id="gonderen-tc" placeholder="Alıcı No" type="text" name="alici_no"  value="{{$pay->alici_no}}">
+                        <input id="gonderen-tc" class="form-control" placeholder="Alıcı No" type="text" name="alici_no"  value="{{$pay->alici_no}}">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Alıcı Tc</label>
-                        <input id="gonderen-tc" placeholder="Alıcı Tc" type="text" name="alici_tc"  value="{{$pay->alici_tc}}">
+                        <input id="gonderen-tc" class="form-control" placeholder="Alıcı Tc" type="text" name="alici_tc"  value="{{$pay->alici_tc}}">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Gönderen No</label>
-                        <input id="gonderen-tc" placeholder="Gönderen No" type="text" name="gonderen_no"  value="{{$pay->gonderen_no}}">
+                        <input id="gonderen-tc" class="form-control" placeholder="Gönderen No" type="text" name="gonderen_no"  value="{{$pay->gonderen_no}}">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Bonus</label>
-                        <input id="gonderen-tc" type="text" name="bonus"  value="{{$pay->bonus}}">
+                        <input id="gonderen-tc" class="form-control" type="text" name="bonus"  value="{{$pay->bonus}}">
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Referans Şifre</label>
-                        <input id="gonderen-tc" type="text" name="referans_sifre"  value="{{$pay->referans_sifre}}">
+                        <input id="gonderen-tc" class="form-control" type="text" name="referans_sifre"  value="{{$pay->referans_sifre}}">
                     </div>
                 </div>
 
