@@ -47,7 +47,6 @@
                         <div class="col-xs-12 col-sm-6">
                             <div class="banks-box">
                                 <h4><a data-role="button" data-val="{!! $bank->id !!}" class="select-change" id="btnWellington">{!! $bank->name !!}</a> </h4>
-
                             </div>
                         </div>
                     @endforeach

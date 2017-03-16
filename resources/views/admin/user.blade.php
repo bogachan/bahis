@@ -33,7 +33,7 @@
                                     @endforeach
                                 </td>
                                 <td>{{$user->id}}</td>
-                                <td><a href="/admin/uyeler/{{$user->id}}">{{$user->name}}</a> / {!! $user->username !!}</td>
+                                <td><a href="/admin/uyeler/{{$user->id}}">{{$user->name}} / {!! $user->username !!}</a></td>
                                 <td>{{$user->email}}</td>
                                 <td>{{$user->created_at->diffForHumans()}}</td>
                                 <td>
