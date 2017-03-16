@@ -118,9 +118,6 @@
                 </tbody>
             </table>
 
-            <div class="text-center">
-                {{$ceps->links()}}
-            </div>
 
         </div>
         <div class="text-center">

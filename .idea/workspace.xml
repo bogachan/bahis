@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/user.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/user.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" afterPath="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,17 +47,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pay-index.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pay-index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="49" />
+            <state relative-caret-position="1003">
+              <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
               <folding>
-                <element signature="e#134#2834#0#HTML" expanded="false" />
-                <marker date="1489571785000" expanded="true" signature="6868:7416" ph="..." />
-                <marker date="1489571785000" expanded="true" signature="6886:7414" ph="..." />
-                <marker date="1489571785000" expanded="true" signature="6903:7413" ph="..." />
+                <element signature="e#2841#5954#0#HTML" expanded="false" />
+                <marker date="1489703726000" expanded="true" signature="6776:7324" ph="..." />
+                <marker date="1489703726000" expanded="true" signature="6794:7322" ph="..." />
+                <marker date="1489703726000" expanded="true" signature="6811:7321" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PayController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-697">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="useredit.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="useredit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/useredit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -132,7 +140,6 @@
         <option value="$PROJECT_DIR$/public/macbot/index.php" />
         <option value="$PROJECT_DIR$/app/Slider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/SliderController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/kullanici/kodlar.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ModalController.php" />
@@ -157,6 +164,7 @@
         <option value="$PROJECT_DIR$/resources/views/admin/user.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/pay-edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
       </list>
     </option>
   </component>
@@ -728,7 +736,7 @@
       <workItem from="1489604629929" duration="7555000" />
       <workItem from="1489636320028" duration="7919000" />
       <workItem from="1489649738982" duration="332000" />
-      <workItem from="1489699787968" duration="2969000" />
+      <workItem from="1489699787968" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -741,7 +749,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37629000" />
+    <option name="totallyTimeSpent" value="37875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,13 +820,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/slider-create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Slider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1179,19 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="97" column="49" lean-forward="false" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="49" />
-          <folding>
-            <element signature="e#134#2834#0#HTML" expanded="false" />
-            <marker date="1489571785000" expanded="true" signature="6868:7416" ph="..." />
-            <marker date="1489571785000" expanded="true" signature="6886:7414" ph="..." />
-            <marker date="1489571785000" expanded="true" signature="6903:7413" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/user-show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-187">
@@ -1208,6 +1196,27 @@
             <marker date="1489700131000" expanded="true" signature="393:851" ph="..." />
             <marker date="1489700131000" expanded="true" signature="411:849" ph="..." />
             <marker date="1489700131000" expanded="true" signature="428:848" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PayController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <folding>
+            <element signature="e#2841#5954#0#HTML" expanded="false" />
+            <marker date="1489703726000" expanded="true" signature="6776:7324" ph="..." />
+            <marker date="1489703726000" expanded="true" signature="6794:7322" ph="..." />
+            <marker date="1489703726000" expanded="true" signature="6811:7321" ph="..." />
           </folding>
         </state>
       </provider>
