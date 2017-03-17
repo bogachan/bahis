@@ -13,7 +13,7 @@
 
         <div class="col-sm-12">
             <div class="box-header">
-                <h3 class="box-title">{!! $pay->id !!} Nolu Ödeme İşlemini Düzenle</h3>
+                <h3 class="box-title">{!! $pay->id !!} ({!! $pay->odeme_tur !!}) Nolu Ödeme İşlemini Düzenle</h3>
             </div>
         </div>
 
@@ -40,7 +40,7 @@
                 <div class="col-sm-4">
                     <div class="form-group">
                         <label for="exampleInputEmail1">Ödeme Yapılan Banka</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" name="cepban_banka" value="{{$pay->cepban_banka}}">
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="cepbank_banka" value="{{$pay->cepbank_banka}}">
                     </div>
                 </div>
 

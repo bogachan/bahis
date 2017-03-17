@@ -19,7 +19,6 @@ class MessageController extends Controller
 
         $m_check = Message::where('read',0)->count();
 
-        // Return as json
         return Response::json($m_check);
     }
 

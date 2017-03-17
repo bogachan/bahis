@@ -23,7 +23,7 @@
             <input type="hidden" name="user_id" value="1">
             <input type="hidden" name="name" value="Yönetim">
             <input type="hidden" name="topic" value="4">
-
+            <input type="hidden" name="read" value="1">
             {!! Form::bsSubmit("KAYDET") !!}
             {!! Form::close() !!}
         </div>

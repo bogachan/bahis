@@ -37,6 +37,7 @@
 </head>
 <body data-status="{{Session::get('durum')}} @if ($errors->has('password') or $errors->has('email')) 3 @endif">
 
+
 <div id="header">
     <div class="top">
         <div class="container">
@@ -44,20 +45,23 @@
             <a href="/odeme" class="odeme"><i class="fa fa-credit-card"></i> Ödeme Yöntemleri</a>
 
             @if (Auth::guest())
-                <form role="form" method="POST" action="{{ url('/login') }}" class="login-header" autocompete="off">
+                <form role="form" method="POST" action="{{ url('/login') }}" class="login-header">
                     {{ csrf_field() }}
                     <a href="{{ url('/password/reset') }}">Şifremi Unuttum</a>
                     <a href="{{ url('/register') }}">KAYIT OL</a>
-                    <input placeholder="Email.." id="email" type="email" name="email">
+                    <input placeholder="Email.." id="email" type="email" name="email" value="{{ old('email') }}">
                     <input placeholder="Şifre.." id="password" type="password" name="password" >
                     <button type="submit">GİRİŞ YAP</button>
                 </form>
             @else
                 <ul class="login-menu">
+                    @if(count(DB::table('messages')->where('to_user_id',Auth::user()->id)->where('read',1)->get()) > 0)
+                        <a href="/mesajlar" class="have-message">Mesajınız Var</a>
+                    @endif
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            {{ Auth::user()->name }} <span class="caret"></span>
+                            {{ Auth::user()->username }} <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
                             @if(Auth::user()->yetkisi_var_mi("admin"))
@@ -76,10 +80,10 @@
                             <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
                             <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
                             <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
+                            <li><a href="/mesajlar"><i class="fa fa-envelope-o"></i> Mesajlar</a></li>
                             <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
                         </ul>
                     </li>
-
                 </ul>
             @endif
         </div>
@@ -116,6 +120,7 @@
                             <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
                             <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
                             <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
+                            <li><a href="/mesajlar"><i class="fa fa-envelope-o"></i> Mesajlar</a></li>
                             <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
                         @endif
                         <li role="separator" class="divider"></li>
@@ -246,6 +251,8 @@
     </div>
 
     @endforeach
+
+
 
 
 </body>

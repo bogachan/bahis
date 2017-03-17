@@ -84,6 +84,7 @@ Route::group(['middleware' => ['auth']],function (){
     Route::post('/transfer/create', 'TransferController@create');
     Route::get('/transfer/islemler', 'TransferController@islemler');
     Route::get('/kodlar/', function (){ return view('kullanici/kodlar'); });
+    Route::get('/mesajlar', 'MessageController@index');
 
 });
 

@@ -1009,6 +1009,51 @@ label {
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
   left: 20%; }
 
+.message-box {
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%; }
+  .message-box h3 {
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 1px solid #eee; }
+    .message-box h3 small {
+      float: right;
+      padding-top: 5px;
+      font-size: 13px; }
+  .message-box p {
+    margin: 0;
+    padding: 15px; }
+
+.message-buttons {
+  float: right;
+  margin-bottom: 10px; }
+
+.message-buttons li {
+  float: left;
+  margin-right: 10px; }
+  .message-buttons li:last-child {
+    margin-right: 0; }
+
+.have-message {
+  z-index: 100;
+  background: #c7c048;
+  float: left;
+  padding: 0 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  position: relative;
+  height: 36px;
+  box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
+  border-radius: 2px;
+  line-height: 36px; }
+  .have-message:hover {
+    background: #bfb842 2px;
+    color: #fff; }
+
 #footer {
   background: #ffffff;
   box-shadow: 0 2px 32px rgba(90, 78, 132, 0.29);
