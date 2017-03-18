@@ -10,7 +10,6 @@
         "laravelcollective/html": "^5.2.0",
         "intervention/image": "^2.3",
         "cviebrock/eloquent-sluggable": "4.1",
-        "barryvdh/laravel-debugbar": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
