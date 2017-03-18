@@ -50,7 +50,7 @@
                             <a href="/admin/transfer/islem/{{$transfer->id}}?d=onayla" class="btn bg-olive margin" data-toggle="tooltip" title="Onay"><i class="fa fa-check"></i></a>
                             <a href="/admin/transfer/islem/{{$transfer->id}}" class="btn bg-orange margin" data-toggle="tooltip" title="İptal"><i class="fa fa-close"></i></a>
                             <a href="/admin/transfer/duzenle/{{$transfer->id}}" class="btn bg-blue margin" data-toggle="tooltip" title="Düzenle"><i class="fa fa-cog"></i></a>
-                            <a class="boot btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg" data-id="{{ $pay->find($pay->id)->users->id }}">Kod</a>
+                            <a class="boot btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg" data-id="{{ $transfer->find($transfer->id)->users->id }}">Kod</a>
 
                         </td>
                     </tr>
