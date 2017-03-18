@@ -137,7 +137,7 @@
                 <div class="row">
                     <div class="col-md-12">
 
-                        <div class="row">
+                        <div class="row mobil-fix">
                             <div class="col-md-6">
                                 <input type="text" name="name" placeholder="Ödeme Yapan Ad Soyad">
                             </div>

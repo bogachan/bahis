@@ -857,8 +857,13 @@ label{
     }
   }
 }
-
+.mobil-fix{
+  float: left;
+  width: 100%;
+}
 #BankVal{
+  float: left;
+  width: 100%;
   h3{
     font-size: 18px;
     margin-bottom: 14px;

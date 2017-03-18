@@ -12,11 +12,20 @@
 
 
 @media (max-width: 990px){
-
+  .transfer li a {
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .transfer li a i {
+    display: none;
+  }
   .logo img{
     top: -8px !important;
   }
-
+  #BankVal{
+    margin-top: 20px;
+  }
   .login-header,.today-match {
     display: none;
   }

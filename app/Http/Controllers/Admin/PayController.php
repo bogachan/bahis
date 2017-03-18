@@ -28,13 +28,13 @@ class PayController extends Controller
         if(empty($_GET['d'])){
             $pays =  Pay::where('odeme_tur','banka')->orderBy("id","desc")->paginate(10);
             $ceps =  Pay::where('odeme_tur','cep')->orderBy("id","desc")->paginate(10);
-            return view('admin.pay-index',compact('pays','banks','ceps'));
+            return view('admin.pay-index',compact('pays','ceps'));
         }
 
         else{
             $pays =  Pay::where('confirmation',0)->where('odeme_tur','banka')->orderBy("id","desc")->paginate(10);
             $ceps =  Pay::where('confirmation',0)->where('odeme_tur','cep')->orderBy("id","desc")->paginate(10);
-            return view('admin.pay-index',compact('pays','banks','ceps'));
+            return view('admin.pay-index',compact('pays','ceps'));
         }
 
 

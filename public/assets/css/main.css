@@ -940,15 +940,22 @@ label {
 .banks-box tbody tr td:first-child {
   font-weight: 600; }
 
-#BankVal h3 {
-  font-size: 18px;
-  margin-bottom: 14px; }
-#BankVal .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #fbfbfb; }
-#BankVal table tr {
-  border: 2px solid #ececec; }
-#BankVal tbody tr td:first-child {
-  font-weight: 600; }
+.mobil-fix {
+  float: left;
+  width: 100%; }
+
+#BankVal {
+  float: left;
+  width: 100%; }
+  #BankVal h3 {
+    font-size: 18px;
+    margin-bottom: 14px; }
+  #BankVal .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #fbfbfb; }
+  #BankVal table tr {
+    border: 2px solid #ececec; }
+  #BankVal tbody tr td:first-child {
+    font-weight: 600; }
 
 .modal {
   background-image: linear-gradient(to right, rgba(133, 159, 229, 0.31765) 0%, rgba(23, 82, 225, 0) 100%); }
@@ -1110,8 +1117,19 @@ label {
   .container {
     width: 1250px; } }
 @media (max-width: 990px) {
+  .transfer li a {
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center; }
+
+  .transfer li a i {
+    display: none; }
+
   .logo img {
     top: -8px !important; }
+
+  #BankVal {
+    margin-top: 20px; }
 
   .login-header, .today-match {
     display: none; }

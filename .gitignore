@@ -13,3 +13,7 @@ Homestead.json
 composer.phar
 .DS_Store
 /_ide_helper.php
+/composer.lock
+/composer.json
+/config/app.php
+storage/debugbar/
