@@ -373,7 +373,7 @@
             }
             $( ".boot" ).click(function() {
                 var id = $(this).attr('data-id');
-                var url = 'http://bahis.dev/admin/uye/kod/'+id;
+                var url = 'http://bahisyerim1.com/admin/uye/kod/'+id;
                 var act =  '/admin/uye/kod/guncelle/'+id;
 
                 $('#kod-form').attr('action', act);
