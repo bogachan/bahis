@@ -10,7 +10,7 @@
 <?php
 $site  = \App\Site::all();
 $bank  = \App\Bank::all();
-$users = \App\User::all()
+$users = \App\User::all();
 ?>
 
 @section('content')
@@ -131,7 +131,7 @@ $users = \App\User::all()
 
 
 
-    @foreach( as $user)
+    @foreach($users as $user)
 
         <div class="modal fade bs-example-modal-lg-{!! $user->id !!}" tabindex="-1" role="dialog" aria-labelledby="{!! $user->id !!}">
             <div class="modal-dialog">

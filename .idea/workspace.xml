@@ -28,14 +28,14 @@
       <file leaf-file-name="pay-index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="250">
+              <caret line="133" column="19" lean-forward="false" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
               <folding>
-                <element signature="e#1280#1305#0#HTML" expanded="true" />
-                <element signature="e#6710#6732#0#HTML" expanded="true" />
-                <marker date="1489859648000" expanded="true" signature="6765:7313" ph="..." />
-                <marker date="1489859648000" expanded="true" signature="6783:7311" ph="..." />
-                <marker date="1489859648000" expanded="true" signature="6800:7310" ph="..." />
+                <element signature="e#1281#1306#0#HTML" expanded="true" />
+                <element signature="e#6717#6739#0#HTML" expanded="true" />
+                <marker date="1489859702000" expanded="true" signature="6772:7320" ph="..." />
+                <marker date="1489859702000" expanded="true" signature="6790:7318" ph="..." />
+                <marker date="1489859702000" expanded="true" signature="6807:7317" ph="..." />
               </folding>
             </state>
           </provider>
@@ -513,7 +513,7 @@
       <workItem from="1489745059927" duration="2856000" />
       <workItem from="1489750168038" duration="457000" />
       <workItem from="1489836009792" duration="1198000" />
-      <workItem from="1489846857323" duration="9091000" />
+      <workItem from="1489846857323" duration="9144000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -526,7 +526,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60771000" />
+    <option name="totallyTimeSpent" value="60824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,14 +965,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="250">
+          <caret line="133" column="19" lean-forward="false" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
           <folding>
-            <element signature="e#1280#1305#0#HTML" expanded="true" />
-            <element signature="e#6710#6732#0#HTML" expanded="true" />
-            <marker date="1489859648000" expanded="true" signature="6765:7313" ph="..." />
-            <marker date="1489859648000" expanded="true" signature="6783:7311" ph="..." />
-            <marker date="1489859648000" expanded="true" signature="6800:7310" ph="..." />
+            <element signature="e#1281#1306#0#HTML" expanded="true" />
+            <element signature="e#6717#6739#0#HTML" expanded="true" />
+            <marker date="1489859702000" expanded="true" signature="6772:7320" ph="..." />
+            <marker date="1489859702000" expanded="true" signature="6790:7318" ph="..." />
+            <marker date="1489859702000" expanded="true" signature="6807:7317" ph="..." />
           </folding>
         </state>
       </provider>
