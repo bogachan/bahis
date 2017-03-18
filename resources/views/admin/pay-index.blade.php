@@ -130,45 +130,6 @@ $bank = \App\Bank::all();
 
 
 
-    @foreach(\App\User::all() as $user)
-
-        <div class="modal fade bs-example-modal-lg-{!! $user->id !!}" tabindex="-1" role="dialog" aria-labelledby="{!! $user->id !!}">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span></button>
-                        <h4 class="modal-title">Üye Kodları</h4>
-                    </div>
-                    <div class="modal-body">
-
-                        {!! Form::model($user, ['route' => ['admin.uyeler.update', $user->id],"method" => "put"]) !!}
-                        <div style="display: none;">
-                            {!! Form::bsCheckbox("rol","Roller", [
-                                  ["value" => 1, "text" => "Admin", "is_checked" => $user->yetkisi_var_mi("admin")],
-                                  ["value" => 2, "text" => "Yazar", "is_checked" => $user->yetkisi_var_mi("editor")],
-                                  ["value" => 3, "text" => "affiliate", "is_checked" => $user->yetkisi_var_mi("affiliate")],
-                                  ["value" => 4, "text" => "Standart", "is_checked" => $user->yetkisi_var_mi("user")],
-                              ]) !!}
-                            {!! Form::bsText("name","İsim") !!}
-                            {!! Form::bsText("email","E-mail") !!}
-                            {!! Form::bsPassword("password","Şifre") !!}
-                            {!! Form::bsTextArea("notlar","Notlar (Üye Görmez)",null,["class" => "summernote"]) !!}
-                        </div>
-                        {!! Form::bsTextArea("kod","Kodlar",null,["class" => "summernote",'id' => 'kodPut']) !!}
-                        {!! Form::bsSubmit("KAYDET") !!}
-                        {!! Form::close() !!}
-
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    @endforeach
-
-
 
 
 @endsection

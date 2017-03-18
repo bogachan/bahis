@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bahis.iml" afterPath="$PROJECT_DIR$/.idea/bahis.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
     </list>
@@ -29,14 +28,10 @@
       <file leaf-file-name="pay-index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="488">
+              <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding>
                 <element signature="e#1252#1277#0#HTML" expanded="true" />
-                <element signature="e#6698#6720#0#HTML" expanded="true" />
-                <marker date="1489855342000" expanded="true" signature="6753:7301" ph="..." />
-                <marker date="1489855342000" expanded="true" signature="6771:7299" ph="..." />
-                <marker date="1489855342000" expanded="true" signature="6788:7298" ph="..." />
               </folding>
             </state>
           </provider>
@@ -514,7 +509,7 @@
       <workItem from="1489745059927" duration="2856000" />
       <workItem from="1489750168038" duration="457000" />
       <workItem from="1489836009792" duration="1198000" />
-      <workItem from="1489846857323" duration="7142000" />
+      <workItem from="1489846857323" duration="8976000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -527,7 +522,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58822000" />
+    <option name="totallyTimeSpent" value="60656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,7 +534,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1600" height="801" extended-state="6" />
+    <frame x="0" y="23" width="1600" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -966,14 +961,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="488">
+          <caret line="131" column="0" lean-forward="true" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding>
             <element signature="e#1252#1277#0#HTML" expanded="true" />
-            <element signature="e#6698#6720#0#HTML" expanded="true" />
-            <marker date="1489855342000" expanded="true" signature="6753:7301" ph="..." />
-            <marker date="1489855342000" expanded="true" signature="6771:7299" ph="..." />
-            <marker date="1489855342000" expanded="true" signature="6788:7298" ph="..." />
           </folding>
         </state>
       </provider>
