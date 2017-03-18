@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/transfer-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/transfer-index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transfer.php" afterPath="$PROJECT_DIR$/app/Transfer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +35,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transfer-index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pay.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Pay.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transfer-index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/transfer-index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="52" column="155" lean-forward="false" selection-start-line="52" selection-start-column="155" selection-end-line="52" selection-end-column="155" />
+            <state relative-caret-position="561">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transfer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Transfer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,6 +154,7 @@
         <option value="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/transfer-index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Transfer.php" />
       </list>
     </option>
   </component>
@@ -502,7 +523,7 @@
       <workItem from="1489745059927" duration="2856000" />
       <workItem from="1489750168038" duration="457000" />
       <workItem from="1489836009792" duration="1198000" />
-      <workItem from="1489846857323" duration="17206000" />
+      <workItem from="1489846857323" duration="17431000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -515,7 +536,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68886000" />
+    <option name="totallyTimeSpent" value="69111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,13 +607,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1752">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -800,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -966,8 +972,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/transfer-index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="52" column="155" lean-forward="false" selection-start-line="52" selection-start-column="155" selection-end-line="52" selection-end-column="155" />
+        <state relative-caret-position="561">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transfer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
