@@ -34,6 +34,11 @@ Route::group(['middleware' => ['admin_mi','auth']],function (){
         Route::put('/admin/ayarlar/guncelle','SettingController@update');
 
         Route::resource('/admin/uyeler','UserController');
+
+        Route::get('/admin/uye/kod/{id}','UserController@fetch');
+        Route::put('/admin/uye/kod/guncelle/{id}','UserController@kod');
+
+
         Route::resource('/admin/kategoriler','CategoriesController');
         Route::resource("/admin/haber","ArticleController");
         Route::post("/admin/haber/durum-degis","ArticleController@durumDegis");

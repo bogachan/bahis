@@ -54,7 +54,7 @@
                             <a href="/admin/cekim/islem/{{$pay->id}}?d=onayla" class="btn bg-olive margin" data-toggle="tooltip" title="Onay"><i class="fa fa-check"></i></a>
                             <a href="/admin/cekim/islem/{{$pay->id}}?d=iptal" class="btn bg-orange margin" data-toggle="tooltip" title="İptal"><i class="fa fa-close"></i></a>
                             <a href="/admin/cekim/duzenle/{{$pay->id}}" class="btn bg-blue margin" data-toggle="tooltip" title="Düzenle"><i class="fa fa-cog"></i></a>
-                            <a class="btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg-{{ $pay->user_id }}">Kod</a>
+                            <a class="boot btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg" data-id="{{ $pay->find($pay->id)->users->id }}">Kod</a>
 
                         </td>
                     </tr>
@@ -72,43 +72,38 @@
 
 
 
-    @foreach(\App\User::all() as $user)
 
-        <div class="modal fade bs-example-modal-lg-{!! $user->id !!}" tabindex="-1" role="dialog" aria-labelledby="{!! $user->id !!}">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span></button>
-                        <h4 class="modal-title">Üye Kodları</h4>
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="bs-example-modal-lg">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Üye Kodları</h4>
+                </div>
+                <div class="modal-body">
+
+                    {!! Form::open(['url' => '/admin/uye/kod/guncelle/','method' => 'put','id'=>'kod-form']) !!}
+
+                    <div class="form-group ">
+                        <label for="kod" class="control-label">Kodlar</label>
+                        <textarea class="summernote" id="kodPut" name="kod"></textarea>
                     </div>
-                    <div class="modal-body">
-
-                        {!! Form::model($user, ['route' => ['admin.uyeler.update', $user->id],"method" => "put"]) !!}
-                        <div style="display: none;">
-                            {!! Form::bsCheckbox("rol","Roller", [
-                                  ["value" => 1, "text" => "Admin", "is_checked" => $user->yetkisi_var_mi("admin")],
-                                  ["value" => 2, "text" => "Yazar", "is_checked" => $user->yetkisi_var_mi("editor")],
-                                  ["value" => 3, "text" => "affiliate", "is_checked" => $user->yetkisi_var_mi("affiliate")],
-                                  ["value" => 4, "text" => "Standart", "is_checked" => $user->yetkisi_var_mi("user")],
-                              ]) !!}
-                            {!! Form::bsText("name","İsim") !!}
-                            {!! Form::bsText("email","E-mail") !!}
-                            {!! Form::bsPassword("password","Şifre") !!}
-                            {!! Form::bsTextArea("notlar","Notlar (Üye Görmez)",null,["class" => "summernote"]) !!}
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger">
+                                <i class="fa fa-btn fa-save"></i> KAYDET
+                            </button>
                         </div>
-                        {!! Form::bsTextArea("kod","Kodlar",null,["class" => "summernote",'id' => 'kodPut']) !!}
-                        {!! Form::bsSubmit("KAYDET") !!}
-                        {!! Form::close() !!}
+                    </div>
+                    {!! Form::close() !!}
 
-                    </div>
-                    <div class="modal-footer">
-                    </div>
+                </div>
+                <div class="modal-footer">
                 </div>
             </div>
         </div>
-
-    @endforeach
+    </div>
 
 
 @endsection

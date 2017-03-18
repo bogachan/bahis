@@ -9,9 +9,16 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Response;
 
 class UserController extends Controller
 {
+
+    public function fetch($id)
+    {
+        $user_kod = User::find($id);
+        return Response::json($user_kod);
+    }
 
     public function index()
     {
@@ -94,6 +101,20 @@ class UserController extends Controller
         User::destroy($id);
         Session::flash('durum',1);
         return redirect("/admin/uyeler");
+
+    }
+
+
+
+
+    public function kod(Request $request, $id)
+    {
+            User::find($id)->update([
+                "kod" => $request->kod,
+            ]);
+
+        Session::flash("durum",1);
+        return redirect($_SERVER['HTTP_REFERER']);
 
     }
 }

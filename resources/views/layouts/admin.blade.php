@@ -371,6 +371,18 @@
 
 
             }
+            $( ".boot" ).click(function() {
+                var id = $(this).attr('data-id');
+                var url = 'http://bahis.dev/admin/uye/kod/'+id;
+                var act =  '/admin/uye/kod/guncelle/'+id;
+
+                $('#kod-form').attr('action', act);
+                $.get( url, function( data ) {
+                    $('#kodPut').html(data.kod);
+                    $('.note-editable').html(data.kod);
+                });
+            });
+
             setInterval(kontrolEt,5000);
 
 

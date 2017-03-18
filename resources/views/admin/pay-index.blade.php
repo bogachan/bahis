@@ -54,8 +54,8 @@ $users = \App\User::all();
                             <a href="/admin/odeme/islem/{{$pay->id}}?d=onayla&u={!! $pay->find($pay->id)->users->id !!}" class="btn bg-olive margin" data-toggle="tooltip" title="Onay"><i class="fa fa-check"></i></a>
                             <a href="/admin/odeme/islem/{{$pay->id}}?d=iptal" class="btn bg-orange margin" data-toggle="tooltip" title="İptal"><i class="fa fa-close"></i></a>
                             <a href="/admin/odeme/duzenle/{{$pay->id}}" class="btn bg-blue margin" data-toggle="tooltip" title="Düzenle"><i class="fa fa-cog"></i></a>
-                            <a class="btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg-{{ $pay->find($pay->id)->users->id }}">Kod</a>
-                        </td>
+                            <a class="boot btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg" data-id="{{ $pay->find($pay->id)->users->id }}">Kod</a>
+                         </td>
                     </tr>
                 @endforeach
                 </tbody>
@@ -116,7 +116,7 @@ $users = \App\User::all();
                             <a href="/admin/odeme/islem/{{$cep->id}}?d=onayla&u={!! $cep->find($cep->id)->users->id !!}" class="btn bg-olive margin" data-toggle="tooltip" title="Onay"><i class="fa fa-check"></i></a>
                             <a href="/admin/odeme/islem/{{$cep->id}}?d=iptal" class="btn bg-orange margin" data-toggle="tooltip" title="İptal"><i class="fa fa-close"></i></a>
                             <a href="/admin/odeme/duzenle/{{$cep->id}}" class="btn bg-blue margin" data-toggle="tooltip" title="Düzenle"><i class="fa fa-cog"></i></a>
-                            <a class="btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg-{{ $cep->find($cep->id)->users->id }}">Kod</a>
+                            <a class="boot btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg" data-id="{{ $pay->find($pay->id)->users->id }}">Kod</a>
                         </td>
                     </tr>
                 @endforeach
@@ -131,9 +131,8 @@ $users = \App\User::all();
 
 
 
-    @foreach($users as $user)
 
-        <div class="modal fade bs-example-modal-lg-{!! $user->id !!}" tabindex="-1" role="dialog" aria-labelledby="{!! $user->id !!}">
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="bs-example-modal-lg">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -143,21 +142,19 @@ $users = \App\User::all();
                     </div>
                     <div class="modal-body">
 
-                        {!! Form::model($user, ['route' => ['admin.uyeler.update', $user->id],"method" => "put"]) !!}
-                        <div style="display: none;">
-                            {!! Form::bsCheckbox("rol","Roller", [
-                                  ["value" => 1, "text" => "Admin", "is_checked" => $user->yetkisi_var_mi("admin")],
-                                  ["value" => 2, "text" => "Yazar", "is_checked" => $user->yetkisi_var_mi("editor")],
-                                  ["value" => 3, "text" => "affiliate", "is_checked" => $user->yetkisi_var_mi("affiliate")],
-                                  ["value" => 4, "text" => "Standart", "is_checked" => $user->yetkisi_var_mi("user")],
-                              ]) !!}
-                            {!! Form::bsText("name","İsim") !!}
-                            {!! Form::bsText("email","E-mail") !!}
-                            {!! Form::bsPassword("password","Şifre") !!}
-                            {!! Form::bsTextArea("notlar","Notlar (Üye Görmez)",null,["class" => "summernote"]) !!}
-                        </div>
-                        {!! Form::bsTextArea("kod","Kodlar",null,["class" => "summernote",'id' => 'kodPut']) !!}
-                        {!! Form::bsSubmit("KAYDET") !!}
+                        {!! Form::open(['url' => '/admin/uye/kod/guncelle/','method' => 'put','id'=>'kod-form']) !!}
+
+                            <div class="form-group ">
+                                <label for="kod" class="control-label">Kodlar</label>
+                                <textarea class="summernote" id="kodPut" name="kod"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-danger">
+                                        <i class="fa fa-btn fa-save"></i> KAYDET
+                                    </button>
+                                </div>
+                            </div>
                         {!! Form::close() !!}
 
                     </div>
@@ -166,10 +163,5 @@ $users = \App\User::all();
                 </div>
             </div>
         </div>
-
-    @endforeach
-
-
-
 
 @endsection
