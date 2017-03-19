@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PayController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PayController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/admin/dist/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/public/assets/admin/dist/css/AdminLTE.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/base/_layout.scss" afterPath="$PROJECT_DIR$/public/assets/css/base/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/main.css" afterPath="$PROJECT_DIR$/public/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/main.css.map" afterPath="$PROJECT_DIR$/public/assets/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/custom.js" afterPath="$PROJECT_DIR$/public/assets/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="407" column="24" lean-forward="false" selection-start-line="407" selection-start-column="16" selection-end-line="407" selection-end-column="24" />
+            <state relative-caret-position="335">
+              <caret line="404" column="55" lean-forward="false" selection-start-line="404" selection-start-column="55" selection-end-line="404" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -57,10 +50,11 @@
       <file leaf-file-name="pay-index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="458">
+              <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding>
                 <element signature="e#251#275#0#HTML" expanded="true" />
+                <element signature="e#225#2906#0#HTML" expanded="false" />
                 <element signature="e#746#794#0#HTML" expanded="true" />
                 <element signature="e#936#981#0#HTML" expanded="true" />
                 <element signature="e#1356#1404#0#HTML" expanded="true" />
@@ -86,11 +80,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="win-index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/win-index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding>
+                <element signature="e#156#180#0#HTML" expanded="true" />
+                <element signature="e#651#699#0#HTML" expanded="true" />
+                <element signature="e#841#886#0#HTML" expanded="true" />
+                <element signature="e#1261#1309#0#HTML" expanded="true" />
+                <element signature="e#1447#1492#0#HTML" expanded="true" />
+                <element signature="e#1638#1657#0#HTML" expanded="true" />
+                <element signature="e#1792#1813#0#HTML" expanded="true" />
+                <element signature="e#2009#2030#0#HTML" expanded="true" />
+                <element signature="e#2210#2229#0#HTML" expanded="true" />
+                <element signature="e#2366#2387#0#HTML" expanded="true" />
+                <element signature="e#2584#2605#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PayController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PayController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="48" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="e#46#59#0#PHP" expanded="true" />
               </folding>
@@ -98,10 +114,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WinController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="2142">
               <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
               <folding>
                 <element signature="e#46#59#0#PHP" expanded="true" />
@@ -144,6 +170,7 @@
       <find>authenticate</find>
       <find>col</find>
       <find>BankVal</find>
+      <find>where('odeme_tur','banka')-&gt;</find>
       <find>autoname</find>
     </findStrings>
   </component>
@@ -153,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/admin/message-index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/message-content.blade.php" />
         <option value="$PROJECT_DIR$/ss.php" />
         <option value="$PROJECT_DIR$/macbot/index.php" />
@@ -192,18 +217,20 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/transfer-index.blade.php" />
         <option value="$PROJECT_DIR$/app/Transfer.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PaysController.php" />
         <option value="$PROJECT_DIR$/public/assets/css/base/_layout.scss" />
         <option value="$PROJECT_DIR$/public/assets/admin/dist/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PayController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
       </list>
     </option>
   </component>
@@ -556,7 +583,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/composer.json&#10;true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/composer.json&#10;true&#10;/Applications/MAMP/htdocs/bahis/.env" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
   </component>
@@ -679,7 +706,7 @@
       <workItem from="1489750168038" duration="457000" />
       <workItem from="1489836009792" duration="1198000" />
       <workItem from="1489846857323" duration="17748000" />
-      <workItem from="1489917319159" duration="14311000" />
+      <workItem from="1489917319159" duration="15692000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -692,7 +719,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83739000" />
+    <option name="totallyTimeSpent" value="85120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,13 +790,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthenticationException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -887,13 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="115" lean-forward="false" selection-start-line="35" selection-start-column="115" selection-end-line="35" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1022,14 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/win-index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Transfer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1078,14 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="407" column="24" lean-forward="false" selection-start-line="407" selection-start-column="16" selection-end-line="407" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Pay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1099,26 +1096,6 @@
         <state relative-caret-position="553">
           <caret line="1015" column="0" lean-forward="false" selection-start-line="1015" selection-start-column="0" selection-end-line="1015" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="41" column="36" lean-forward="false" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <element signature="e#251#275#0#HTML" expanded="true" />
-            <element signature="e#746#794#0#HTML" expanded="true" />
-            <element signature="e#936#981#0#HTML" expanded="true" />
-            <element signature="e#1356#1404#0#HTML" expanded="true" />
-            <element signature="e#1542#1587#0#HTML" expanded="true" />
-            <element signature="e#1733#1752#0#HTML" expanded="true" />
-            <element signature="e#1887#1908#0#HTML" expanded="true" />
-            <element signature="e#2104#2125#0#HTML" expanded="true" />
-            <element signature="e#2305#2324#0#HTML" expanded="true" />
-            <element signature="e#2461#2482#0#HTML" expanded="true" />
-            <element signature="e#2679#2700#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,21 +1117,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PayController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="48" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="48" />
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="e#46#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="2142">
           <caret line="126" column="5" lean-forward="true" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
           <folding>
             <element signature="e#46#59#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="e#251#275#0#HTML" expanded="true" />
+            <element signature="e#225#2906#0#HTML" expanded="false" />
+            <element signature="e#746#794#0#HTML" expanded="true" />
+            <element signature="e#936#981#0#HTML" expanded="true" />
+            <element signature="e#1356#1404#0#HTML" expanded="true" />
+            <element signature="e#1542#1587#0#HTML" expanded="true" />
+            <element signature="e#1733#1752#0#HTML" expanded="true" />
+            <element signature="e#1887#1908#0#HTML" expanded="true" />
+            <element signature="e#2104#2125#0#HTML" expanded="true" />
+            <element signature="e#2305#2324#0#HTML" expanded="true" />
+            <element signature="e#2461#2482#0#HTML" expanded="true" />
+            <element signature="e#2679#2700#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/win-index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="e#156#180#0#HTML" expanded="true" />
+            <element signature="e#651#699#0#HTML" expanded="true" />
+            <element signature="e#841#886#0#HTML" expanded="true" />
+            <element signature="e#1261#1309#0#HTML" expanded="true" />
+            <element signature="e#1447#1492#0#HTML" expanded="true" />
+            <element signature="e#1638#1657#0#HTML" expanded="true" />
+            <element signature="e#1792#1813#0#HTML" expanded="true" />
+            <element signature="e#2009#2030#0#HTML" expanded="true" />
+            <element signature="e#2210#2229#0#HTML" expanded="true" />
+            <element signature="e#2366#2387#0#HTML" expanded="true" />
+            <element signature="e#2584#2605#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="404" column="55" lean-forward="false" selection-start-line="404" selection-start-column="55" selection-end-line="404" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

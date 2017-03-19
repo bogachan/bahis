@@ -10,6 +10,50 @@
 
 @section('content')
 
+    <div class="box box-info" style="overflow:visible">
+        <div class="box-header">
+            <h3 class="box-title">Filtrele</h3>
+        </div>
+        <div class="box-body">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Username ile ara</h5>
+                    <form action="/admin/cekim" method="get" autocomplete="off">
+                        <input id="autouser" type="text" autocomplete="off" name="user" class="typeahead form-control" placeholder="Username..." style="float:left;width: 80%; margin-right: 2%;">
+                        <input type="hidden" name="d" value="username">
+                        <button type="submit" class="btn bg-orange" style="float:left;border-radius:0;width:18%;">Ara</button>
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <h5>Ad Soyad ile ara</h5>
+                    <form action="/admin/cekim" method="get" autocomplete="off">
+                        <input id="autoname" type="text" autocomplete="off" name="name" class="typeahead form-control" placeholder="Ad Soyad.." style="float:left;width: 80%; margin-right: 2%;">
+                        <input type="hidden" name="d" value="name">
+                        <button type="submit" class="btn bg-orange" style="float:left;border-radius:0;width:18%;">Ara</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="butonlar" style="float: left">
+                        <h5>Tarihe göre</h5>
+                        <a href="/admin/cekim?d=tarih-yeni" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="Tarahihe Göre Yeni"><i class="fa fa-arrow-up"></i></a>
+                        <a href="/admin/cekim?d=tarih-eski" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="Tarahihe Göre Eski"><i class="fa fa-arrow-down"></i></a>
+
+                    </div>
+                    <div class="butonlar" style="float: left">
+                        <h5>Tutara göre</h5>
+                        <a href="/admin/cekim?d=tutar-yuksek" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="Tutara Göre Yüksek"><i class="fa fa-arrow-up"></i></a>
+                        <a href="/admin/cekim?d=tutar-dusuk" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="Tutara Göre Düşük"><i class="fa fa-arrow-down"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
     <div class="box">
         <div class="box-header">
             <h3 class="box-title">Son Çekimler</h3>

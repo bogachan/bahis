@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Bank;
+use App\User;
 use App\Win;
 use Illuminate\Http\Request;
 
@@ -23,17 +24,43 @@ class WinController extends Controller
     public function index()
     {
 
-        if(empty($_GET['d'])){
-            $pays =  Win::orderBy("id","desc")->paginate(15);
-            $banks = Bank::all();
-            return view('admin.win-index',compact('pays','banks'));
+        if(!empty($_GET['d'])){
 
+            if($_GET['d'] == 'bekleyen'){
+                $pays =  Win::where('durum',0)->orderBy("id","desc")->paginate(40);
+                return view('admin.win-index',compact('pays'));
+            }elseif ($_GET['d'] == 'tutar-yuksek'){
+                $pays =  Win::orderBy("miktar","desc")->paginate(40);
+                return view('admin.win-index',compact('pays'));
+            }
+            elseif ($_GET['d'] == 'tutar-dusuk'){
+                $pays =  Win::orderBy("miktar","asc")->paginate(40);
+                return view('admin.win-index',compact('pays'));
+            }
+            elseif ($_GET['d'] == 'tarih-yeni'){
+                $pays =  Win::orderBy("created_at","desc")->paginate(40);
+                return view('admin.win-index',compact('pays'));
+            }
+            elseif ($_GET['d'] == 'tarih-eski'){
+                $pays =  Win::orderBy("created_at","asc")->paginate(40);
+                return view('admin.win-index',compact('pays'));
+            }
+            elseif ($_GET['d'] == 'username'){
+                $user  =  User::where('username',$_GET['user'])->first();
+                $pays  =  Win::where('user_id',$user->id)->paginate(40);
+                return view('admin.win-index',compact('pays'));
+            }
+            elseif ($_GET['d'] == 'name'){
+
+                $user  =  User::where('name',$_GET['name'])->first();
+                $pays  =  Win::where('user_id',$user->id)->paginate(40);
+                return view('admin.win-index',compact('pays'));
+            }
         }
 
         else{
-            $pays =  Win::where('durum',0)->orderBy("id","desc")->paginate(15);
-            $banks = Bank::all();
-            return view('admin.win-index',compact('pays','banks'));
+            $pays =  Win::orderBy("id","desc")->paginate(10);
+            return view('admin.win-index',compact('pays'));
         }
     }
 
