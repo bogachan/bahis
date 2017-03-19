@@ -74,7 +74,7 @@
                     <th>Not</th>
                     <th>Zaman</th>
                     <th>Durum</th>
-                    <th>İşlem Yap</th>
+                    <th style="width:218px">İşlem Yap</th>
                 </tr>
                 </thead>
                 <tbody>
