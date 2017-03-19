@@ -116,7 +116,7 @@ $users = \App\User::all();
                             <a href="/admin/odeme/islem/{{$cep->id}}?d=onayla&u={!! $cep->find($cep->id)->users->id !!}" class="btn bg-olive margin" data-toggle="tooltip" title="Onay"><i class="fa fa-check"></i></a>
                             <a href="/admin/odeme/islem/{{$cep->id}}?d=iptal" class="btn bg-orange margin" data-toggle="tooltip" title="İptal"><i class="fa fa-close"></i></a>
                             <a href="/admin/odeme/duzenle/{{$cep->id}}" class="btn bg-blue margin" data-toggle="tooltip" title="Düzenle"><i class="fa fa-cog"></i></a>
-                            <a class="boot btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg" data-id="{{ $pay->find($pay->id)->users->id }}">Kod</a>
+                            <a class="boot btn bg-blue margin" data-toggle="modal" data-target=".bs-example-modal-lg" data-id="{{ $cep->find($cep->id)->users->id }}">Kod</a>
                         </td>
                     </tr>
                 @endforeach
