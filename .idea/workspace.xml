@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
@@ -50,8 +48,8 @@
       <file leaf-file-name="pay-index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="118">
+              <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="e#251#275#0#HTML" expanded="true" />
                 <element signature="e#225#2906#0#HTML" expanded="false" />
@@ -80,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="win-index.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="win-index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/win-index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#156#180#0#HTML" expanded="true" />
                 <element signature="e#651#699#0#HTML" expanded="true" />
@@ -229,8 +227,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/win-index.blade.php" />
       </list>
     </option>
   </component>
@@ -706,7 +704,7 @@
       <workItem from="1489750168038" duration="457000" />
       <workItem from="1489836009792" duration="1198000" />
       <workItem from="1489846857323" duration="17748000" />
-      <workItem from="1489917319159" duration="15692000" />
+      <workItem from="1489917319159" duration="15817000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -719,7 +717,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85120000" />
+    <option name="totallyTimeSpent" value="85245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1143,10 +1141,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="404" column="55" lean-forward="false" selection-start-line="404" selection-start-column="55" selection-end-line="404" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="e#251#275#0#HTML" expanded="true" />
             <element signature="e#225#2906#0#HTML" expanded="false" />
@@ -1166,8 +1180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/win-index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="e#156#180#0#HTML" expanded="true" />
             <element signature="e#651#699#0#HTML" expanded="true" />
@@ -1181,22 +1195,6 @@
             <element signature="e#2366#2387#0#HTML" expanded="true" />
             <element signature="e#2584#2605#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WinController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="404" column="55" lean-forward="false" selection-start-line="404" selection-start-column="55" selection-end-line="404" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -64,7 +64,7 @@
                 <thead>
                 <tr>
                     <th>İşlem İd</th>
-                    <th>Kullanıcı</th>
+                    <th>Ad / Username</th>
                     <th>Miktar</th>
                     <th>Banka</th>
                     <th>Hesap Sahibi</th>
@@ -81,7 +81,7 @@
                 @foreach($pays as $pay)
                     <tr>
                         <td>{{$pay->id}}</td>
-                        <td>{{ $pay->find($pay->id)->users->name }}</td>
+                        <td>{{ $pay->find($pay->id)->users->name }} / {{ $pay->find($pay->id)->users->username }}</td>
                         <td>{{$pay->miktar}}</td>
                         <td style="text-align:center">
                             {{ DB::table('banks')->where('id', $pay->banka)->value('name') }}
