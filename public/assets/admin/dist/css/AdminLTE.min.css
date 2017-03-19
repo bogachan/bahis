@@ -25,3 +25,5 @@ label {
 
     overflow: hidden;
 }
+
+.typeahead { z-index: 1051; }

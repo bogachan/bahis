@@ -1061,6 +1061,9 @@ label {
     background: #bfb842 2px;
     color: #fff; }
 
+.typeahead {
+  z-index: 1051; }
+
 #footer {
   background: #ffffff;
   box-shadow: 0 2px 32px rgba(90, 78, 132, 0.29);

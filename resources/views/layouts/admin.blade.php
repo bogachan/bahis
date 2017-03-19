@@ -340,6 +340,7 @@
 <script src="{{asset('assets/js/toastr.min.js')}}"></script>
 <script src="{{asset('assets/js/custom.js')}}"></script>
 <script src="{{asset('assets/js/laravel-delete.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.1/bootstrap3-typeahead.min.js"></script>
 
 <script>
 
@@ -392,6 +393,25 @@
 
             }
 
+            var pathuser = "{{ route('autouser') }}";
+            var pathname = "{{ route('autoname') }}";
+
+            $('#autouser').typeahead({
+                source:  function (query, process) {
+                    return $.get(pathuser, { query: query }, function (data) {
+                        return process(data);
+                    });
+                }
+            });
+
+
+            $('#autoname').typeahead({
+                source:  function (query, process) {
+                    return $.get(pathname, { query: query }, function (data) {
+                        return process(data);
+                    });
+                }
+            });
 
 </script>
 

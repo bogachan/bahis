@@ -38,6 +38,9 @@ Route::group(['middleware' => ['admin_mi','auth']],function (){
         Route::get('/admin/uye/kod/{id}','UserController@fetch');
         Route::put('/admin/uye/kod/guncelle/{id}','UserController@kod');
 
+        Route::get('/admin/uye/search',array('as'=>'search','uses'=>'UserController@search'));
+        Route::get('/admin/uye/autouser',array('as'=>'autouser','uses'=>'UserController@autouser'));
+        Route::get('/admin/uye/autoname',array('as'=>'autoname','uses'=>'UserController@autoname'));
 
         Route::resource('/admin/kategoriler','CategoriesController');
         Route::resource("/admin/haber","ArticleController");

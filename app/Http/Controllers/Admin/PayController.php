@@ -25,15 +25,51 @@ class PayController extends Controller
     public function index()
     {
 
-        if(empty($_GET['d'])){
-            $pays =  Pay::where('odeme_tur','banka')->orderBy("id","desc")->paginate(10);
-            $ceps =  Pay::where('odeme_tur','cep')->orderBy("id","desc")->paginate(10);
-            return view('admin.pay-index',compact('pays','ceps'));
+        if(!empty($_GET['d'])){
+
+            if($_GET['d'] == 'bekleyen'){
+                $pays =  Pay::where('confirmation',0)->where('odeme_tur','banka')->orderBy("id","desc")->paginate(40);
+                $ceps =  Pay::where('confirmation',0)->where('odeme_tur','cep')->orderBy("id","desc")->paginate(40);
+                return view('admin.pay-index',compact('pays','ceps'));
+            }elseif ($_GET['d'] == 'tutar-yuksek'){
+                $pays =  Pay::where('odeme_tur','banka')->orderBy("amount","desc")->paginate(40);
+                $ceps =  Pay::where('odeme_tur','cep')->orderBy("amount","desc")->paginate(40);
+                return view('admin.pay-index',compact('pays','ceps'));
+            }
+            elseif ($_GET['d'] == 'tutar-dusuk'){
+                $pays =  Pay::where('odeme_tur','banka')->orderBy("amount","asc")->paginate(40);
+                $ceps =  Pay::where('odeme_tur','cep')->orderBy("amount","asc")->paginate(40);
+                return view('admin.pay-index',compact('pays','ceps'));
+            }
+            elseif ($_GET['d'] == 'tarih-yeni'){
+                $pays =  Pay::where('odeme_tur','banka')->orderBy("created_at","desc")->paginate(40);
+                $ceps =  Pay::where('odeme_tur','cep')->orderBy("created_at","desc")->paginate(40);
+                return view('admin.pay-index',compact('pays','ceps'));
+            }
+            elseif ($_GET['d'] == 'tarih-eski'){
+                $pays =  Pay::where('odeme_tur','banka')->orderBy("created_at","asc")->paginate(40);
+                $ceps =  Pay::where('odeme_tur','cep')->orderBy("created_at","asc")->paginate(40);
+                return view('admin.pay-index',compact('pays','ceps'));
+            }
+            elseif ($_GET['d'] == 'username'){
+
+                $user  =  User::where('username',$_GET['user'])->first();
+                $pays  =  Pay::where('odeme_tur','banka')->where('user_id',$user->id)->paginate(40);
+                $ceps  =  Pay::where('odeme_tur','cep')->where('user_id',$user->id)->paginate(40);
+                return view('admin.pay-index',compact('pays','ceps'));
+            }
+            elseif ($_GET['d'] == 'name'){
+
+                $user  =  User::where('name',$_GET['name'])->first();
+                $pays  =  Pay::where('odeme_tur','banka')->where('user_id',$user->id)->paginate(40);
+                $ceps  =  Pay::where('odeme_tur','cep')->where('user_id',$user->id)->paginate(40);
+                return view('admin.pay-index',compact('pays','ceps'));
+            }
         }
 
         else{
-            $pays =  Pay::where('confirmation',0)->where('odeme_tur','banka')->orderBy("id","desc")->paginate(10);
-            $ceps =  Pay::where('confirmation',0)->where('odeme_tur','cep')->orderBy("id","desc")->paginate(10);
+            $pays =  Pay::where('odeme_tur','banka')->orderBy("id","desc")->paginate(10);
+            $ceps =  Pay::where('odeme_tur','cep')->orderBy("id","desc")->paginate(10);
             return view('admin.pay-index',compact('pays','ceps'));
         }
 
