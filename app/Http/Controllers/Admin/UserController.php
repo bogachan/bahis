@@ -49,7 +49,6 @@ class UserController extends Controller
         return response()->json($data);
     }
 
-
     public function fetch($id)
     {
         $user_kod = User::find($id);

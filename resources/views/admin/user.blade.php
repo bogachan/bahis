@@ -150,6 +150,8 @@
     @endforeach
 
 
-
+<div class="ad" style="display: none">
+    <textarea class="summernote" id="kodPut" name="kod"></textarea>
+</div>
 
 @endsection

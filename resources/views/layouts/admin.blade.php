@@ -374,7 +374,9 @@
             setInterval(kontrolEt,5000);
 
             if( $('#kodPut').val().length === 0 ) {
+
                 var markupStr = '<table class="table table-striped table-responsive"> <thead> <tr> <th>#</th> <th>Tipbet</th> <th>Wingobet</th> <th>Rivalo</th> <th>Tempobet</th> </tr> </thead> <tbody> <tr> <td><b>Kod</b></td> <td>Tipbet Kod</td> <td>Wingobet Kod</td> <td>Rivalo Kod</td> <td>Tempobet Kod</td> </tr> <tr> <td><b>Şifre</b></td> <td>Tipbet Şifre</td> <td>Wingobet Şifre</td> <td>Rivalo Şifre</td> <td>Tempobet Şifre</td> </tr> </tbody> </table>';
+
                 $('#kodPut').summernote('code', markupStr);
 
             }
