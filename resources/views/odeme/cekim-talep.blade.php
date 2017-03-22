@@ -65,7 +65,7 @@
 
         </div>
         <div class="col-sm-6">
-            <div class="txt">
+            <div class="txt mx">
                 {!! config('settings.site_cekim_yardim') !!}
             </div>
         </div>
