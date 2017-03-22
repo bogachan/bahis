@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\User;
+use Maatwebsite\Excel\Facades\Excel;
+
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -14,6 +16,21 @@ use Illuminate\Support\Facades\Input;
 
 class UserController extends Controller
 {
+
+    public function tablo(){
+
+        $excel = User::all();
+
+        $data = json_decode(json_encode($excel), true);
+
+        Excel::create('Uyeler-data', function ($excel) use ($data) {
+            $excel->sheet('Sheet 1', function ($sheet) use ($data) {
+                $sheet->setOrientation('landscape');
+                $sheet->fromArray($data);
+            });
+        })->export('csv');
+
+    }
 
     public function search()
     {
@@ -41,8 +58,38 @@ class UserController extends Controller
 
     public function index()
     {
-        $users = User::orderBy("id","desc")->paginate(20);
-        return view('admin.user',compact('users'));
+        if(!empty($_GET['d'])){
+
+            if($_GET['d'] == 'yatirim-yapmis'){
+                $users =  User::where('odeme',1)->orderBy("id","desc")->paginate(40);
+                return view('admin.user',compact('users'));
+            }
+            elseif ($_GET['d'] == 'yatirim-yapmamis'){
+                $users =  User::where('odeme',0)->orderBy("id","desc")->paginate(40);
+                return view('admin.user',compact('users'));
+            }
+            elseif ($_GET['d'] == 'tarih-yeni'){
+                $users =  User::orderBy("created_at","desc")->paginate(40);
+                return view('admin.user',compact('users'));
+            }
+            elseif ($_GET['d'] == 'tarih-eski'){
+                $users =  User::orderBy("created_at","asc")->paginate(40);
+                return view('admin.user',compact('users'));
+            }
+            elseif ($_GET['d'] == 'username'){
+                $users  =  User::where('username',$_GET['user'])->paginate(40);
+                return view('admin.user',compact('users'));
+            }
+            elseif ($_GET['d'] == 'name'){
+                $users  =  User::where('name',$_GET['name'])->paginate(40);
+                return view('admin.user',compact('users'));
+            }
+        }
+
+        else{
+            $users =  User::orderBy("id","desc")->paginate(10);
+            return view('admin.user',compact('users'));
+        }
 
     }
 

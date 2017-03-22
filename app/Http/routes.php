@@ -41,7 +41,7 @@ Route::group(['middleware' => ['admin_mi','auth']],function (){
         Route::get('/admin/uye/search',array('as'=>'search','uses'=>'UserController@search'));
         Route::get('/admin/uye/autouser',array('as'=>'autouser','uses'=>'UserController@autouser'));
         Route::get('/admin/uye/autoname',array('as'=>'autoname','uses'=>'UserController@autoname'));
-
+        Route::get('admin/uye/tablo','UserController@tablo');
         Route::resource('/admin/kategoriler','CategoriesController');
         Route::resource("/admin/haber","ArticleController");
         Route::post("/admin/haber/durum-degis","ArticleController@durumDegis");

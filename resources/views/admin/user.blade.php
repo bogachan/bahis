@@ -5,6 +5,59 @@
     </h1>
 @endsection
 @section('content')
+
+    <div class="box box-info" style="overflow:visible">
+        <div class="box-header">
+            <h3 class="box-title">Filtrele</h3>
+        </div>
+        <div class="box-body">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Username ile ara</h5>
+                    <form action="/admin/uyeler" method="get" autocomplete="off">
+                        <input id="autouser" type="text" autocomplete="off" name="user" class="typeahead form-control" placeholder="Username..." style="float:left;width: 80%; margin-right: 2%;">
+                        <input type="hidden" name="d" value="username">
+                        <button type="submit" class="btn bg-orange" style="float:left;border-radius:0;width:18%;">Ara</button>
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <h5>Ad Soyad ile ara</h5>
+                    <form action="/admin/uyeler" method="get" autocomplete="off">
+                        <input id="autoname" type="text" autocomplete="off" name="name" class="typeahead form-control" placeholder="Ad Soyad.." style="float:left;width: 80%; margin-right: 2%;">
+                        <input type="hidden" name="d" value="name">
+                        <button type="submit" class="btn bg-orange" style="float:left;border-radius:0;width:18%;">Ara</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="butonlar" style="float: left">
+                        <h5>Tarihe göre</h5>
+                        <a href="/admin/uyeler?d=tarih-yeni" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="Tarahihe Göre Yeni"><i class="fa fa-arrow-up"></i></a>
+                        <a href="/admin/uyeler?d=tarih-eski" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="Tarahihe Göre Eski"><i class="fa fa-arrow-down"></i></a>
+
+                    </div>
+                    <div class="butonlar" style="float: left">
+                        <h5>Yatırım</h5>
+                        <a href="/admin/uyeler?d=yatirim-yapmis" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="Yatırım Yapmış">Yapmış</a>
+                        <a href="/admin/uyeler?d=yatirim-yapmamis" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="Yatırım Yapmamış">Yapmamış</a>
+                    </div>
+                    <div class="butonlar" style="float: left">
+
+                    <h5>Tablo Olarak İndir</h5>
+                    <a href="/admin/uye/tablo" class="btn bg-olive margin" style="margin-top: 0" data-toggle="tooltip" title="" data-original-title="İndir"><i class="fa fa-cloud-download"></i></a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
     <div class="box">
         <div class="box-header">
             <h3 class="box-title">Üyeler</h3>
