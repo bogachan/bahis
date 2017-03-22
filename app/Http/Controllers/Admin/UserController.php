@@ -19,7 +19,9 @@ class UserController extends Controller
 
     public function tablo(){
 
-        $excel = User::all();
+
+
+        $excel = User::select('name','username','tel','email')->get();
 
         $data = json_decode(json_encode($excel), true);
 
@@ -28,7 +30,7 @@ class UserController extends Controller
                 $sheet->setOrientation('landscape');
                 $sheet->fromArray($data);
             });
-        })->export('csv');
+        })->export('xlsx');
 
     }
 
