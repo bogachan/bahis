@@ -41,7 +41,7 @@
                 </span>
             @endif
 
-        <button type="submit" class="form-button fr" style="margin-top: 2px ">Giriş Yap</button>
+        <button type="submit" class="form-button fr" style="margin-top: 2px ">Giriş Yap<i class="fa fa-chevron-right"></i><</button>
     </form>
 </div>
 
