@@ -284,21 +284,21 @@
             <div class="col-md-3">
                 <i class="icon-bahis"></i>
                 <div class="info bahis">
-                    1.200
+                    6.216
                     <span>KAZANILAN BAHİS</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-uye"></i>
                 <div class="info">
-                23.369
+                4.599
                 <span>KAYITLI ÜYE</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-kupon"></i>
                 <div class="info">
-                    112.302
+                    28.302
                     <span>YAPILAN KUPON</span>
                 </div>
             </div>

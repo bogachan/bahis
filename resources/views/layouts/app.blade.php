@@ -195,6 +195,54 @@
     </div>
 </div>
 
+
+<div id="statics">
+    <div class="head-static">
+        SAYILARLA <span>BAHİSYERİM</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="join">
+                    <span>BİZİMLE KAZANMAK İSTER MİSİN?</span>
+                    <div class="duble" style="border: 1px solid #ffc722;float: right;">
+                        <a href="/register" class="button-main">HEMEN KAYIT OL <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <i class="icon-bahis"></i>
+                <div class="info bahis">
+                    6.216
+                    <span>KAZANILAN BAHİS</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <i class="icon-uye"></i>
+                <div class="info">
+                    4.599
+                    <span>KAYITLI ÜYE</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <i class="icon-kupon"></i>
+                <div class="info">
+                    28.302
+                    <span>YAPILAN KUPON</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <i class="icon-partner"></i>
+                <div class="info">
+                    4
+                    <span>PARTNER</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div id="footer">
     <div class="top">
         <div class="container">
