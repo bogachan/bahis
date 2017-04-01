@@ -1192,7 +1192,7 @@ label {
   margin-bottom: 30px; }
   .boxo .ox {
     width: 100%;
-    background: #222;
+    background: #222f;
     text-align: start;
     color: #fff;
     font-weight: 700;
@@ -1293,7 +1293,7 @@ label {
 .companie-left-logo {
   position: absolute;
   right: -5px;
-  top: 1px; }
+  top: -52px; }
 
 .high-logo {
   width: 256px;

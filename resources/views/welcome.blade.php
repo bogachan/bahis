@@ -14,15 +14,7 @@
 
             <div class="carousel-inner" role="listbox">
                 @foreach($sliders as $key => $slider)
-                <div class="item @if($key == 0) active  @endif" style="background-image: url(/uploads/slider/{!! $slider->bg !!});">
-                    <div class="container">
-                        <div class="lefts">
-                            <h2>{!! $slider->title !!}</h2>
-                            <h3>{!! $slider->sub_title !!}</h3>
-                            <div class="duble" style="margin-top: 72px; border: 1px solid #ffc722;"><a href="{!! $slider->link !!}" class="slider-button">Detaylı Bilgi <i class="fa fa-chevron-right"></i></a></div>
-                        </div>
-
-                    </div>
+                <div class="item @if($key == 0) active  @endif" style="background-image:url(/uploads/slider/{!! $slider->bg !!});background-size:cover;">
                 </div>
                 @endforeach
             </div>

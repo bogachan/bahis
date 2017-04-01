@@ -161,9 +161,6 @@
 
             <h2>HANGİ FİRMALARLA <span>ÇALIŞIYORUZ?</span></h2>
 
-
-
-
         </div>
     </div>
 
@@ -172,12 +169,43 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="compy-logo">
-                        <img src="/assets/img/rivo-logo.png" alt="">
-
-                        <span>Rivalo</span>
+                        <a href="https://www.rakipbahis.com/login/" target="_blank">
+                            <img src="/assets/img/rivo-logo.png" alt="">
+                            <span>Rivalo</span>
+                        </a>
                     </div>
 
                     <img src="/assets/img/rivo.png" alt="" class="companie-left-logo">
+                </div>
+                <div class="item ">
+                    <div class="compy-logo">
+                        <a href="https://www.temponet.com/" target="_blank">
+                            <img style="border-radius:5px" src="/assets/img/tempobet-logo.png" alt="">
+                            <span>Tempobet</span>
+                        </a>
+                    </div>
+
+                    <img src="/assets/img/tempobet-cap.png" alt="" class="companie-left-logo">
+                </div>
+                <div class="item ">
+                    <div class="compy-logo">
+                        <a href="http://wingobet10.com" target="_blank">
+                            <img src="/assets/img/wingo-logo.png" alt="" style=" background: azure; border-radius: 5px; padding: 10px; height: 76px; ">
+                            <span>WingoBet</span>
+                        </a>
+                    </div>
+
+                    <img src="/assets/img/wingo-cap.png" alt="" class="companie-left-logo">
+                </div>
+                <div class="item ">
+                    <div class="compy-logo">
+                        <a href="https://www.trtipbet.net/tr/online-spor-bahis" target="_blank">
+                            <img src="/assets/img/tipbet-logo.png" alt="" style=" background: azure; border-radius: 5px; padding: 10px; height: 76px; ">
+                            <span>Tipbet</span>
+                        </a>
+                    </div>
+
+                    <img src="/assets/img/tipbet-cap.png" alt="" class="companie-left-logo">
                 </div>
             </div>
 
