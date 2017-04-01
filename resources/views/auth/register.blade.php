@@ -14,6 +14,9 @@
 </head>
 <body class="more-sytle">
 
+<?php if(!empty($_GET['referans'])){ setcookie("referans", $_GET['referans'], time()+60*60*24);} ?>
+
+
 <div class="center-low-join">
 
     <a class="logo-white" href="{{ url('/') }}"><img src="{{asset('assets/img/logo-white.png')}}" alt=""></a>
@@ -308,6 +311,22 @@
                         </span>
                     @endif
                 </div>
+
+
+            </div>
+
+            <div class="col-md-12">
+
+                <div class="{{ $errors->has('ref') ? ' has-error' : '' }}">
+                    <input type="text" name="ref" placeholder="Referans Kodu">
+
+                    @if ($errors->has('tel'))
+                        <span class="help-block">
+                            <strong>{{ $errors->first('tel') }}</strong>
+                        </span>
+                    @endif
+                </div>
+
 
                 <div>
                     <span class="okey"><a href="">Hizmet şartlarını</a> okudum ve kabul ediyorum.</span>

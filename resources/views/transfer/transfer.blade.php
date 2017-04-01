@@ -48,7 +48,8 @@
                         </div>
                         <div class="col-md-12"></div>
                         <div class="col-md-6">
-                            <button type="submit" class="button-primary fr" style=" margin-top:0;">Transfer Et</button>
+                            <button type="submit" class="form-button fr">Transfer Et<i class="fa fa-chevron-right"></i></button>
+
                         </div>
 
                     {!! Form::close() !!}
@@ -96,7 +97,7 @@
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <button type="submit" class="button-primary fr" style=" margin-top:0;">Transfer Et</button>
+                            <button type="submit" class="form-button fr">Transfer Et<i class="fa fa-chevron-right"></i></button>
                         </div>
 
                     {!! Form::close() !!}

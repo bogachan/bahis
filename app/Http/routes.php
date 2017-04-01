@@ -34,6 +34,8 @@ Route::group(['middleware' => ['admin_mi','auth']],function (){
         Route::put('/admin/ayarlar/guncelle','SettingController@update');
 
         Route::resource('/admin/uyeler','UserController');
+        Route::resource('/admin/affiliate','AfiController');
+
 
         Route::get('/admin/uye/kod/{id}','UserController@fetch');
         Route::put('/admin/uye/kod/guncelle/{id}','UserController@kod');
@@ -93,6 +95,8 @@ Route::group(['middleware' => ['auth']],function (){
     Route::get('/transfer/islemler', 'TransferController@islemler');
     Route::get('/kodlar/', function (){ return view('kullanici/kodlar'); });
     Route::get('/mesajlar', 'MessageController@index');
+    Route::get('/affiliate', 'AfiController@index');
+
 
 });
 

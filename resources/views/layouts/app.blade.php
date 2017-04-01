@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="{!! asset('assets/css/font-awesome.min.css') !!}">
     <link rel="stylesheet" href="{!! asset('assets/css/toastr.min.css') !!}">
 
+    <!--Start of Zopim Live Chat Script-->
     <script type="text/javascript">
         window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
             d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
@@ -20,6 +21,7 @@
             $.src="//v2.zopim.com/?4eGCv4lpPY2H6niXwbgqaw14RlJZrP71";z.t=+new Date;$.
                 type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     </script>
+    <!--End of Zopim Live Chat Script-->
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,24 +37,19 @@
 </head>
 <body data-status="{{Session::get('durum')}} @if ($errors->has('password') or $errors->has('email')) 3 @endif">
 
-<div id="header">
+<?php if(!empty($_GET['referans'])){ setcookie("referans", $_GET['referans'], time()+60*60*24);} ?>
+
+<div id="header" class="not-home">
     <div class="top">
         <div class="container">
 
-            <a href="/odeme" class="odeme"><i class="fa fa-credit-card"></i> Ödeme Yöntemleri</a>
-
             @if (Auth::guest())
-                    <form role="form" method="POST" action="{{ url('/login') }}" class="login-header">
-                    {{ csrf_field() }}
-                    <a href="{{ url('/password/reset') }}">Şifremi Unuttum</a>
-                    <a href="{{ url('/register') }}">KAYIT OL</a>
-                    <input placeholder="Email.." id="email" type="email" name="email" value="{{ old('email') }}">
-                    <input placeholder="Şifre.." id="password" type="password" name="password" >
-                    <button type="submit">GİRİŞ YAP</button>
-                </form>
+                <ul class="guest">
+                    <li><a href="/login">Giriş Yap</a></li>
+                    <li><a href="/register">Kayıt OL</a></li>
+                </ul>
             @else
                 <ul class="login-menu">
-
                     @if(count(DB::table('messages')->where('to_user_id',Auth::user()->id)->where('read',1)->get()) > 0)
                         <a href="/mesajlar" class="have-message">Mesajınız Var</a>
                     @endif
@@ -77,17 +74,17 @@
                             <li><a href="/cekim"><i class="fa fa-btn fa-reply"></i> Para Çekme</a></li>
                             <li><a href="/transfer"><i class="fa fa-btn fa-plane"></i> Para Transferi</a></li>
                             <li><a href="/transfer/islemler"><i class="fa fa-btn fa-briefcase"></i> Tüm Talepleriniz</a></li>
-                            <li><a href="/kodlar"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
+                            <li><a href="/kodlar/"><i class="fa fa-btn fa-align-left"></i> Kodlarınız</a></li>
                             <li><a href="/mesajlar"><i class="fa fa-envelope-o"></i> Mesajlar</a></li>
                             <li><a href="/logout"><i class="fa fa-btn fa-power-off"></i> Çıkış Yap</a></li>
                         </ul>
                     </li>
-
                 </ul>
             @endif
         </div>
     </div>
     <div class="bottom">
+        <div class="logo-bg"></div>
         <div class="container">
             <div class="logo">
                 <a href="{{ url('/') }}"><img style="position:relative;top:-13px" src="{{ url('/') }}/assets/img/logo.png" alt=""></a>
@@ -128,7 +125,6 @@
                         <li><a href="{{ url('/sayfa/sik-sorulan-sorular') }}">Sık Sorulan Sorular</a></li>
                         <li><a href="{{ url('/sayfa/kurallar') }}">Kurallar</a></li>
                         <li><a href="{{ url('/iletisim/') }}">İletişim</a></li>
-
                     </ul>
                 </div>
 
@@ -143,6 +139,11 @@
             </div>
         </div>
     </div>
+</div>
+<div class="sub-header">
+<div class="container">
+    @yield('sub_header')
+</div>
 </div>
 
 <div id="content">

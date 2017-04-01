@@ -1,5 +1,11 @@
 @extends('layouts.app')
-
+@section('sub_header')
+    <h1>Para Çekme</h1>
+    <ol class="breadcrumb">
+        <li><a href="/">Anasayfa</a></li>
+        <li class="active">Para Çekme</li>
+    </ol>
+@endsection
 @section('content')
     <?php
     $sites =  \App\Site::all();
@@ -61,7 +67,7 @@
 
                 <input type="hidden" name="user_id" value="{!! $user->id !!}">
 
-            <button type="submit" class="button-primary fr" style="margin-top: 2px;height: 48px;line-height: 48px;">Gönder</button>
+                <button type="submit" class="form-button fr" style=" margin-top: 20px;">Gönder <i class="fa fa-chevron-right"></i></button>
 
         </div>
         <div class="col-sm-6">
@@ -72,9 +78,5 @@
     </div>
 
     {!! Form::close() !!}
-
-
-
-
 
 @endsection

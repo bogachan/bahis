@@ -37,7 +37,8 @@
                             <strong>{{ $errors->first('content') }}</strong>
                     </span>
                     @endif
-                    <button type="submit" class="button-primary fr">gönder</button>
+                    <button type="submit" class="form-button fr" style="margin-top: 20px;">Gönder<i class="fa fa-chevron-right"></i></button>
+
                 </div>
             {!! Form::close() !!}
         </div>

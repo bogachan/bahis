@@ -207,6 +207,8 @@
                     </ul>
                 </li>
 
+                <li><a href="/admin/affiliate"><i class="fa fa-paint-brush"></i> <span>Affiliate</span></a></li>
+
                 <li class="treeview">
                     <a href="#"><i class="fa fa-feed"></i> <span>Siteler</span>
                         <span class="pull-right-container">

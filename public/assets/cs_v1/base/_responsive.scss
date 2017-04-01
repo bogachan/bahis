@@ -1,0 +1,229 @@
+.dropdown.mobile{
+  display: none;
+}
+@media (max-width: 1200px){
+
+}
+@media (min-width: 1250px){
+  .container {
+    width: 1250px;
+  }
+}
+
+
+@media (max-width: 990px){
+  .transfer li a {
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .mx{
+    float: left; width: 100%; margin-top: 16px;
+  }
+  .transfer li a i {
+    display: none;
+  }
+  .logo img{
+    top: -8px !important;
+  }
+  #BankVal{
+    margin-top: 20px;
+  }
+  .login-header,.today-match {
+    display: none;
+  }
+  .dropdown.mobile{
+    display: inline-block;
+      button{
+        color: #fff;
+        font-size: 21px;
+        border: none;
+        position: relative;
+        top: -9px;
+        background: #a6da40;
+        width: 45px;
+        height: 45px;
+        box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5);
+        border-radius: 50px;
+      }
+  }
+  .news-box,.companie-box {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+    margin-bottom: 14px;
+  }
+  #footer .banks img{
+  max-width: 100%;
+  }
+  .ro{
+    float: left;
+  }
+  .about-us .box {
+    margin-bottom:20px;
+  }
+
+  .companie-box {
+    padding: 0 10px;
+    line-height: 108px;
+    img{
+      max-width:100%;
+    }
+  }
+  .companies,.about-us{
+    margin-bottom: 0;
+  }
+
+  .ro {
+    padding-right: 0;
+  }
+  .today-match .col-sm-8 {
+    padding-right: 7px;
+  }
+  .today-match .col-sm-4 {
+    padding-left: 7px;
+  }
+  .weekly-bets h2 {
+    font-size: 17px;
+    i{
+      margin-right: 12px;
+    }
+  }
+  #slider{
+    display: none;
+  }
+  .today-match .right {
+    overflow: hidden;
+    min-height: auto;
+  }
+  #footer {
+    padding-top: 30px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .about-us h3 {
+    font-size: 18px;
+  }
+  .about-us p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 0;
+  }
+  .about-us .box {
+    min-height: auto;
+    padding: 16px;
+  }
+  .today-match .right .top .high-logo img {
+    max-width: 83px;
+  }
+  .today-match .right .top .high {
+    font-size: 19px;
+  }
+  .today-match .right .bottom {
+    float: left;
+    width: 100%;
+    margin-top: 9px;
+    border-top: 0;
+    padding-top: 6px;
+  }
+  .today-match .left li {
+    float: none;
+    text-align: center;
+    margin-right: 0px;
+    border-right: 0;
+    color: #241f33;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 0px 13px 0;
+    display: table-cell;
+    width: 26%;
+  }
+
+  .today-match .left ul {
+
+    float: none;
+    display: table;
+    margin: auto;
+    padding-bottom: 6px;
+  }
+  .today-match .left .pos {
+    position: relative;
+    top: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .today-match .left h2 {
+    color: #8570db;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: #f2f2f2 1px solid;
+    padding: 15px 20px;
+    margin-bottom: 13px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .today-match .left .ligs,.today-match .left .date ,.top-menu,.login-menu,.open-up{
+    display: none;
+  }
+
+  .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+  .today-match {
+    margin-bottom: 20px;
+  }
+  #header {
+    height: auto;
+  }
+  .left-menu{
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .content-page {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .left-menu{
+    z-index: 0;
+  }
+  .open-up{
+    margin-top: 20px;
+  }
+  .open-button{
+    display: block;
+  }
+  .center-low{
+    width: 90%;
+  }
+  .money{
+    margin-bottom: 20px;
+  }
+  .profile-extra{
+    margin-top: 30px;
+  }
+  .promo-box{
+    min-height: 100%;
+  }
+  .center-low-join {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 768px){
+
+
+}
+
+
+@media (max-width:350px){
+
+
+
+}

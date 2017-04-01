@@ -1,23 +1,22 @@
 #footer{
-  background: #ffffff;
   box-shadow: 0 2px 32px rgba(90, 78, 132, 0.29);
   padding-top: 40px;
-  margin-top: 90px;
+  background-color: #222;
   .banks{
     text-align: center;
   }
   .footer-logo{
     text-align: center;
     margin-bottom: 35px;
-    border-bottom: 1px solid rgba(238, 238, 238, 0.45);
+    border-bottom: 1px solid rgba(238, 238, 238, 0.13);
     padding-bottom: 20px;
     a{
       text-shadow: 0 2px 4px transparent;
       font-size: 35px;
-      color: #4e66d7;
+      color: #deb43b;
       font-weight: 700;
       span{
-        color: #5b5757 !important;
+        color: #fff8f8 !important;
         font-weight: 300;
       }
     }
@@ -34,19 +33,22 @@
     margin-bottom: 11px;
     color: #8998aa;
     a{
-      color: #8998aa;
+      color: #909090;
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0.75px;
       &:hover{
         opacity:.7;
       }
     }
   }
   h4{
-    color: #4e66d7;
-    font-size: 15px;
-    font-weight: 400;
+    color: #ffce40;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 18px;
   }
 }
 .copyright{

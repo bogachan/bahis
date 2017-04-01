@@ -37,22 +37,17 @@
 </head>
 <body data-status="{{Session::get('durum')}} @if ($errors->has('password') or $errors->has('email')) 3 @endif">
 
+<?php if(!empty($_GET['referans'])){ setcookie("referans", $_GET['referans'], time()+60*60*24);} ?>
 
 <div id="header">
     <div class="top">
         <div class="container">
 
-            <a href="/odeme" class="odeme"><i class="fa fa-credit-card"></i> Ödeme Yöntemleri</a>
-
             @if (Auth::guest())
-                <form role="form" method="POST" action="{{ url('/login') }}" class="login-header">
-                    {{ csrf_field() }}
-                    <a href="{{ url('/password/reset') }}">Şifremi Unuttum</a>
-                    <a href="{{ url('/register') }}">KAYIT OL</a>
-                    <input placeholder="Email.." id="email" type="email" name="email" value="{{ old('email') }}">
-                    <input placeholder="Şifre.." id="password" type="password" name="password" >
-                    <button type="submit">GİRİŞ YAP</button>
-                </form>
+                <ul class="guest">
+                    <li><a href="/login">Giriş Yap</a></li>
+                    <li><a href="/register">Kayıt OL</a></li>
+                </ul>
             @else
                 <ul class="login-menu">
                     @if(count(DB::table('messages')->where('to_user_id',Auth::user()->id)->where('read',1)->get()) > 0)
@@ -89,6 +84,7 @@
         </div>
     </div>
     <div class="bottom">
+        <div class="logo-bg"></div>
         <div class="container">
             <div class="logo">
                 <a href="{{ url('/') }}"><img style="position:relative;top:-13px" src="{{ url('/') }}/assets/img/logo.png" alt=""></a>
@@ -147,12 +143,145 @@
 
 @yield('slider')
 
+<div class="we">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6 we-left">
+            <h2>BAHİSYERİM <span>NEDİR?</span></h2>
+            <p>
+                Sed lorem ligula, venenatis a vestibulum sit amet, posuere ut massa. Duis consectetur, ex sodales ullamcorper blandit, ex leo vestibulum erat, id dignissim risus quam non magna. Quisque fermentum, felis vel placerat dignissim, nunc dolor placerat dui, sollicitudin sagittis enim quam quis ipsum. Proin gravida metus vel sapien malesuada, quis ornare orci molestie. Sed sollicitudin, ipsum non imperdiet facilisis, nibh risus pellentesque leo, nec iaculis eros tellus quis massa.
+            </p>
+
+            <div class="duble" style="border: 1px solid #222">
+                <a href="#" class="button">Devamını Oku</a>
+            </div>
+
+        </div>
+        <div class="col-md-6 we-right">
+
+            <h2>HANGİ FİRMALARLA <span>ÇALIŞIYORUZ?</span></h2>
+
+
+
+
+        </div>
+    </div>
+
+        <div id="slidero" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="compy-logo">
+                        <img src="/assets/img/rivo-logo.png" alt="">
+
+                        <span>Rivalo</span>
+                    </div>
+
+                    <img src="/assets/img/rivo.png" alt="" class="companie-left-logo">
+                </div>
+            </div>
+
+            <div class="arrows">
+                <a href="#slidero" class="ar-left" role="button" data-slide="prev">
+                    <i class="fa fa-chevron-left glyphicon-chevron-left"></i>
+                </a>
+                <a href="#slidero" class="ar-right" role="button" data-slide="next">
+                    <i class="fa fa-chevron-right glyphicon-chevron-right"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
 <div id="content">
     <div class="container">
         <div class="row">
             @yield('content')
         </div>
 
+    </div>
+</div>
+
+<div class="block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="box-ban">
+                    <div>
+                        <span>ÖZEL</span>
+                        PROMOSYONLAR
+                    </div>
+                    <a href=""><img src="{{ url('/') }}/assets/img/banner-1.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box-ban">
+                    <div>
+                        <span>HIZLI</span>
+                        ÖDEME İŞLEMLERİ
+                    </div>
+                    <a href=""><img src="{{ url('/') }}/assets/img/banner-2.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box-ban">
+                    <div>
+                        <span>CANLI</span>
+                        YARDIM VE DESTEK
+                    </div>
+                    <a href=""><img src="{{ url('/') }}/assets/img/banner-3.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="statics">
+    <div class="head-static">
+        SAYILARLA <span>BAHİSYERİM</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="join">
+                <span>BİZİMLE KAZANMAK İSTER MİSİN?</span>
+                <div class="duble" style="border: 1px solid #ffc722;float: right;">
+                    <a href="/register" class="button-main">HEMEN KAYIT OL <i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+                <i class="icon-bahis"></i>
+                <div class="info bahis">
+                    1.200
+                    <span>KAZANILAN BAHİS</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <i class="icon-uye"></i>
+                <div class="info">
+                23.369
+                <span>KAYITLI ÜYE</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <i class="icon-kupon"></i>
+                <div class="info">
+                    112.302
+                    <span>YAPILAN KUPON</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <i class="icon-partner"></i>
+                <div class="info">
+                    4
+                    <span>PARTNER</span>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

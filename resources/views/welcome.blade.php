@@ -19,12 +19,9 @@
                         <div class="lefts">
                             <h2>{!! $slider->title !!}</h2>
                             <h3>{!! $slider->sub_title !!}</h3>
-                            <p>{!! $slider->content !!}</p>
-                            <a href="{!! $slider->link !!}" class="slider-button">Avantajları İncele</a>
+                            <div class="duble" style="margin-top: 72px; border: 1px solid #ffc722;"><a href="{!! $slider->link !!}" class="slider-button">Detaylı Bilgi <i class="fa fa-chevron-right"></i></a></div>
                         </div>
-                        <div class="rights">
-                            <img src="/uploads/slider/{!! $slider->img !!}" alt="">
-                        </div>
+
                     </div>
                 </div>
                 @endforeach
@@ -38,14 +35,10 @@
             </a>
         </div>
 
-
-
-
 @endsection
 
 @section('content')
     <div class="companies">
-
     @foreach(\App\Site::where('durum',1)->get() as $site)
             <div class="col-xs-6 col-sm-3">
                 <div class="companie-box">
@@ -57,65 +50,63 @@
      @endforeach
 
     </div>
-    <div class="today-match">
-                    <div class="col-md-8">
-                        <div class="left">
-                            <h2>GÜNÜN MAÇI ORAN KARŞILAŞTIRMASI <span class="teams">{!! config('settings.enyuksek_takimlar') !!}</span></h2>
+    <div class="col-md-12">
+        <div class="today-match">
+            <div class="left">
+                <h2>GÜNÜN MAÇI ORAN KARŞILAŞTIRMASI <span class="teams"><i class="icon-gunun-maci"></i> {!! config('settings.enyuksek_takimlar') !!}</span></h2>
 
-                                <div class="d">
-                                    <ul>
-                                        <li>
-                                            <h4>{!! config('settings.enyuksek_site_bir') !!}</h4>
-                                            <i>
-                                                <span>{!! config('settings.enyuksek_oran_bir') !!}</span>
-                                                <span>{!! config('settings.enyuksek_oran_bir_sifir') !!}</span>
-                                                <span>{!! config('settings.enyuksek_oran_bir_iki') !!}</span>
-                                            </i>
-                                        </li>
-                                        <li>
-                                            <h4>{!! config('settings.enyuksek_site_iki') !!}</h4>
-                                            <i>
-                                                <span>{!! config('settings.enyuksek_oran_iki') !!}</span>
-                                                <span>{!! config('settings.enyuksek_oran_iki_sifir') !!}</span>
-                                                <span>{!! config('settings.enyuksek_oran_iki_iki') !!}</span>
-                                            </i>
-                                        </li>
-                                        <li>
-                                            <h4>{!! config('settings.enyuksek_site_uc') !!}</h4>
-                                            <i>
-                                                <span>{!! config('settings.enyuksek_oran_uc') !!}</span>
-                                                <span>{!! config('settings.enyuksek_oran_uc_sifir') !!}</span>
-                                                <span>{!! config('settings.enyuksek_oran_uc_iki') !!}</span>
-                                            </i>
-                                        </li>
-                                        <li>
-                                            <h4>{!! config('settings.enyuksek_site_dort') !!}</h4>
-                                            <i>
-                                                <span>{!! config('settings.enyuksek_oran_dort') !!}</span>
-                                                <span>{!! config('settings.enyuksek_oran_dort_sifir') !!}</span>
-                                                <span>{!! config('settings.enyuksek_oran_dort_iki') !!}</span>
-                                            </i>
-                                        </li>
-                                    </ul>
-                                </div>
-                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="right">
-                            <div class="top">
-                                <div class="high">EN YÜKSEK ORAN</div>
-                                <div class="high-logo"><img src="{!! config('settings.enyuksek_logo') !!}" alt=""></div>
-                            </div>
-                            <div class="bottom">
-                                <div class="rate">{!! config('settings.enyuksek_oran') !!}</div>
-                                <a href="{!! config('settings.enyuksek_link') !!}" target="_blank" class="button-bet">Bahis Yap</a>
-                            </div>
-                        </div>
+                <div class="d">
+                    <ul>
+                        <li>
+                            <h4>{!! config('settings.enyuksek_site_bir') !!}</h4>
+                            <i>
+                                <span>{!! config('settings.enyuksek_oran_bir') !!}</span>
+                                <span>{!! config('settings.enyuksek_oran_bir_sifir') !!}</span>
+                                <span>{!! config('settings.enyuksek_oran_bir_iki') !!}</span>
+                            </i>
+                        </li>
+                        <li>
+                            <h4>{!! config('settings.enyuksek_site_iki') !!}</h4>
+                            <i>
+                                <span>{!! config('settings.enyuksek_oran_iki') !!}</span>
+                                <span>{!! config('settings.enyuksek_oran_iki_sifir') !!}</span>
+                                <span>{!! config('settings.enyuksek_oran_iki_iki') !!}</span>
+                            </i>
+                        </li>
+                        <li>
+                            <h4>{!! config('settings.enyuksek_site_uc') !!}</h4>
+                            <i>
+                                <span>{!! config('settings.enyuksek_oran_uc') !!}</span>
+                                <span>{!! config('settings.enyuksek_oran_uc_sifir') !!}</span>
+                                <span>{!! config('settings.enyuksek_oran_uc_iki') !!}</span>
+                            </i>
+                        </li>
+                        <li>
+                            <h4>{!! config('settings.enyuksek_site_dort') !!}</h4>
+                            <i>
+                                <span>{!! config('settings.enyuksek_oran_dort') !!}</span>
+                                <span>{!! config('settings.enyuksek_oran_dort_sifir') !!}</span>
+                                <span>{!! config('settings.enyuksek_oran_dort_iki') !!}</span>
+                            </i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="top">
+                    <div class="high">EN YÜKSEK ORAN VEREN <span>PARTNERİMİZ</span></div>
+                </div>
+                <div class="bottom">
+                    <div class="high-logo"><img src="{!! config('settings.enyuksek_logo') !!}" alt=""></div>
+
+                    <div class="duble" style="border: 1px solid #222;margin-top: 25px;">
+                        <a href="{!! config('settings.enyuksek_link') !!}" target="_blank" class="button-bet"><i>{!! config('settings.enyuksek_oran') !!}</i> Bahis Yap</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
     <div class="news">
-
-
         @foreach(\App\Article::get() as $article)
 
             <div class="col-xs-6 col-md-3">
@@ -130,15 +121,15 @@
 
     </div>
     <div class="more">
-                    <div class="col-md-9" style="overflow: hidden;">
+        <div class="col-md-9" style="overflow: hidden;">
                         <div class="weekly-bets">
-                            <h2><i class="">#</i> HAFTANIN POPÜLER BAHİSLERİ</h2>
+                            <h2>HAFTANIN POPÜLER BAHİSLERİ</h2>
                             <div class="table-responsive">
                                 <table>
                                     <thead>
                                     <tr>
-                                        <td class="w80"></td>
-                                        <td style="width: 236px"></td>
+                                        <td class="w80">Maç</td>
+                                        <td style="width: 236px">Saat</td>
                                         <td class="w80">1</td>
                                         <td class="w80">X</td>
                                         <td class="w80">2</td>
@@ -154,12 +145,57 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="banner-1">
-                            <h3>Bahis <span>Yerim</span></h3>
-                            <h4>Bize Katılın</h4>
-                            <img src="{{ url('/') }}/assets/img/banner-1-man.png" alt="">
-                        </div>
-                    </div>
-                </div>
+        <div class="col-md-3">
+            <div class="last-win">
+             <h3><i class="icon-son-odeme"></i> SON <span>ÖDEMELER</span></h3>
+                 <div class="padding">
+                     <div class="win-box">
+                                                    <div class="left">
+                                                        <span>M**** B***** K****</span>
+                                                        26.03.2017 16:35
+                                                    </div>
+                                                    <div class="right">
+                                                        <span>350 TL</span>
+                                                    </div>
+                                                </div>
+                     <div class="win-box">
+                                                    <div class="left">
+                                                        <span>M**** B***** K****</span>
+                                                        26.03.2017 16:35
+                                                    </div>
+                                                    <div class="right">
+                                                        <span>350 TL</span>
+                                                    </div>
+                                                </div>
+                     <div class="win-box">
+                                                    <div class="left">
+                                                        <span>M**** B***** K****</span>
+                                                        26.03.2017 16:35
+                                                    </div>
+                                                    <div class="right">
+                                                        <span>350 TL</span>
+                                                    </div>
+                                                </div>
+                     <div class="win-box">
+                                                    <div class="left">
+                                                        <span>M**** B***** K****</span>
+                                                        26.03.2017 16:35
+                                                    </div>
+                                                    <div class="right">
+                                                        <span>350 TL</span>
+                                                    </div>
+                                                </div>
+                     <div class="win-box">
+                                                    <div class="left">
+                                                        <span>M**** B***** K****</span>
+                                                        26.03.2017 16:35
+                                                    </div>
+                                                    <div class="right">
+                                                        <span>350 TL</span>
+                                                    </div>
+                                                </div>
+                 </div>
+             </div>
+        </div>
+    </div>
 @endsection

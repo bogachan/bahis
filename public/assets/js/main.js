@@ -64,3 +64,7 @@
         }
 
     }
+
+
+    var sizeLeftMenu = document.querySelector('.left-menu').offsetHeight;
+    document.querySelector('.content-page').style.minHeight = sizeLeftMenu+'px';

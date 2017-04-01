@@ -13,7 +13,7 @@ class User extends Authenticatable
      */
 
     protected $fillable = [
-        'name', 'email', 'password','tel','sehir','ulke','username','durum','notlar','kod'
+        'name', 'email', 'password','tel','sehir','ulke','username','durum','notlar','kod','afi_oran','afi_kod'
     ];
 
     /**
@@ -63,5 +63,11 @@ class User extends Authenticatable
 
     public function messages(){
         return $this->hasMany('App\Message');
+    }
+
+
+    public function afis()
+    {
+        return $this->hasMany("App\Afi");
     }
 }

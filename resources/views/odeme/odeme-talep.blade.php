@@ -1,5 +1,11 @@
 @extends('layouts.app')
-
+@section('sub_header')
+    <h1>Para Yatır</h1>
+    <ol class="breadcrumb">
+        <li><a href="/">Anasayfa</a></li>
+        <li class="active">Para Yatır</li>
+    </ol>
+@endsection
 @section('content')
     <?php $sites =  \App\Site::all(); ?>
 
@@ -20,13 +26,12 @@
     <div class="transfer odemeSecin">
         <ul role="tablist">
             <li role="presentation" class="active">
-                <a href="#havale" aria-controls="havale" role="tab" data-toggle="tab" aria-expanded="false">
-                    Havale İle Öde <i class="fa fa-bank"></i></a>
-
+                <a href="#havale" class="brl" aria-controls="havale" role="tab" data-toggle="tab" aria-expanded="false">
+                    <i class="icon-havale"></i>  Havale İle Öde</a>
             </li>
-            <li role="presentation">
-                <a href="#cepbank" aria-controls="cepbank" role="tab" data-toggle="tab" aria-expanded="true">
-                    <i class="fa fa-phone"></i> Cepbank İle Öde</a>
+            <li role="presentation" >
+                <a href="#cepbank" class="brr" aria-controls="cepbank" role="tab" data-toggle="tab" aria-expanded="true">
+                    <i class="icon-tel"></i> Cepbank İle Öde</a>
             </li>
         </ul>
 
@@ -98,8 +103,7 @@
 
                         <input type="hidden" name="user_id" value="{!! $user->id !!} ">
                         <input type="hidden" name="odeme_tur" value="banka">
-                        <button type="submit" class="button-primary fr" style="margin-top: 2px;height: 48px;line-height: 48px;">Gönder</button>
-
+                            <button type="submit" class="form-button fr" >Gönder <i class="fa fa-chevron-right"></i></button>
                     </div>
                     <div class="col-md-6">
                         <div id="BankVal">
@@ -185,7 +189,7 @@
                         </div>
                             <input type="hidden" name="user_id" value="{!! $user->id !!} ">
                             <input type="hidden" name="odeme_tur" value="cep">
-                            <button type="submit" class="button-primary fr" style="margin-top: 2px;height: 48px;line-height: 48px;">Gönder</button>
+                        <button type="submit" class="form-button fr" style=" margin-top: 20px; margin-right: 29px; ">Gönder <i class="fa fa-chevron-right"></i></button>
 
 
                 {!! Form::close() !!}

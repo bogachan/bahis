@@ -49,9 +49,26 @@ class AuthController extends Controller
 
         DB::table('role_user')->insert(['role_id' => 4,'user_id' => $user->id]);
 
+        DB::table('users')
+            ->where('id', $user->id)
+            ->update(['afi_kod' => $user->id*10]);
+
         DB::table('events')->insert(
             ['type' => 2, 'content' => 'Yeni Üye '.$data['name'] ]
         );
+
+        if(!empty($data['ref'])){
+            DB::table('afis')->insert(
+                ['user_id' => $user->id, 'afi_id' => $data['ref']]
+            );
+        }elseif (!empty($_COOKIE['referans'])){
+            DB::table('afis')->insert(
+                ['user_id' => $user->id, 'afi_id' => $_COOKIE['referans']]
+            );
+        }else{
+
+        }
+
 
         return $user;
     }

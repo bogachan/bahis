@@ -1,10 +1,13 @@
+#header{
+  position: relative;
+  z-index: 100;
+}
 #header .bottom{
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
-  background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%);
-  padding: 35px 0;
+  padding: 27px 0;
   z-index: 10;
   position: relative;
-  height: 94px;
+  height: 81px;
+  background-color: rgba(0, 0, 0, 0.3);
   .logo{
     float: left;
     a{
@@ -17,16 +20,17 @@
       float: left;
       li{
         float: left;
-        margin-right: 31px;
+        margin-right: 76px;
         &:last-child{
           margin-right: 0;
         }
       }
       a{
         color: #fff;
-        font-size: 17px;
-        font-weight: 400;
-        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        text-transform: uppercase;
         &:hover{
           opacity:.7;
         }
@@ -37,13 +41,11 @@
 }
 
 #header .top{
-  box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5);
-  background-color: #413f6a;
-  padding: 8px 0;
+  padding: 6px 0;
 }
 
 .login-menu{
-  float: right;
+  float: right; height: 30px;
   li{
     float: left;
     margin-right: 26px;
@@ -63,15 +65,22 @@
     }
   }
   .dropdown{
-    padding: 7px 16px;
+  .dropdown-toggle{
+    padding: 8px 0px 16px 32px;
     font-size: 16px;
     font-weight: 400;
-    color: #ffffff;
+    background-color: #ffc722;
     position: relative;
-    height: 36px;
-    box-shadow: -2px 5px 8px rgba(27, 26, 85, 0.21);
-    border-radius: 2px;
-    background-color: #3ac27b;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
+    line-height: 32px;
+    color: #222;
+    font-weight: 600;
+    .caret{
+      margin: 0 28px 0 10px;
+    }
+  }
+
     a{
       color:#fff;
     }
@@ -93,10 +102,17 @@
   }
 }
 #slider{
+  margin-bottom: -123px;
   width: 100%;
-  height: 497px;
+  height: 705px;
   color: #fff;
   overflow: hidden;
+  background: black;
+  position: relative;
+  top: -123px;
+  .item{
+    height: 705px;
+  }
   a{
     color:#fff;
   }
@@ -106,18 +122,30 @@
   }
   .lefts{
     float: left;
-    width: 74%;
-    padding-top: 78px;
+    width: 70%;
+    padding-top: 230px;
   }
   h2{
-    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.36);
+    color: #fff;
+    font-size: 38px;
     font-weight: 700;
-    margin-bottom: 20px;
+    letter-spacing: -1.36px;
+    text-transform: uppercase;
+    padding: 22px;
+    display: inline-block;
   }
   h3{
-    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.36);
+    padding: 22px;
+    color: #fff;
+    font-size: 28px;
     font-weight: 300;
-    margin-bottom: 34px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 288px;
+
   }
   p{
     max-width: 634px;
@@ -133,15 +161,40 @@
 
 .slider-button{
   box-shadow: 0 2px 4px rgba(100, 100, 100, 0.5);
-  background-color: #413f6a;
-  padding: 13px 24px;
-  font-size: 19px;
-  font-weight: 400;
+  background-color: #ffc722;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.57px;
+  text-transform: uppercase;
+  float: left;
+  width: 253px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  i{
+    width: 64px;
+    height: 44px;
+    background-color: #222;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    line-height: 50px;
+    -webkit-clip-path: polygon(33% 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(33% 0, 100% 0, 100% 100%, 0% 100%);
+    padding-left: 16px;
+    font-size: 16px;
+    float: right;
+  }
   &:hover{
     background-color: #77a862;
   }
 }
 
+.duble{
+  display: inline-block;
+  padding: 5px;
+
+}
 
 .carousel-control.left {
   background-image: linear-gradient(to right,rgba(0, 0, 0, 0.15) 0,rgba(0, 0, 0, 0) 100%);
@@ -230,3 +283,34 @@
   }
 }
 
+.logo-bg{
+  background-image: url(../img/logo_bg.png);
+  height: 134px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -16%;
+  top: -50px;
+  width: 59%;
+}
+
+.sub-header{
+  background-color: #222;
+  color: #fff;
+  padding: 23px 0;
+}
+
+.not-home{
+  background-color: #222;
+}
+
+.breadcrumb {
+  padding: 0;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  margin: 15px 0 0 0;
+  color: #909090;
+  a{
+    color: #909090;
+  }
+}
