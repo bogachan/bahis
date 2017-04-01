@@ -30,18 +30,7 @@
 @endsection
 
 @section('content')
-    <div class="companies">
-    @foreach(\App\Site::where('durum',1)->get() as $site)
-            <div class="col-xs-6 col-sm-3">
-                <div class="companie-box">
-                    <a href="{!! $site->link !!}" target="_blank">
-                        {!! $site->name !!}
-                    </a>
-                </div>
-            </div>
-     @endforeach
 
-    </div>
     <div class="col-md-12">
         <div class="today-match">
             <div class="left">
