@@ -745,7 +745,16 @@
 }
 
 .more-sytle{
-  background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%);
+  background:
+          -webkit-linear-gradient(45deg, hsla(21, 93%, 46%, 1) 0%, hsla(21, 93%, 46%, 0) 70%),
+          -webkit-linear-gradient(315deg, hsla(59, 100%, 46%, 1) 10%, hsla(59, 100%, 46%, 0) 80%),
+          -webkit-linear-gradient(225deg, hsla(17, 94%, 56%, 1) 10%, hsla(17, 94%, 56%, 0) 80%),
+          -webkit-linear-gradient(135deg, hsla(91, 97%, 25%, 1) 100%, hsla(91, 97%, 25%, 0) 70%);
+  background:
+          linear-gradient(45deg, hsla(21, 93%, 46%, 1) 0%, hsla(21, 93%, 46%, 0) 70%),
+          linear-gradient(135deg, hsla(59, 100%, 46%, 1) 10%, hsla(59, 100%, 46%, 0) 80%),
+          linear-gradient(225deg, hsla(17, 94%, 56%, 1) 10%, hsla(17, 94%, 56%, 0) 80%),
+          linear-gradient(315deg, hsla(91, 97%, 25%, 1) 100%, hsla(91, 97%, 25%, 0) 70%);
 }
 .center-low{
   width: 450px;

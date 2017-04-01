@@ -16,7 +16,7 @@
 
 <div class="center-low">
 
-    <a class="logo-white" href="{{ url('/') }}"><img src="{{ url('assets') }}/img/logo-white.png" alt=""></a>
+    <a class="logo-white" href="{{ url('/') }}"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
 
     <form role="form" method="POST" action="{{ url('/login') }}" class="puts login-form">
         {{ csrf_field() }}

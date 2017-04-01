@@ -928,7 +928,8 @@ ul, li, h1, h2, h3, h4 {
     top: 7px; }
 
 .more-sytle {
-  background-image: linear-gradient(to right, #859fe5 0%, #1752e1 100%); }
+  background: -webkit-linear-gradient(45deg, #e25508 0%, rgba(226, 85, 8, 0) 70%), -webkit-linear-gradient(315deg, #ebe700 10%, rgba(235, 231, 0, 0) 80%), -webkit-linear-gradient(225deg, #f86125 10%, rgba(248, 97, 37, 0) 80%), -webkit-linear-gradient(135deg, #3e7e02 100%, rgba(62, 126, 2, 0) 70%);
+  background: linear-gradient(45deg, #e25508 0%, rgba(226, 85, 8, 0) 70%), linear-gradient(135deg, #ebe700 10%, rgba(235, 231, 0, 0) 80%), linear-gradient(225deg, #f86125 10%, rgba(248, 97, 37, 0) 80%), linear-gradient(315deg, #3e7e02 100%, rgba(62, 126, 2, 0) 70%); }
 
 .center-low {
   width: 450px;

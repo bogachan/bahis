@@ -19,7 +19,7 @@
 
 <div class="center-low-join">
 
-    <a class="logo-white" href="{{ url('/') }}"><img src="{{asset('assets/img/logo-white.png')}}" alt=""></a>
+    <a class="logo-white" href="{{ url('/') }}"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
 
     <form class="puts login-form" role="form" method="POST" action="{{ url('/register') }}">
         {{ csrf_field() }}
