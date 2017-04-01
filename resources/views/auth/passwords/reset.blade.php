@@ -51,7 +51,7 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
 
-                                <button type="submit" class="form-button fr" style="margin-top: 2px ">Şifre Sıfırla<i class="fa fa-chevron-right"></i><</button>
+                                <button type="submit" class="form-button fr" style="margin-top: 2px ">Şifre Sıfırla<i class="fa fa-chevron-right"></i></button>
 
                             </div>
                         </div>
