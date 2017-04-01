@@ -123,7 +123,7 @@
                         <li><a href="{{ url('/') }}">Anasayfa</a></li>
                         <li><a href="{{ url('/sayfa/hakkimizda') }}">Hakkımızda</a></li>
                         <li><a href="{{ url('/sayfa/sik-sorulan-sorular') }}">Sık Sorulan Sorular</a></li>
-                        <li><a href="{{ url('/sayfa/kurallar') }}">Kurallar</a></li>
+                        <li><a href="{{ url('/promosyonlar/') }}">Promosyonlar</a></li>
                         <li><a href="{{ url('/iletisim/') }}">İletişim</a></li>
                     </ul>
                 </div>

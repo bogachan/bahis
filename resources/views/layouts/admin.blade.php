@@ -296,6 +296,9 @@
                     </ul>
                 </li>
 
+
+                <li><a href="/admin/promosyon"><i class="fa fa-beer"></i> <span>Promosyonlar</span></a></li>
+
                 <li><a href="/admin/ayarlar"><i class="fa fa-paint-brush"></i> <span>Ayarlar</span></a></li>
 
                 <li><a href="/macbot" target="_blank"><i class="fa fa-android"></i> <span>Maç Bot</span></a></li>

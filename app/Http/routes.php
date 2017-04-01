@@ -54,6 +54,8 @@ Route::group(['middleware' => ['admin_mi','auth']],function (){
         Route::resource('/admin/site','SiteController');
 
         Route::resource('/admin/slider','SliderController');
+        Route::resource('/admin/promosyon','PromoController');
+
 
         Route::resource("/admin/sayfa","PageController");
         Route::resource('/admin/islem','PaymentController');
@@ -104,9 +106,8 @@ Route::group(['middleware' => ['auth']],function (){
 
 Route::get('/home', 'HomeController@index');
 Route::get('/iletisim',function (){ return view('iletisim'); });
-
+Route::get('/promosyonlar', 'PromoController@index');
 Route::post('/iletisim/gonder', 'MessageController@gonder');
-
 Route::get('/sayfa/{slug}', 'PageController@show');
 Route::get('/haber/{slug}', 'ArticleController@show');
 

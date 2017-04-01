@@ -132,7 +132,7 @@
                     <li><a href="{{ url('/') }}">Anasayfa</a></li>
                     <li><a href="{{ url('/') }}/sayfa/hakkimizda">Hakkımızda</a></li>
                     <li><a href="{{ url('/') }}/sayfa/sik-sorulan-sorular">Sık Sorulan Sorular</a></li>
-                    <li><a href="{{ url('/') }}/sayfa/kurallar">Kurallar</a></li>
+                    <li><a href="{{ url('/promosyonlar/') }}">Promosyonlar</a></li>
                     <li><a href="{{ url('/') }}/iletisim/">İletişim</a></li>
                 </ul>
 
@@ -149,11 +149,11 @@
         <div class="col-md-6 we-left">
             <h2>BAHİSYERİM <span>NEDİR?</span></h2>
             <p>
-                Sed lorem ligula, venenatis a vestibulum sit amet, posuere ut massa. Duis consectetur, ex sodales ullamcorper blandit, ex leo vestibulum erat, id dignissim risus quam non magna. Quisque fermentum, felis vel placerat dignissim, nunc dolor placerat dui, sollicitudin sagittis enim quam quis ipsum. Proin gravida metus vel sapien malesuada, quis ornare orci molestie. Sed sollicitudin, ipsum non imperdiet facilisis, nibh risus pellentesque leo, nec iaculis eros tellus quis massa.
+                {!! config('settings.site_hakkimizda') !!}
             </p>
 
             <div class="duble" style="border: 1px solid #222">
-                <a href="#" class="button">Devamını Oku</a>
+                <a href="/sayfa/hakkimizda" class="button">Devamını Oku</a>
             </div>
 
         </div>
@@ -338,28 +338,28 @@
             <div class="col-md-3">
                 <i class="icon-bahis"></i>
                 <div class="info bahis">
-                    <b class="kazanilan">6.216</b>
+                    <b class="count">6216</b>
                     <span>KAZANILAN BAHİS</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-uye"></i>
                 <div class="info">
-                    <b class="kayitli">4.599</b>
+                    <b class="count">4599</b>
                     <span>KAYITLI ÜYE</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-kupon"></i>
                 <div class="info">
-                    <b class="yapilan">28.302</b>
+                    <b class="count">28302</b>
                     <span>YAPILAN KUPON</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-partner"></i>
                 <div class="info">
-                    4
+                    <b class="count">4</b>
                     <span>PARTNER</span>
                 </div>
             </div>
