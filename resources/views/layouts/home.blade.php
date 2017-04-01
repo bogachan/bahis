@@ -161,6 +161,60 @@
 
             <h2>HANGİ FİRMALARLA <span>ÇALIŞIYORUZ?</span></h2>
 
+
+            <div id="slider-company-mobil" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="compy-logo">
+                            <a href="https://www.rakipbahis.com/login/" target="_blank">
+                                <img src="/assets/img/rivo-logo.png" alt="">
+                                <span>Rivalo</span>
+                            </a>
+                        </div>
+
+                     </div>
+                    <div class="item ">
+                        <div class="compy-logo">
+                            <a href="https://www.temponet.com/" target="_blank">
+                                <img style="border-radius:5px" src="/assets/img/tempobet-logo.png" alt="">
+                                <span>Tempobet</span>
+                            </a>
+                        </div>
+
+                     </div>
+                    <div class="item ">
+                        <div class="compy-logo">
+                            <a href="http://wingobet10.com" target="_blank">
+                                <img src="/assets/img/wingo-logo.png" alt="" style=" background: azure; border-radius: 5px; padding: 10px; height: 76px; ">
+                                <span>WingoBet</span>
+                            </a>
+                        </div>
+
+                     </div>
+                    <div class="item ">
+                        <div class="compy-logo">
+                            <a href="https://www.trtipbet.net/tr/online-spor-bahis" target="_blank">
+                                <img src="/assets/img/tipbet-logo.png" alt="" style=" background: azure; border-radius: 5px; padding: 10px; height: 76px; ">
+                                <span>Tipbet</span>
+                            </a>
+                        </div>
+
+                     </div>
+                </div>
+
+                <div class="arrows">
+                    <a href="#slider-company-mobil" class="ar-left" role="button" data-slide="prev">
+                        <i class="fa fa-chevron-left glyphicon-chevron-left"></i>
+                    </a>
+                    <a href="#slider-company-mobil" class="ar-right" role="button" data-slide="next">
+                        <i class="fa fa-chevron-right glyphicon-chevron-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 
@@ -284,21 +338,21 @@
             <div class="col-md-3">
                 <i class="icon-bahis"></i>
                 <div class="info bahis">
-                    6.216
+                    <b class="kazanilan">6.216</b>
                     <span>KAZANILAN BAHİS</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-uye"></i>
                 <div class="info">
-                4.599
-                <span>KAYITLI ÜYE</span>
+                    <b class="kayitli">4.599</b>
+                    <span>KAYITLI ÜYE</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-kupon"></i>
                 <div class="info">
-                    28.302
+                    <b class="yapilan">28.302</b>
                     <span>YAPILAN KUPON</span>
                 </div>
             </div>

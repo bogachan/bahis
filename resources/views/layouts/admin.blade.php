@@ -165,7 +165,7 @@
             <ul class="sidebar-menu">
                 <li class="header">MENÜ</li>
 
-                <li><a href="/"><i class="fa fa-link"></i> <span>Anasayfa</span></a></li>
+                <li><a href="/" target="_blank"><i class="fa fa-link"></i> <span>Anasayfa</span></a></li>
 
 
                 <li><a href="/admin/uyeler"><i class="fa fa-user"></i> <span>Üyeler</span></a></li>
@@ -297,6 +297,9 @@
                 </li>
 
                 <li><a href="/admin/ayarlar"><i class="fa fa-paint-brush"></i> <span>Ayarlar</span></a></li>
+
+                <li><a href="/macbot" target="_blank"><i class="fa fa-android"></i> <span>Maç Bot</span></a></li>
+
 
             </ul>
             <!-- /.sidebar-menu -->
