@@ -102,7 +102,7 @@
 
     </div>
     <div class="more">
-        <div class="col-md-9" style="overflow: hidden;">
+    <div class="col-md-9" style="overflow: hidden;">
                         <div class="weekly-bets">
                             <h2>HAFTANIN POPÜLER BAHİSLERİ</h2>
                             <div class="table-responsive">
@@ -126,57 +126,57 @@
                             </div>
                         </div>
                     </div>
-        <div class="col-md-3">
+    <div class="col-md-3">
             <div class="last-win">
-             <h3><i class="icon-son-odeme"></i> SON <span>ÖDEMELER</span></h3>
-                 <div class="padding">
-                     <div class="win-box">
-                                                    <div class="left">
-                                                        <span>M**** B***** K****</span>
-                                                        26.03.2017 16:35
-                                                    </div>
-                                                    <div class="right">
-                                                        <span>350 TL</span>
-                                                    </div>
-                                                </div>
-                     <div class="win-box">
-                                                    <div class="left">
-                                                        <span>M**** B***** K****</span>
-                                                        26.03.2017 16:35
-                                                    </div>
-                                                    <div class="right">
-                                                        <span>350 TL</span>
-                                                    </div>
-                                                </div>
-                     <div class="win-box">
-                                                    <div class="left">
-                                                        <span>M**** B***** K****</span>
-                                                        26.03.2017 16:35
-                                                    </div>
-                                                    <div class="right">
-                                                        <span>350 TL</span>
-                                                    </div>
-                                                </div>
-                     <div class="win-box">
-                                                    <div class="left">
-                                                        <span>M**** B***** K****</span>
-                                                        26.03.2017 16:35
-                                                    </div>
-                                                    <div class="right">
-                                                        <span>350 TL</span>
-                                                    </div>
-                                                </div>
-                     <div class="win-box">
-                                                    <div class="left">
-                                                        <span>M**** B***** K****</span>
-                                                        26.03.2017 16:35
-                                                    </div>
-                                                    <div class="right">
-                                                        <span>350 TL</span>
-                                                    </div>
-                                                </div>
-                 </div>
-             </div>
+                <h3><i class="icon-son-odeme"></i> SON <span>ÖDEMELER</span></h3>
+                <div class="padding">
+                    <div class="win-box">
+                        <div class="left">
+                            <span>B******* E****</span>
+                            26.03.2017 16:35
+                        </div>
+                        <div class="right">
+                            <span>350 TL</span>
+                        </div>
+                    </div>
+                    <div class="win-box">
+                        <div class="left">
+                            <span>B**** K***</span>
+                            26.03.2017 16:35
+                        </div>
+                        <div class="right">
+                            <span>900 TL</span>
+                        </div>
+                    </div>
+                    <div class="win-box">
+                        <div class="left">
+                            <span>H****** A*****</span>
+                            26.03.2017 16:35
+                        </div>
+                        <div class="right">
+                            <span>2200 TL</span>
+                        </div>
+                    </div>
+                    <div class="win-box">
+                        <div class="left">
+                            <span>M**** B***** K****</span>
+                            26.03.2017 16:35
+                        </div>
+                        <div class="right">
+                            <span>550 TL</span>
+                        </div>
+                    </div>
+                    <div class="win-box">
+                        <div class="left">
+                            <span>S**** Y*******</span>
+                            26.03.2017 16:35
+                        </div>
+                        <div class="right">
+                            <span>150 TL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

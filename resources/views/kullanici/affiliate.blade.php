@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <h1>Afilate Paneli</h1>
+    <h1>Ortaklık</h1>
 
     <div class="boxo row">
         <div class="col-md-3">

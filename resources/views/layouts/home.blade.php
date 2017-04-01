@@ -389,7 +389,6 @@
         });
     </script>
 
-
     <div class="modal fade" id="Duyuru-{!! $modal->id !!}" tabindex="-1" role="dialog" aria-labelledby="Duyuru-{!! $modal->id !!}" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
