@@ -71,6 +71,9 @@ ul, li, h1, h2, h3, h4 {
     float: left; }
     #header .bottom .logo a {
       display: block; }
+    #header .bottom .logo img {
+      position: relative;
+      top: -24px; }
   #header .bottom .menu {
     float: right; }
     #header .bottom .menu .top-menu {
@@ -288,12 +291,13 @@ ul, li, h1, h2, h3, h4 {
 
 .logo-bg {
   background-image: url(../img/logo_bg.png);
-  height: 134px;
+  height: 139px;
   background-repeat: no-repeat;
   position: absolute;
-  left: -16%;
+  left: 0;
   top: -50px;
-  width: 59%; }
+  width: 39%;
+  background-size: 100% 139px; }
 
 .sub-header {
   background-color: #222;

@@ -87,7 +87,7 @@
         <div class="logo-bg"></div>
         <div class="container">
             <div class="logo">
-                <a href="{{ url('/') }}"><img style="position:relative;top:-13px" src="{{ url('/') }}/assets/img/logo-2.png" alt=""></a>
+                <a href="{{ url('/') }}"><img src="{{ url('/') }}/assets/img/logo-2.png" alt=""></a>
             </div>
             <div class="menu">
 
