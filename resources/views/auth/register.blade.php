@@ -330,7 +330,7 @@
 
                 <div>
                     <span class="okey"><a href="">Hizmet şartlarını</a> okudum ve kabul ediyorum.</span>
-                    <button type="submit" class="button-primary fr" style="margin-top: 2px;height: 48px;line-height: 48px;">Kayıt Ol</button>
+                    <button type="submit" class="form-button fr" style="margin-top: 2px ">Kayıt Ol</button>
                 </div>
             </div>
         </div>

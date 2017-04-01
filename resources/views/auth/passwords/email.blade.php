@@ -22,7 +22,8 @@
                         </span>
                     @endif
 
-                    <button type="submit" class="button-primary fr">Sıfırla</button>
+                    <button type="submit" class="form-button fr" style="margin-top: 2px "> Sıfırla</button>
+
                 </form>
         </div>
     </div>
