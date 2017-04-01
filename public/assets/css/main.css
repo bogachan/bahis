@@ -1583,7 +1583,8 @@ label {
 .prom-box {
   float: left;
   width: 100%;
-  position: relative; }
+  position: relative;
+  margin-bottom: 30px; }
   .prom-box img {
     max-width: 100%; }
   .prom-box div {

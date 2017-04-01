@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/promo-create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/promo-index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/promo-show.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/promo.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PromoController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PromoController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/base/_layout.scss" afterPath="$PROJECT_DIR$/public/assets/css/base/_layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/main.css" afterPath="$PROJECT_DIR$/public/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/main.css.map" afterPath="$PROJECT_DIR$/public/assets/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/main.js" afterPath="$PROJECT_DIR$/public/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/promo-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/promo-index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,16 +42,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="108" column="25" lean-forward="false" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,23 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/css/base/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="1626" column="5" lean-forward="false" selection-start-line="1626" selection-start-column="5" selection-end-line="1626" selection-end-column="5" />
+            <state relative-caret-position="-179">
+              <caret line="1538" column="0" lean-forward="false" selection-start-line="1538" selection-start-column="0" selection-end-line="1538" selection-end-column="0" />
               <folding>
-                <element signature="e#28677#29165#0" expanded="false" />
+                <element signature="e#28699#29187#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="promo-index.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="promo-index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/promo-index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="15" column="73" lean-forward="false" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -101,6 +83,21 @@
               <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="e#40#54#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PromoController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PromoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+              <folding>
+                <element signature="e#46#60#0#PHP" expanded="true" />
+                <element signature="e#1024#1154#0#PHP" expanded="false" />
+                <element signature="e#1160#1698#0#PHP" expanded="false" />
+                <element signature="e#1704#1851#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -246,16 +243,16 @@
         <option value="$PROJECT_DIR$/public/assets/js/main.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/app/Promo.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PromoController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/promo-show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/promo-create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/promo-index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PromoController.php" />
         <option value="$PROJECT_DIR$/resources/views/promo.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/base/_layout.scss" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PromoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/promo-index.blade.php" />
       </list>
     </option>
   </component>
@@ -729,7 +726,7 @@
       <workItem from="1491013834791" duration="1509000" />
       <workItem from="1491041145649" duration="5667000" />
       <workItem from="1491055466280" duration="2482000" />
-      <workItem from="1491060696355" duration="6686000" />
+      <workItem from="1491060696355" duration="7099000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -749,7 +746,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162075000" />
+    <option name="totallyTimeSpent" value="162488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,7 +770,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.49229783" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21116817" sideWeight="0.5092199" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30242512" sideWeight="0.47689345" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30242512" sideWeight="0.47689345" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1108,21 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PromoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding>
-            <element signature="e#46#60#0#PHP" expanded="true" />
-            <element signature="e#439#519#0#PHP" expanded="false" />
-            <element signature="e#525#1015#0#PHP" expanded="false" />
-            <element signature="e#1021#1151#0#PHP" expanded="false" />
-            <element signature="e#1157#1695#0#PHP" expanded="false" />
-            <element signature="e#1701#1848#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/slider-show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1136,21 +1118,6 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/SliderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#292#450#0#PHP" expanded="false" />
-            <element signature="e#456#537#0#PHP" expanded="false" />
-            <element signature="e#543#1311#0#PHP" expanded="false" />
-            <element signature="e#1317#1451#0#PHP" expanded="false" />
-            <element signature="e#1457#2281#0#PHP" expanded="false" />
-            <element signature="e#2287#2434#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,14 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/promo-index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/promo.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1214,6 +1173,31 @@
           <folding>
             <element signature="e#874#881#1#HTML" expanded="true" />
             <element signature="e#1349#1396#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/base/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="1538" column="0" lean-forward="false" selection-start-line="1538" selection-start-column="0" selection-end-line="1538" selection-end-column="0" />
+          <folding>
+            <element signature="e#28699#29187#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/SliderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="e#292#450#0#PHP" expanded="false" />
+            <element signature="e#456#537#0#PHP" expanded="false" />
+            <element signature="e#543#1311#0#PHP" expanded="false" />
+            <element signature="e#1317#1451#0#PHP" expanded="false" />
+            <element signature="e#1457#2281#0#PHP" expanded="false" />
+            <element signature="e#2287#2434#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1228,13 +1212,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/base/_layout.scss">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PromoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="1626" column="5" lean-forward="false" selection-start-line="1626" selection-start-column="5" selection-end-line="1626" selection-end-column="5" />
+        <state relative-caret-position="608">
+          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
           <folding>
-            <element signature="e#28677#29165#0" expanded="false" />
+            <element signature="e#46#60#0#PHP" expanded="true" />
+            <element signature="e#1024#1154#0#PHP" expanded="false" />
+            <element signature="e#1160#1698#0#PHP" expanded="false" />
+            <element signature="e#1704#1851#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/promo-index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="73" lean-forward="false" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>

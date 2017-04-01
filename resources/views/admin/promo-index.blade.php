@@ -13,7 +13,7 @@
         </div>
         <div class="box-body table-responsive no-padding">
 
-            <a href="/admin/promosyon/create" class="btn-default">Yeni Promosyon Ekle</a>
+            <a href="/admin/promosyon/create" class="btn bg-orange margin">Yeni Promosyon Ekle</a>
 
             <table class="table table-hover">
                 <thead>

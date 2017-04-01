@@ -41,7 +41,7 @@ class PromoController extends Controller
         Promo::create($input);
 
         Session::flash('durum',1);
-        return redirect('/admin/slider');
+        return redirect('/admin/promosyon');
     }
 
     public function show($id)
