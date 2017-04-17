@@ -4,10 +4,12 @@ namespace App\Http\Controllers\Admin;
 
 use App\Site;
 use Illuminate\Http\Request;
+use App\Img;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Session;
+use Intervention\Image\Facades\Image;
 
 class SiteController extends Controller
 {
@@ -41,7 +43,25 @@ class SiteController extends Controller
      */
     public function store(Request $request)
     {
+
+        $time = time();
         $input = $request->all();
+        $logo = $request->file("logo");
+        $img = $request->file("img");
+
+
+
+        if($logo = $request->file("logo"))
+        {
+            $input['logo'] = "".$time."-".$logo->getClientOriginalName();
+            Image::make($logo->getRealPath())->save(public_path("uploads/".$input['logo']));
+        }
+
+        if($img = $request->file("img"))
+        {
+            $input['img'] = $time."-".$img->getClientOriginalName();
+            Image::make($img->getRealPath())->save(public_path("uploads/".$input['img']));
+        }
 
         Site::create($input);
         Session::flash('durum',1);
@@ -83,6 +103,25 @@ class SiteController extends Controller
         $input = $request->all();
 
         $site = Site::find($id);
+
+        $time = time();
+
+
+        if($resim = $request->file("logo"))
+        {
+            $logo = $request->file("logo");
+            $input['logo'] = "".$time."-".$logo->getClientOriginalName();
+            Image::make($resim->getRealPath())->save(public_path("uploads/".$input['logo']));
+        }
+
+        if($resim2 = $request->file("img"))
+        {
+            $img = $request->file("img");
+            $input['img'] = $time."-".$img->getClientOriginalName();
+            Image::make($resim2->getRealPath())->save(public_path("uploads/".$input['img']));
+
+        }
+
         $site->update($input);
 
         Session::flash('durum',1);

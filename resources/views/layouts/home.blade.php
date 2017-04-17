@@ -28,10 +28,8 @@
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
         ga('create', 'UA-88392997-1', 'auto');
         ga('send', 'pageview');
-
     </script>
 
 </head>
@@ -145,122 +143,65 @@
 
 <div class="we">
     <div class="container">
-    <div class="row">
-        <div class="col-md-6 we-left">
-            <h2>BAHİSYERİM <span>NEDİR?</span></h2>
-            <p>
-                {!! config('settings.site_hakkimizda') !!}
-            </p>
+        <div class="row">
+            <div class="col-md-6 we-left">
+                <h2>BAHİSYERİM <span>NEDİR?</span></h2>
+                <p>
+                    {!! config('settings.site_hakkimizda') !!}
+                </p>
 
-            <div class="duble" style="border: 1px solid #222">
-                <a href="/sayfa/hakkimizda" class="button">Devamını Oku</a>
-            </div>
-
-        </div>
-        <div class="col-md-6 we-right">
-
-            <h2>HANGİ FİRMALARLA <span>ÇALIŞIYORUZ?</span></h2>
-
-
-            <div id="slider-company-mobil" class="carousel slide" data-ride="carousel">
-
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <div class="compy-logo">
-                            <a href="https://www.rakipbahis.com/login/" target="_blank">
-                                <img src="/assets/img/rivo-logo.png" alt="">
-                                <span>Rivalo</span>
-                            </a>
-                        </div>
-
-                     </div>
-                    <div class="item ">
-                        <div class="compy-logo">
-                            <a href="https://www.temponet.com/" target="_blank">
-                                <img style="border-radius:5px" src="/assets/img/tempobet-logo.png" alt="">
-                                <span>Tempobet</span>
-                            </a>
-                        </div>
-
-                     </div>
-                    <div class="item ">
-                        <div class="compy-logo">
-                            <a href="http://wingobet10.com" target="_blank">
-                                <img src="/assets/img/wingo-logo.png" alt="" style=" background: azure; border-radius: 5px; padding: 10px; height: 76px; ">
-                                <span>WingoBet</span>
-                            </a>
-                        </div>
-
-                     </div>
-                    <div class="item ">
-                        <div class="compy-logo">
-                            <a href="https://www.trtipbet.net/tr/online-spor-bahis" target="_blank">
-                                <img src="/assets/img/tipbet-logo.png" alt="" style=" background: azure; border-radius: 5px; padding: 10px; height: 76px; ">
-                                <span>Tipbet</span>
-                            </a>
-                        </div>
-
-                     </div>
-                </div>
-
-                <div class="arrows">
-                    <a href="#slider-company-mobil" class="ar-left" role="button" data-slide="prev">
-                        <i class="fa fa-chevron-left glyphicon-chevron-left"></i>
-                    </a>
-                    <a href="#slider-company-mobil" class="ar-right" role="button" data-slide="next">
-                        <i class="fa fa-chevron-right glyphicon-chevron-right"></i>
-                    </a>
+                <div class="duble" style="border: 1px solid #222">
+                    <a href="/sayfa/hakkimizda" class="button">Devamını Oku</a>
                 </div>
 
             </div>
+            <div class="col-md-6 we-right">
+
+                <?php $sites = DB::table('sites')->orderBy('id', 'desc')->get(); ?>
+                <h2>HANGİ FİRMALARLA <span>ÇALIŞIYORUZ?</span></h2>
+
+                <div id="slider-company-mobil" class="carousel slide" data-ride="carousel">
+                    @foreach($sites as $key => $site)
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item @if($key == 0) active  @endif">
+                            <div class="compy-logo">
+                                <a href="{!! $site->link !!}" target="_blank">
+                                    <img src="/uploads/{!! $site->logo !!}" class="compy-logo-m" alt="">
+                                    <span>{!! $site->name !!}</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                    <div class="arrows">
+                        <a href="#slider-company-mobil" class="ar-left" role="button" data-slide="prev">
+                            <i class="fa fa-chevron-left glyphicon-chevron-left"></i>
+                        </a>
+                        <a href="#slider-company-mobil" class="ar-right" role="button" data-slide="next">
+                            <i class="fa fa-chevron-right glyphicon-chevron-right"></i>
+                        </a>
+                    </div>
+
+                </div>
 
 
+            </div>
         </div>
-    </div>
 
         <div id="slidero" class="carousel slide" data-ride="carousel">
 
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
+                @foreach($sites as $key => $site)
+                <div class="item @if($key == 0) active  @endif">
                     <div class="compy-logo">
-                        <a href="https://www.rakipbahis.com/login/" target="_blank">
-                            <img src="/assets/img/rivo-logo.png" alt="">
-                            <span>Rivalo</span>
+                        <a href="{!! $site->link !!}" target="_blank">
+                            <img src="/uploads/{!! $site->logo !!}" alt="">
+                            <span>{!! $site->name !!}</span>
                         </a>
                     </div>
-
-                    <img src="/assets/img/rivo.png" alt="" class="companie-left-logo">
+                    <img src="/uploads/{!! $site->img !!}" alt="" class="companie-left-logo">
                 </div>
-                <div class="item ">
-                    <div class="compy-logo">
-                        <a href="https://www.temponet.com/" target="_blank">
-                            <img style="border-radius:5px" src="/assets/img/tempobet-logo.png" alt="">
-                            <span>Tempobet</span>
-                        </a>
-                    </div>
-
-                    <img src="/assets/img/tempobet-cap.png" alt="" class="companie-left-logo">
-                </div>
-                <div class="item ">
-                    <div class="compy-logo">
-                        <a href="http://wingobet10.com" target="_blank">
-                            <img src="/assets/img/wingo-logo.png" alt="" style=" background: azure; border-radius: 5px; padding: 10px; height: 76px; ">
-                            <span>WingoBet</span>
-                        </a>
-                    </div>
-
-                    <img src="/assets/img/wingo-cap.png" alt="" class="companie-left-logo">
-                </div>
-                <div class="item ">
-                    <div class="compy-logo">
-                        <a href="https://www.trtipbet.net/tr/online-spor-bahis" target="_blank">
-                            <img src="/assets/img/tipbet-logo.png" alt="" style=" background: azure; border-radius: 5px; padding: 10px; height: 76px; ">
-                            <span>Tipbet</span>
-                        </a>
-                    </div>
-
-                    <img src="/assets/img/tipbet-cap.png" alt="" class="companie-left-logo">
-                </div>
+                @endforeach
             </div>
 
             <div class="arrows">
@@ -328,31 +269,31 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-            <div class="join">
-                <span>BİZİMLE KAZANMAK İSTER MİSİN?</span>
-                <div class="duble" style="border: 1px solid #ffc722;float: right;">
-                    <a href="/register" class="button-main">HEMEN KAYIT OL <i class="fa fa-chevron-right"></i></a>
+                <div class="join">
+                    <span>BİZİMLE KAZANMAK İSTER MİSİN?</span>
+                    <div class="duble" style="border: 1px solid #ffc722;float: right;">
+                        <a href="/register" class="button-main">HEMEN KAYIT OL <i class="fa fa-chevron-right"></i></a>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-bahis"></i>
                 <div class="info bahis">
-                    <b class="count">6216</b>
+                    <b class="count">{!! time()/10000/9  !!}</b>
                     <span>KAZANILAN BAHİS</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-uye"></i>
                 <div class="info">
-                    <b class="count">4599</b>
+                    <b class="count">{!! time()/400000 !!}</b>
                     <span>KAYITLI ÜYE</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-kupon"></i>
                 <div class="info">
-                    <b class="count">28302</b>
+                    <b class="count">{!! time()/100000*2.4 !!}</b>
                     <span>YAPILAN KUPON</span>
                 </div>
             </div>
@@ -399,8 +340,8 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                     <h4>ŞİRKETİMİZ</h4>
-                     <ul>
+                    <h4>ŞİRKETİMİZ</h4>
+                    <ul>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Hakkımızda</a> </li>
                         <li><a href="#">İşler</a></li>
@@ -408,7 +349,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                <h4>KAYNAKLAR</h4>
+                    <h4>KAYNAKLAR</h4>
                     <ul>
                         <li><a href="#">Destek </a> </li>
                         <li><a href="#">İletişim </a> </li>
@@ -460,7 +401,7 @@
         </div>
     </div>
 
-    @endforeach
+@endforeach
 
 
 

@@ -55,6 +55,7 @@ Route::group(['middleware' => ['admin_mi','auth']],function (){
 
         Route::resource('/admin/slider','SliderController');
         Route::resource('/admin/promosyon','PromoController');
+        Route::resource('/admin/son-odemeler','lastPayController');
 
 
         Route::resource("/admin/sayfa","PageController");

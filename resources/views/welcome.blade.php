@@ -2,7 +2,7 @@
 
 @section('slider')
 
-    <?php $sliders = DB::table('sliders')->get(); ?>
+    <?php $sliders = DB::table('sliders')->orderBy('id', 'desc')->get(); ?>
 
         <div id="slider" class="carousel slide" data-ride="carousel">
 
@@ -130,51 +130,27 @@
             <div class="last-win">
                 <h3><i class="icon-son-odeme"></i> SON <span>ÖDEMELER</span></h3>
                 <div class="padding">
-                    <div class="win-box">
-                        <div class="left">
-                            <span>B******* E****</span>
-                            26.03.2017 16:35
+
+
+                    <?php
+                    function invisible($str, $start, $end){
+                        $after = mb_substr($str, 0, $start, 'utf8');
+                        $repeat = str_repeat('*', $end);
+                        $before = mb_substr($str, ($start + $end), strlen($str), 'utf8');
+                        return $after.$repeat.$before;
+                    }
+                    ?>
+                    @foreach(\App\Lastpay::orderBy("id","desc")->paginate(8) as $lastpay)
+                        <div class="win-box">
+                            <div class="left">
+                                <span>{!! invisible($lastpay->name, 2, (strlen($lastpay->name) - 4)) !!}</span>
+                                {!! $lastpay->created_at !!}
+                            </div>
+                            <div class="right">
+                                <span>{!! $lastpay->amount !!} TL</span>
+                            </div>
                         </div>
-                        <div class="right">
-                            <span>350 TL</span>
-                        </div>
-                    </div>
-                    <div class="win-box">
-                        <div class="left">
-                            <span>B**** K***</span>
-                            26.03.2017 16:35
-                        </div>
-                        <div class="right">
-                            <span>900 TL</span>
-                        </div>
-                    </div>
-                    <div class="win-box">
-                        <div class="left">
-                            <span>H****** A*****</span>
-                            26.03.2017 16:35
-                        </div>
-                        <div class="right">
-                            <span>2200 TL</span>
-                        </div>
-                    </div>
-                    <div class="win-box">
-                        <div class="left">
-                            <span>M**** B***** K****</span>
-                            26.03.2017 16:35
-                        </div>
-                        <div class="right">
-                            <span>550 TL</span>
-                        </div>
-                    </div>
-                    <div class="win-box">
-                        <div class="left">
-                            <span>S**** Y*******</span>
-                            26.03.2017 16:35
-                        </div>
-                        <div class="right">
-                            <span>150 TL</span>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>

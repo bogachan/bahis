@@ -213,6 +213,62 @@
             </div>
     </div>
 
+    <div class="box box-info collapsed-box">
+        <div class="box-header with-border">
+            <h3 class="box-title">Affiliate</h3>
+
+            <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="box-body">
+
+            <?php
+            $afi = DB::table('afis')->where('afi_id',$user->afi_kod)->get();
+            $afis = array();
+            foreach ($afi as $e){
+                array_push($afis, DB::table('users')->where('id',$e->user_id)->first());
+            }
+            ?>
+            @foreach($afis as $user)
+                <table class="table">
+                    <thead>
+
+                    <tr>
+                        <th style="width:32%">
+                            {!! $user->username !!}
+                        </th>
+                        <th style="width:32%">Tutar</th>
+                        <th>Tarih</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach(\App\Pay::where('user_id',$user->id)->get()  as $key => $pay)
+                        <tr>
+                            <td>Yatırım</td>
+                            <td>{{$pay->amount}} TL</td>
+                            <td>{{$pay->created_at}}</td>
+                        </tr>
+                    @endforeach
+                    @foreach(\App\Win::where('user_id',$user->id)->get() as $key =>  $pay)
+                            <tr>
+                                <td>Çekim</td>
+                                <td>{{$pay->miktar}} TL</td>
+                                <td>{{$pay->created_at}}</td>
+                            </tr>
+                    @endforeach
+                    </tbody>
+                </table>
+            @endforeach
+
+        </div>
+    </div>
+
+
+
+
+
     <div class="modal fade bs-example-modal-lg-{!! $user->id !!}" tabindex="-1" role="dialog" aria-labelledby="{!! $user->id !!}">
                 <div class="modal-dialog">
                     <div class="modal-content">

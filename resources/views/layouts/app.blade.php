@@ -195,7 +195,6 @@
     </div>
 </div>
 
-
 <div id="statics">
     <div class="head-static">
         SAYILARLA <span>BAHİSYERİM</span>
@@ -213,35 +212,34 @@
             <div class="col-md-3">
                 <i class="icon-bahis"></i>
                 <div class="info bahis">
-                    6.216
+                    <b class="count">{!! time()/10000/9  !!}</b>
                     <span>KAZANILAN BAHİS</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-uye"></i>
                 <div class="info">
-                    4.599
+                    <b class="count">{!! time()/400000 !!}</b>
                     <span>KAYITLI ÜYE</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-kupon"></i>
                 <div class="info">
-                    28.302
+                    <b class="count">{!! time()/100000*2.4 !!}</b>
                     <span>YAPILAN KUPON</span>
                 </div>
             </div>
             <div class="col-md-3">
                 <i class="icon-partner"></i>
                 <div class="info">
-                    4
+                    <b class="count">4</b>
                     <span>PARTNER</span>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
 <div id="footer">
     <div class="top">

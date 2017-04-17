@@ -21,6 +21,7 @@
             {!! Form::bsText("link","Link") !!}
             {!! Form::bsFile("bg","Background") !!}
             {!! Form::bsFile("img","Sol İmg") !!}
+            {!! Form::bsText("id","Slider İd") !!}
             <textarea name="content" class="summernote" id="" cols="30" rows="10">{!! $slider->content !!}</textarea>
             {!! Form::bsSubmit("KAYDET") !!}
         {!! Form::close() !!}

@@ -3,6 +3,8 @@
 
 @section('heading')
     <h1>Promosyonlar</h1>
+    <a href="/admin/promosyon/create" class="btn bg-orange margin">Yeni Promosyon Ekle</a>
+
 @endsection
 
 @section('content')
@@ -13,7 +15,6 @@
         </div>
         <div class="box-body table-responsive no-padding">
 
-            <a href="/admin/promosyon/create" class="btn bg-orange margin">Yeni Promosyon Ekle</a>
 
             <table class="table table-hover">
                 <thead>

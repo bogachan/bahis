@@ -301,6 +301,8 @@
 
                 <li><a href="/admin/ayarlar"><i class="fa fa-paint-brush"></i> <span>Ayarlar</span></a></li>
 
+                <li><a href="/admin/son-odemeler"><i class="fa fa-beer"></i> <span>Son Ödemeler</span></a></li>
+
                 <li><a href="/macbot" target="_blank"><i class="fa fa-android"></i> <span>Maç Bot</span></a></li>
 
 

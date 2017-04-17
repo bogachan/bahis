@@ -20,6 +20,8 @@
         {!! Form::bsText("name","İsim") !!}
             {!! Form::bsText("link","Site Link") !!}
         {!! Form::bsTextArea("content","Site İçerik",null,["class" => "summernote"]) !!}
+            {!! Form::bsFile("img","Site Görsel") !!}
+            {!! Form::bsFile("logo","Logo") !!}
 
         {!! Form::bsSubmit("KAYDET") !!}
         {!! Form::close() !!}
