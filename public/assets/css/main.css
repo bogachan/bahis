@@ -1767,6 +1767,10 @@ label {
 .dropdown.mobile {
   display: none; }
 
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 740px;
+    margin: 30px auto; } }
 @media (min-width: 1250px) {
   .container {
     width: 1250px; } }
@@ -2097,20 +2101,4 @@ label {
     color: #fff;
     display: inline-block; } }
 
-
-.compy-logo img{
-    background: #fff;
-    padding: 10px;
-    float: left;
-    overflow: hidden;
-    border-radius: 5px;
-    max-height: 69px;
-    margin-bottom: 22px;
-}
-
-.compy-logo-m {
-    display: table;
-    margin:0 auto 22px auto;
-    float: none !important;
-}
 /*# sourceMappingURL=main.css.map */
