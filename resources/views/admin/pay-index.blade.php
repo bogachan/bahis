@@ -87,7 +87,7 @@ $users = \App\User::all();
                     <tr>
                         <td>{{$pay->id}}</td>
                         <td>{{ $pay->find($pay->id)->users->name }} / {{ $pay->find($pay->id)->users->username }}</td>
-                        <td>{{ $site->find($pay->site_id)->name }}</td>
+                        <td>-</td>
                         <td style="text-align:center">
                             {{ $bank->find($pay->type)->name }}
                         </td>
