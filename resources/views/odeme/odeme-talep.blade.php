@@ -85,7 +85,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <select id="tpye" name="site_id">
-                                    <option value="00">Site Seçiniz...</option>
+                                    <option value="1">Site Seçiniz...</option>
                                     @foreach($sites as $site)
                                         <option value="{!! $site->id !!}">{!! $site->name !!}</option>
                                     @endforeach
