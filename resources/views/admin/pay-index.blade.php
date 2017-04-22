@@ -104,7 +104,7 @@ $users = \App\User::all();
                          </td>
                     </tr>
                 @endforeach
-                </tbody>z
+                </tbody>
             </table>
 
         </div>

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5945d49-4511-4a29-9704-dbd791413aff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" afterPath="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="odeme-talep.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="odeme-talep.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
@@ -33,6 +33,16 @@
               <folding>
                 <element signature="e#9066#9113#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pay-index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="106" column="24" lean-forward="false" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>2</find>
       <find>top-me</find>
       <find>compy-logo</find>
       <find>todada</find>
@@ -78,6 +87,7 @@
       <find>button</find>
       <find>17px</find>
       <find>maç</find>
+      <find>site se</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/resources/views/admin</dir>
@@ -138,8 +148,8 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/base/_responsive.scss" />
-        <option value="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/pay-index.blade.php" />
       </list>
     </option>
   </component>
@@ -297,7 +307,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="odeme" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -531,7 +541,7 @@
       <workItem from="1492778786761" duration="29000" />
       <workItem from="1492779928105" duration="125000" />
       <workItem from="1492790207465" duration="3386000" />
-      <workItem from="1492856350092" duration="116000" />
+      <workItem from="1492856350092" duration="281000" />
     </task>
     <task id="LOCAL-00001" summary="asdasdas">
       <created>1489648674124</created>
@@ -551,7 +561,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176836000" />
+    <option name="totallyTimeSpent" value="177001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +573,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1600" height="785" extended-state="6" />
+    <frame x="0" y="23" width="1600" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20346598" sideWeight="0.5084746" order="4" side_tool="true" content_ui="tabs" />
@@ -979,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="106" column="25" lean-forward="false" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/odeme/odeme-talep.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -993,6 +996,14 @@
           <folding>
             <element signature="e#9066#9113#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/pay-index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="106" column="24" lean-forward="false" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
